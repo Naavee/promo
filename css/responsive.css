@@ -1723,14 +1723,14 @@ only screen and (                min-resolution: 2dppx) {
 	.preloader,
 	.preloader2,
 	.form-process {
-		background-image: url('../images/preloader@2x.gif');
+		background-image: url('../css/images/preloader@2x.gif');
 		background-size: 24px 24px;
 	}
 
 	.dark .owl-carousel.owl-loading,
 	.dark .preloader,
 	.dark .preloader2,
-	.dark .form-process { background-image: url('../images/preloader-dark@2x.gif'); }
+	.dark .form-process { background-image: url('../css/images/preloader-dark@2x.gif'); }
 
 	.widget_recent_comments li {
 		background-image: url("../images/icons/widget-comment@2x.png");

@@ -2963,7 +2963,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	width: 100%;
 }
 
-.video-overlay,
+/* .video-overlay,
 .video-placeholder {
 	position: absolute;
 	width: 100%;
@@ -2973,7 +2973,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	z-index: 5;
 	background: transparent url('images/grid.png') repeat;
 	-webkit-backface-visibility: hidden;
-}
+} */
 
 .video-placeholder {
 	z-index: 4;
@@ -8374,7 +8374,7 @@ body:not(.device-touch) .social-icon {
 	Icon Overlay
 -----------------------------------------------------------------*/
 
-.i-overlay,
+/* .i-overlay,
 .i-overlay a {
 	display: block;
 	position: absolute;
@@ -8384,7 +8384,7 @@ body:not(.device-touch) .social-icon {
 	left: 0;
 	text-align: center;
 	background: rgba(0,0,0,0.2) url('images/grid.png') repeat;
-}
+} */
 
 .i-overlay a { background: transparent; }
 
