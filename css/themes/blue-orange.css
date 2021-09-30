@@ -30,6 +30,88 @@ Table of Content:
 /*Color Variables*/
 /*=====Color Styles By Section=====*/
 /*===== GLOBAL =====*/
+
+/* modules */
+.modules_com {
+  width: 75px;
+  height: 75px;
+  max-width: unset;
+  background: #FFEDB6;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.modules_ops {
+  width: 75px;
+  height: 75px;
+  max-width: unset;
+  background: #D1E8FF;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.modules_fin {
+  width: 75px;
+  height: 75px;
+  max-width: unset;
+  background: #D7D1FF;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.modules_pur {
+  width: 75px;
+  height: 75px;
+  max-width: unset;
+  background: #FFD1D1;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.modules_acc {
+  width: 75px;
+  height: 75px;
+  max-width: unset;
+  background: #D1FFE3;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.modules_user {
+  width: 75px;
+  height: 75px;
+  max-width: unset;
+  background: #D2D2D2;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+/* headlines with lines */
+.decorated{
+  overflow: hidden;
+  text-align: center;
+}
+
+.decorated > span{
+  position: relative;
+  display: inline-block;
+  color: #8E8C95;
+}
+
+.decorated > span:before{
+ content: '';
+ position: absolute;
+ top: 50%;
+ border-bottom: 2px solid #D1D0D6;
+ /* width: 591px; half of limiter */
+ width: 50px;
+ margin: 0 20px;
+}
+
+.decorated > span:before{
+ right: 100%;
+}
+
 a {
   color: #1b3663;
 }
@@ -147,11 +229,11 @@ body.home header .navbar {
 }
 
 .section-header.newsletter-font h2{
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .section-header.newsletter-font p{
-  color: #FFFFFF;
+  color: #64626A;
 }
 
 .section-header p {

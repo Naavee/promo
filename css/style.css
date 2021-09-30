@@ -163,7 +163,7 @@ li {
 /*============= Buttons =============*/
 .btn {
   color: #000;
-  border-radius: 30px;
+  /* border-radius: 30px; */
   font: 300 12px/26px 'Poppins', sans-serif;
   background: #fff;
   padding: 2px 33px 0;
@@ -811,7 +811,6 @@ textarea.form-control {
 
 #main-navbar .nav li a {
   padding: 0 17px;
-  text-transform: uppercase;
   font: bold 16px/40px 'Poppins', sans-serif;
 }
 
@@ -1247,7 +1246,7 @@ header.video-bg {
 
 /*=========The Product==========*/
 .the-product {
-  padding: 110px 0 160px;
+  padding: 110px 0 100px;
 }
 
 @media (max-width: 767px) {
@@ -2661,7 +2660,7 @@ header.video-bg {
 /*=========Newsletter==========*/
 .newsletter {
   padding: 96px 0 90px;
-  background: url(../images/bg/bg_find.png);
+  /* background: url(../images/bg/bg_find.png); */
 }
 
 .newsletter .section-header {
@@ -2759,7 +2758,7 @@ header.video-bg {
 
 .contact {
   position: relative;
-  background: url(../images/bg/bg_footer.png);
+  /* background: url(../images/bg/bg_footer.png); */
 }
 
 .flip-box-container {
@@ -4321,13 +4320,12 @@ footer.row {
 
 /* Mini Address */
 .mini-address {
-  text-align: center;
   margin: 70px 0 45px;
 }
 
 .mini-address p {
   line-height: 10px;
-  color: #FFFFFF;
+  color: #64626A;
   font-size: 12px;
   word-spacing: 2px;
 }
@@ -4695,3 +4693,7 @@ footer.row {
     border-top-right-radius: 0; }
   .accordion > .card .card-header {
     margin-bottom: -1px; }
+
+.text-white {
+  color: #ffffff !important;
+}
