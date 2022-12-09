@@ -12,12 +12,12 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  font-family: "SFUI", sans-serif;
+  font-family: 'Lora', serif;
 }
 
 p {
   font-weight: 400;
-  font-family: "SFUI", sans-serif;
+  font-family: 'Lora', serif;
 }
 
 .blockquote h4 {
@@ -74,7 +74,7 @@ p {
 }
 
 .body-font, p {
-  font-size: 1.0625rem;
+  font-size: 1.2rem;
   line-height: 1.75;
 }
 

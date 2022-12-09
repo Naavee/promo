@@ -76,10 +76,11 @@
 =================================
 =================================*/
 /**! 01. core **/
+@import url('https://fonts.cdnfonts.com/css/lora');
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: "SFUI", sans-serif;
+  font-family: 'Lora', serif;
   color: #12141f;
   margin: 0;
   overflow-x: hidden;
@@ -144,7 +145,7 @@ svg {
 }
 
 svg text, svg tspan {
-  font-family: "SFUI", sans-serif;
+  font-family: 'Lora', serif;
 }
 
 input,
@@ -332,14 +333,14 @@ h6 {
   padding: 0;
   margin: 0;
   font-weight: 400;
-  font-family: "SFUI", sans-serif;
+  font-family: 'Lora', serif;
 }
 
 p {
   font-weight: 400;
   margin: 0;
   padding: 0;
-  font-family: "SFUI", sans-serif;
+  font-family: 'Lora', serif;
 }
 
 .blockquote h4 {
@@ -611,7 +612,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  color: #7C7D8D;
+  color: #434343;
 }
 
 .section--dark p:not([class*='text-color-']):not([class*='color-']) {
@@ -1607,6 +1608,9 @@ textarea::-webkit-input-placeholder, .form--darkblue
 
 .h-min-100vh {
   min-height: 100vh;
+}
+.w-6 {
+  width: 6rem;
 }
 
 @media only screen and (min-width: 992px) {
@@ -5145,7 +5149,7 @@ body.boxed-layout .switchable__image {
   position: absolute;
   content: counter(section, decimal-leading-zero);
   counter-increment: section;
-  font-family: "SFUI", sans-serif;
+  font-family: 'Lora', serif;
   width: 100%;
   height: 100%;
   top: -2.5rem;
@@ -8702,3 +8706,4 @@ body.boxed-layout.zig-zag-wool {
 .theme-gradient-8 .btn-border--color--primary, .theme-gradient-8 .btn-hover--primary.btn-border--color--dark:hover, .theme-gradient-8 .btn-hover--primary.btn-border--color--light:hover, .theme-gradient-8 .icon-rounded-color--primary, .theme-gradient-8 .icon-rounded-color--gray i:hover, .icon-rounded-color--gray .theme-gradient-8 i:hover, .theme-gradient-8 .carosuel-arrow {
   border-color: #a9486e;
 }
+
