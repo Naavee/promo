@@ -8872,3 +8872,8 @@ body.boxed-layout.zig-zag-wool {
   color: #FFFFFF;
 }
 
+.apply-card {
+  background: rgba(189,189,189, 0.26); 
+  border-radius: 5px;
+}
+
