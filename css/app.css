@@ -392,12 +392,14 @@ p {
 }
 
 .h6-font, h6, .blockquote {
-  font-size: 1.125rem;
+  /* font-size: 1.125rem; */
+  font-size: 24px;
   line-height: 1.65;
 }
 
 .body-font, p {
-  font-size: 1.0625rem;
+  /* font-size: 1.0625rem; */
+  font-size: 32px;
   line-height: 1.75;
 }
 
@@ -426,7 +428,7 @@ p {
 }
 
 .font-size--18 {
-  font-size: 1.125rem;
+  font-size: 18px;
 }
 
 .font-size--20 {

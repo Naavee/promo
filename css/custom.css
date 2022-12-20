@@ -175,5 +175,10 @@
   border-radius: 5px;
 }
 
+.sticky-bg-color--primary {
+	background: #FFFFFF;
+	color: #000000;
+}
+
 
 
