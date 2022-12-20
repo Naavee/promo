@@ -18,7 +18,6 @@
     <!-- Your CSS -->
     <link rel="stylesheet" href="css/app.css" type="text/css" />
     <link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<link rel="stylesheet" href="css/style.css" type="text/css" />
 	<link rel="stylesheet" href="css/dark.css" type="text/css" />
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="css/animate.css" type="text/css" />
@@ -27,32 +26,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 
-<body class="theme-gradient-7" data-spy="scroll" data-target="#navbar-nav" data-animation="false" data-appearance="light">
-<!-- <body class="stretched"> -->
-
-    <!-- =========== Start of Loader ============ -->
-    <div class="preloader">
-        <div class="wrapper">
-            <div class="blobs">
-                <div class="blob-center"></div>
-                <div class="blob"></div>
-                <div class="blob"></div>
-                <div class="blob"></div>
-                <div class="blob"></div>
-                <div class="blob"></div>
-                <div class="blob"></div>
-            </div>
-            <div>
-                <div class="loader-canvas canvas-left"></div>
-                <div class="loader-canvas canvas-right"></div>
-            </div>
-        </div>
-    </div>
-    <!-- =========== End of Loader ============ -->
-
+<body class="stretched">
     <div id="wrapper" class="clearfix">
         <!-- =========== Start of Navigation (main menu) ============ -->
-        <header class="navbar navbar-sticky sticky-bg-color--primary navbar-expand-lg navbar-dark">
+        <header id="header" class="navbar navbar-sticky sticky-bg-color--primary navbar-expand-lg p-0">
             <div class="container position-relative">
                 <a class="navbar-brand" href="index.html">
                     <img class="navbar-brand__regular" src="img/logo/logo.png" alt="brand-logo" style="width: 100%;height: 48px;">
@@ -70,29 +47,56 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <!-- end of Nav Toggoler -->
-                    <nav>
-                        <ul class="navbar-nav" id="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#tentang">Who We Are</a>
+                    <!-- Primary Navigation ============================================= -->
+                    <nav class="primary-menu">
+
+                        <ul class="menu-container">
+                            <li class="menu-item">
+                                <a class="menu-link" href="#whoweare"><div>Who We Are <i class="icon-line-chevron-down font-w--700"></i></div></a>
+                                <ul class="sub-menu-container">
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="about.html"><div>About Us</div></a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="#"><div>Meet Our Team</div></a>
+                                    </li>
+                                </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#solusi">Our Solution</a>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#parallax-solution"><div>Our Solution <i class="icon-line-chevron-down font-w--700"></i></div></a>
+                                <ul class="sub-menu-container">
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="solution-commercial.html"><div>HAF Commercial</div></a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="solution-operation.html"><div>HAF Operation</div></a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="solution-purchasing.html"><div>HAF Purchasing</div></a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="#"><div>HAF Finance & Accounting</div></a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="solution-tracking.html"><div>HAF Live Tracking</div></a>
+                                    </li>
+                                </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#layanan">Contact Us</a>
+                            <li class="menu-item mega-menu">
+                                <a class="menu-link" href="contact.html"><div>Contact Us</div></a>
                             </li>
                         </ul>
-                        <!-- end of nav menu items -->
+
                     </nav>
+                    <!-- #primary-menu end -->
                 </div>
                 <div class="d-flex align-items-center ml-lg-1 ml-xl-2 mr-5 mr-sm-6 m-lg-0">
-                    <a href="https://api.whatsapp.com/send?phone=6281210701590" class="btn btn-size--md btn-border color--white btn-hover--splash opacity--80 d-none d-sm-inline-flex">
+                    <a href="img/magazine/haf-magazine.pdf" download="haf-magazine" class="btn btn-size--md btn-primary">
                         <span class="btn__text font-w--500">HAF Magazine</span>
                     </a>
                 </div>
                 <!-- end of nav CTA button -->
             </div>
-            <!-- end of container -->
         </header>
         <!-- =========== End of Navigation (main menu)  ============ -->
 
@@ -105,20 +109,21 @@
             <div class="background-holder bg-color--primary"></div>
             <!-- end of overlay backgound color-->
 
-            <div class="container mb-10">
-                <div class="row flex-column-reverse flex-lg-row align-items-center mb-10 mb-lg-5">
-                    <div class="col-12 col-md-10 col-lg-8 mx-auto mx-lg-0 text-center text-lg-left z-index3">
-                        <div class="hero-content reveal">
-                            <h1 class="hero__title color--white h2-font font-w--700 mb-2 text-uppercase">Digital Solutions for Shipping <br>Companies and Logistics
-                            </h1>
-                            <p class="hero__description color--white opacity--80 font-size--18 mb-4 mb-lg-5 pr-xl-5">HAF comes with a new breakthrough system that can help <br>manage your company's operations.</p>
-                            <!-- end of text content -->
+            <!-- start hero title -->
+            <div class="container-fluid" style="backdrop-filter: blur(5px);z-index:20;position: absolute;bottom: 20%;">
+                <div class="container pt-3">
+                    <div class="row flex-column-reverse flex-lg-row align-items-center mb-3">
+                        <div class="col-12 col-md-10 mx-auto mx-lg-0 text-center text-lg-left z-index3">
+                            <div class="hero-content reveal">
+                                <h1 class="hero__title color--white h2-font font-w--700 mb-0 text-uppercase">Digital Solutions for Shipping <br>Companies and Logistics
+                                </h1>
+                                <p class="hero__description color--white opacity--80 font-size--18 mb-4 mb-lg-5 pr-xl-5" style="font-size: 32px; line-height: 30px;">HAF comes with a new breakthrough system that can help <br>manage your company's operations.</p>
+                            </div>
                         </div>
-                        <!-- end of content -->
                     </div>
                 </div>
-                <!-- end of row -->
             </div>
+            <!-- end hero title -->
         </section>
         <!-- =========== End of Hero ============ -->
 
@@ -126,7 +131,7 @@
         <section class="space--top z-index1" id="whoweare">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-sm-9 col-lg-6 mb-4 mb-lg-6 reveal">
+                    <div class="col-12 mb-4 mb-lg-6 reveal">
                         <h2 class="mb-2 h3-font font-w--700">WHO WE ARE</h2>
                         <p class="mb-4">HAF is an advanced system solution designed to maintain and manage your shipping company's operations. To optimize the system user experience, the HAF core module is equipped with features that are suitable for the domestic shipping business sector, easy to use and understanding in the analysis results provided on each dashboard.</p>
                     </div>
@@ -135,19 +140,16 @@
         </section>
         <!-- =========== End of Who we are ============ -->
 
-        <!-- Parallax Soultion
-		============================================= -->
-		<section id="content">
+        <!-- Parallax Soultion ============================================= -->
+		<section id="parallax-solution">
 			<div class="content-wrap">
 				<div class="section parallax dark mt-0 border-0" style="padding: 100px 0; background-image: url('img/hero/hero-solutions.png');" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;">
-                    <div class="pt-5 pb-5" style="backdrop-filter: blur(5px);">
-                        <div class="content-wrap pt-6 pb-6" style="background: rgba(0, 87, 255, 0.3);">
-                            <div class="promo parallax promo-dark bg-color promo-full skrollable skrollable-between" style="background-image: url(&quot;images/parallax/7.jpg&quot;); background-position: 0px 88.7867px;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;">
-                                <div class="container">
-                                    <div class="row justify-content-md-center">
-                                        <div class="col-12 col-lg-6">
-                                            <h5 class="text-uppercase text-left" style="letter-spacing: 5px;">Digital Solutions for Shipping <br>Companies and Logistics</h5>
-                                        </div>
+                    <div class="pt-5 pb-5" style="backdrop-filter: blur(5px);background: rgba(0, 87, 255, 0.1);">
+                        <div class="promo parallax promo-dark bg-color promo-full skrollable skrollable-between" style="background-image: url(&quot;images/parallax/7.jpg&quot;); background-position: 0px 88.7867px;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;">
+                            <div class="container">
+                                <div class="row justify-content-md-center">
+                                    <div class="col-12 col-lg-6">
+                                        <h5 class="text-uppercase text-left" style="letter-spacing: 5px;">Digital Solutions for Shipping <br>Companies and Logistics</h5>
                                     </div>
                                 </div>
                             </div>
@@ -159,7 +161,7 @@
         <!-- Parallax Soultion -->
 
         <!-- =========== Start of Our Solutions ============ -->
-        <section class="space--top pt-5 pt-xl-0 z-index3 jsElement" id="solutions">
+        <section class="pt-5 pt-xl-0 z-index3 jsElement" id="solutions">
             <div class="container">
                 <div class="text-center pt-6 pb-2 px-3 px-sm-5 px-md-8 pt-lg-8 pb-lg-3 px-lg-2">
                     <div class="row justify-content-between pb-lg-1 text-lg-left">
@@ -168,8 +170,8 @@
                                 <img class="w-6" src="img/module/icon-commercial.svg" alt="exchange-icon">
                             </span>
                             <h3 class="h6-font font-w--700 mb-1 text-uppercase">HAF Commercial</h3>
-                            <p>A module that has an important role in analyzing performance in order to achieve profit targets from each of your ship's trips.</p>
-                            <p style="position: absolute; bottom:0;"><a href="" class="text-muted">Explore HAF Commercial &nbsp;<b class="ml-2"><i class="fa fa-angle-right" aria-hidden="true"></i></b></a></p>
+                            <p class="font-size--18">A module that has an important role in analyzing performance in order to achieve profit targets from each of your ship's trips.</p>
+                            <p style="position: absolute; bottom:0;"><a href="solution-commercial.html" class="text-muted font-size--18">Explore HAF Commercial &nbsp;<b class="ml-2"><i class="fa fa-angle-right" aria-hidden="true"></i></b></a></p>
                         </div>
                         <!-- end of single item col -->
                         <div class="col-12 col-sm-6 col-xl-4 pb-5 pr-8 reveal mb-5">
@@ -177,8 +179,8 @@
                                 <img class="w-6" src="img/module/icon-operation.svg" alt="exchange-icon">
                             </span>
                             <h3 class="h6-font font-w--700 mb-1 text-uppercase">HAF Operation</h3>
-                            <p>A module that helps in reporting activities on a regular basis to improve the KPI (Key Performance Indicator) of each of your ships.</p>
-                            <p style="position: absolute; bottom:0;"><a href="" class="text-muted">Explore HAF Commercial &nbsp;<b class="ml-2"><i class="fa fa-angle-right" aria-hidden="true"></i></b></a></p>
+                            <p class="font-size--18">A module that helps in reporting activities on a regular basis to improve the KPI (Key Performance Indicator) of each of your ships.</p>
+                            <p style="position: absolute; bottom:0;"><a href="solution-operation.html" class="text-muted font-size--18">Explore HAF Commercial &nbsp;<b class="ml-2"><i class="fa fa-angle-right" aria-hidden="true"></i></b></a></p>
                         </div>
                         <!-- end of single item col -->
                         <div class="col-12 col-sm-6 col-xl-4 pb-5 pr-8 reveal mb-5">
@@ -186,8 +188,8 @@
                                 <img class="w-6" src="img/module/icon-purchasing.svg" alt="exchange-icon">
                             </span>
                             <h3 class="h6-font font-w--700 mb-1 text-uppercase">HAF Purchasing</h3>
-                            <p>A module that helps material management for each of your ship's needs. Modules that involve the purchase of supplies, equipment and other necessities.</p>
-                            <p style="position: absolute; bottom:0;"><a href="" class="text-muted">Explore HAF Commercial &nbsp;<b class="ml-2"><i class="fa fa-angle-right" aria-hidden="true"></i></b></a></p>
+                            <p class="font-size--18">A module that helps material management for each of your ship's needs. Modules that involve the purchase of supplies, equipment and other necessities.</p>
+                            <p style="position: absolute; bottom:0;"><a href="solution-purchasing.html" class="text-muted font-size--18">Explore HAF Commercial &nbsp;<b class="ml-2"><i class="fa fa-angle-right" aria-hidden="true"></i></b></a></p>
                         </div>
                         <!-- end of single item col -->
                         <div class="col-12 col-sm-6 col-xl-4 pb-5 pr-8 reveal mb-5">
@@ -195,9 +197,9 @@
                                 <img class="w-6" src="img/module/icon-finance.svg" alt="exchange-icon">
                             </span>
                             <h3 class="h6-font font-w--700 mb-1 text-uppercase">HAF Finance</h3>
-                            <p>A module that has a role in the process of receiving and disbursing money at your shipping company.
+                            <p class="font-size--18">A module that has a role in the process of receiving and disbursing money at your shipping company.
                             </p>
-                            <p style="position: absolute; bottom:0;"><a href="" class="text-muted">Explore HAF Commercial &nbsp;<b class="ml-2"><i class="fa fa-angle-right" aria-hidden="true"></i></b></a></p>
+                            <p style="position: absolute; bottom:0;"><a href="solution-purchasing.html" class="text-muted font-size--18">Explore HAF Commercial &nbsp;<b class="ml-2"><i class="fa fa-angle-right" aria-hidden="true"></i></b></a></p>
                         </div>
                         <!-- end of single item col -->
                         <div class="col-12 col-sm-6 col-xl-4 pb-5 pr-8 reveal mb-5">
@@ -205,8 +207,8 @@
                                 <img class="w-6" src="img/module/icon-accounting.svg" alt="exchange-icon">
                             </span>
                             <h3 class="h6-font font-w--700 mb-1 text-uppercase">HAF Accounting</h3>
-                            <p>Double-entry Accounting which is integrated and features Automatic Journal for Finance and Purchasing.</p>
-                            <p style="position: absolute; bottom:0;"><a href="" class="text-muted">Explore HAF Commercial &nbsp;<b class="ml-2"><i class="fa fa-angle-right" aria-hidden="true"></i></b></a></p>
+                            <p class="font-size--18">Double-entry Accounting which is integrated and features Automatic Journal for Finance and Purchasing.</p>
+                            <p style="position: absolute; bottom:0;"><a href="solution-purchasing.html" class="text-muted font-size--18">Explore HAF Commercial &nbsp;<b class="ml-2"><i class="fa fa-angle-right" aria-hidden="true"></i></b></a></p>
                         </div>
                         <!-- end of single item col -->
                         <div class="col-12 col-sm-6 col-xl-4 pb-5 pr-8 reveal mb-5">
@@ -214,8 +216,8 @@
                                 <img class="w-6" src="img/module/icon-tracking.svg" alt="exchange-icon">
                             </span>
                             <h3 class="h6-font font-w--700 mb-1 text-uppercase">Live Tracking</h3>
-                            <p>Monitor your ships in real time with our Live Tracking which is connected directly to the satellite network.</p>
-                            <p style="position: absolute; bottom:0;"><a href="" class="text-muted">Explore HAF Commercial &nbsp;<b class="ml-2"><i class="fa fa-angle-right" aria-hidden="true"></i></b></a></p>
+                            <p class="font-size--18">Monitor your ships in real time with our Live Tracking which is connected directly to the satellite network.</p>
+                            <p style="position: absolute; bottom:0;"><a href="solution-tracking.html" class="text-muted font-size--18">Explore HAF Commercial &nbsp;<b class="ml-2"><i class="fa fa-angle-right" aria-hidden="true"></i></b></a></p>
                         </div>
                         <!-- end of single item col -->
                     </div>
@@ -240,7 +242,7 @@
                             <img class="w-6" src="img/value/software.svg" alt="exchange-icon">
                         </span>
                         <h3 class="h6-font font-w--700 mb-1 text-uppercase">SOFTWARE AS A SERVICE(SAAS)</h3>
-                        <p>Fully managed by HAF in the cloud, it gives you the flexibility to adapt to your dynamic business environment.</p>
+                        <p class="font-size--18">Fully managed by HAF in the cloud, it gives you the flexibility to adapt to your dynamic business environment.</p>
                     </div>
                     <!-- end of single item col -->
                     <div class="col-12 col-sm-6 col-xl-4 pb-5 pr-8 reveal mb-5">
@@ -248,7 +250,7 @@
                             <img class="w-6" src="img/value/powerful.svg" alt="exchange-icon">
                         </span>
                         <h3 class="h6-font font-w--700 mb-1 text-uppercase">POWERFUL DASHBOARD</h3>
-                        <p>The HAF dashboard display makes it easy for users to see a summary according to needs starts from admins, managers to executives.</p>
+                        <p class="font-size--18">The HAF dashboard display makes it easy for users to see a summary according to needs starts from admins, managers to executives.</p>
                     </div>
                     <!-- end of single item col -->
                     <div class="col-12 col-sm-6 col-xl-4 pb-5 pr-8 reveal mb-5">
@@ -256,7 +258,7 @@
                             <img class="w-6" src="img/value/secure.svg" alt="exchange-icon">
                         </span>
                         <h3 class="h6-font font-w--700 mb-1 text-uppercase">SECURE AND FAST</h3>
-                        <p>HAF Implements the best security system & provides guaranteed server uptime of 99.99.</p>
+                        <p class="font-size--18">HAF Implements the best security system & provides guaranteed server uptime of 99.99.</p>
                     </div>
                     <!-- end of single item col -->
                     <div class="col-12 col-sm-6 col-xl-4 pb-5 pr-8 reveal mb-5">
@@ -264,7 +266,7 @@
                             <img class="w-6" src="img/value/api.svg" alt="exchange-icon">
                         </span>
                         <h3 class="h6-font font-w--700 mb-1 text-uppercase">API INTEGRATION</h3>
-                        <p>HAF is committed to an open, accessible platform using standard and publicly available APIs specifically designed for easy integration.</p>
+                        <p class="font-size--18">HAF is committed to an open, accessible platform using standard and publicly available APIs specifically designed for easy integration.</p>
                     </div>
                     <!-- end of single item col -->
                 </div>
