@@ -13,13 +13,11 @@
     <!-- Icon fonts -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="css/plugins.min.css">
+    <link rel="stylesheet" href="css/plugins.css">
     <!-- Style CSS -->
     <!-- Your CSS -->
     <link rel="stylesheet" href="css/app.css" type="text/css" />
     <link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<!-- <link rel="stylesheet" href="css/bootstrap.css" type="text/css" /> -->
-	<link rel="stylesheet" href="css/style.css" type="text/css" />
 	<link rel="stylesheet" href="css/dark.css" type="text/css" />
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="css/animate.css" type="text/css" />
@@ -28,32 +26,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 
-<body class="theme-gradient-7" data-spy="scroll" data-target="#navbar-nav" data-animation="false" data-appearance="light">
-<!-- <body class="stretched"> -->
-
-    <!-- =========== Start of Loader ============ -->
-    <div class="preloader">
-        <div class="wrapper">
-            <div class="blobs">
-                <div class="blob-center"></div>
-                <div class="blob"></div>
-                <div class="blob"></div>
-                <div class="blob"></div>
-                <div class="blob"></div>
-                <div class="blob"></div>
-                <div class="blob"></div>
-            </div>
-            <div>
-                <div class="loader-canvas canvas-left"></div>
-                <div class="loader-canvas canvas-right"></div>
-            </div>
-        </div>
-    </div>
-    <!-- =========== End of Loader ============ -->
-
+<body class="stretched">
     <div id="wrapper" class="clearfix">
         <!-- =========== Start of Navigation (main menu) ============ -->
-        <header class="navbar navbar-sticky sticky-bg-color--primary navbar-expand-lg navbar-dark">
+        <header id="header" class="navbar navbar-sticky sticky-bg-color--primary navbar-expand-lg p-0">
             <div class="container position-relative">
                 <a class="navbar-brand" href="index.html">
                     <img class="navbar-brand__regular" src="img/logo/logo.png" alt="brand-logo" style="width: 100%;height: 48px;">
@@ -71,29 +47,56 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <!-- end of Nav Toggoler -->
-                    <nav>
-                        <ul class="navbar-nav" id="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#tentang">Who We Are</a>
+                    <!-- Primary Navigation ============================================= -->
+                    <nav class="primary-menu">
+
+                        <ul class="menu-container">
+                            <li class="menu-item">
+                                <a class="menu-link" href="#whoweare"><div>Who We Are <i class="icon-line-chevron-down font-w--700"></i></div></a>
+                                <ul class="sub-menu-container">
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="about.html"><div>About Us</div></a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="#"><div>Meet Our Team</div></a>
+                                    </li>
+                                </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#solusi">Our Solution</a>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#solutions"><div>Our Solution <i class="icon-line-chevron-down font-w--700"></i></div></a>
+                                <ul class="sub-menu-container">
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="solution-commercial.html"><div>HAF Commercial</div></a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="solution-operation.html"><div>HAF Operation</div></a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="solution-purchasing.html"><div>HAF Purchasing</div></a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="#"><div>HAF Finance & Accounting</div></a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="solution-tracking.html"><div>HAF Live Tracking</div></a>
+                                    </li>
+                                </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#layanan">Contact Us</a>
+                            <li class="menu-item mega-menu">
+                                <a class="menu-link" href="contact.html"><div>Contact Us</div></a>
                             </li>
                         </ul>
-                        <!-- end of nav menu items -->
+
                     </nav>
+                    <!-- #primary-menu end -->
                 </div>
                 <div class="d-flex align-items-center ml-lg-1 ml-xl-2 mr-5 mr-sm-6 m-lg-0">
-                    <a href="https://api.whatsapp.com/send?phone=6281210701590" class="btn btn-size--md btn-border color--white btn-hover--splash opacity--80 d-none d-sm-inline-flex">
+                    <a href="img/magazine/haf-magazine.pdf" download="haf-magazine" class="btn btn-size--md btn-primary">
                         <span class="btn__text font-w--500">HAF Magazine</span>
                     </a>
                 </div>
                 <!-- end of nav CTA button -->
             </div>
-            <!-- end of container -->
         </header>
         <!-- =========== End of Navigation (main menu)  ============ -->
 
