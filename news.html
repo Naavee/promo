@@ -13,12 +13,11 @@
     <!-- Icon fonts -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="css/plugins.min.css">
+    <link rel="stylesheet" href="css/plugins.css">
     <!-- Style CSS -->
     <!-- Your CSS -->
     <link rel="stylesheet" href="css/app.css" type="text/css" />
     <link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
 	<link rel="stylesheet" href="css/dark.css" type="text/css" />
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="css/animate.css" type="text/css" />
@@ -27,32 +26,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 
-<!-- <body class="theme-gradient-7" data-spy="scroll" data-target="#navbar-nav" data-animation="false" data-appearance="light"> -->
 <body class="stretched">
-
-    <!-- =========== Start of Loader ============ -->
-    <!-- <div class="preloader">
-        <div class="wrapper">
-            <div class="blobs">
-                <div class="blob-center"></div>
-                <div class="blob"></div>
-                <div class="blob"></div>
-                <div class="blob"></div>
-                <div class="blob"></div>
-                <div class="blob"></div>
-                <div class="blob"></div>
-            </div>
-            <div>
-                <div class="loader-canvas canvas-left"></div>
-                <div class="loader-canvas canvas-right"></div>
-            </div>
-        </div>
-    </div> -->
-    <!-- =========== End of Loader ============ -->
-
     <div id="wrapper" class="clearfix">
         <!-- =========== Start of Navigation (main menu) ============ -->
-        <header class="navbar navbar-sticky sticky-bg-color--primary navbar-expand-lg navbar-dark">
+        <header id="header" class="navbar navbar-sticky sticky-bg-color--primary navbar-expand-lg p-0">
             <div class="container position-relative">
                 <a class="navbar-brand" href="index.html">
                     <img class="navbar-brand__regular" src="img/logo/logo.png" alt="brand-logo" style="width: 100%;height: 48px;">
@@ -60,48 +37,79 @@
                 </a>
                 <!--  End of brand logo -->
                 <button class="navbar-toggler d-lg-none" type="button" data-toggle="navbarToggler" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
                 </button>
                 <!-- end of Nav toggler -->
-
                 <div class="navbar-inner">
                     <!--  Nav close button inside off-canvas/ mobile menu -->
                     <button class="navbar-toggler d-lg-none" type="button" data-toggle="navbarToggler" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <!-- end of Nav Toggoler -->
-                    <nav>
-                        <ul class="navbar-nav" id="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#tentang">Who We Are</a>
+                    <!-- Primary Navigation ============================================= -->
+                    <nav class="primary-menu">
+
+                        <ul class="menu-container">
+                            <li class="menu-item">
+                                 <a class="menu-link" href="who.html"><div>Who We Are <i class="icon-line-chevron-down font-w--700"></i></div></a>
+                                <ul class="sub-menu-container">
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="about.html"><div>About Us</div></a>
+                                    </li>
+                                     
+                                </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#solusi">Our Solution</a>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#parallax-solution"><div>Our Solution <i class="icon-line-chevron-down font-w--700"></i></div></a>
+                                <ul class="sub-menu-container">
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="solution-commercial.html"><div>HAF Commercial</div></a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="solution-operation.html"><div>HAF Operation</div></a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="solution-purchasing.html"><div>HAF Purchasing</div></a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="solution-fa.html"><div>HAF Finance & Accounting</div></a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="solution-tracking.html"><div>HAF Live Tracking</div></a>
+                                    </li>
+                                </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#layanan">Contact Us</a>
+                            <li class="menu-item mega-menu">
+                                <a class="menu-link" href="contact.html"><div>Contact Us</div></a>
+                            </li>
+                            <li class="menu-item mega-menu">
+                                <a class="menu-link" href="news.html"><div>Latest News</div></a>
+                            </li>
+                            <li class="menu-item mega-menu">
+                                <a class="menu-link" href="career.html"><div>Career</div></a>
                             </li>
                         </ul>
-                        <!-- end of nav menu items -->
+
                     </nav>
+                    <!-- #primary-menu end -->
                 </div>
+                
                 <div class="d-flex align-items-center ml-lg-1 ml-xl-2 mr-5 mr-sm-6 m-lg-0">
-                    <a href="https://api.whatsapp.com/send?phone=6281210701590" class="btn btn-size--md btn-border color--white btn-hover--splash opacity--80 d-none d-sm-inline-flex">
+                    <a href="img/magazine/haf-magazine.pdf" download="haf-magazine" class="btn btn-size--md btn-primary">
                         <span class="btn__text font-w--500">HAF Magazine</span>
                     </a>
                 </div>
                 <!-- end of nav CTA button -->
             </div>
-            <!-- end of container -->
         </header>
         <!-- =========== End of Navigation (main menu)  ============ -->
 
         <!-- =========== Start of Latest News ============ -->
-        <section class="space--top z-index1" id="tentang">
+        <section class="pt-5 z-index1" id="">
             <div class="container">
                 <div class="row">
                     <div class="col-12 reveal">
-                        <p class="mb-4 text-uppercase font-w--700">HAF - Latest News</p>
+                        <p class="mb-4 text-uppercase font-w--700">HOME - Latest News</p>
                     </div>
                 </div>
                 <div class="row mt-3">
@@ -142,7 +150,7 @@
         </section>
         <!-- =========== End of Latest News ============ -->
 
-        <!-- =========== Start of COntent News ============ -->
+        <!-- =========== Start of Content News ============ -->
         <section class="space--top" id="contentnews">
             <div class="container">
                 <!-- content -->
@@ -151,14 +159,16 @@
                         <img src="img/news/news-1.png" alt="" width="100%;">
                     </div>
                     <div class="col-12 col-md-8">
-                        <p class="mb-2 text-uppercase font-w--700">News Title</p>
-                        <p class="mb-2 font-size--17">Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Orci, et id tristique ut sit. Egestas eu hendrerit risus quisque semper
-                            sagittis. Malesuada et massa purus, duis purus risus nisi, eu aliquet. Rhoncus
-                            erat facilisi dignissim sapien pulvinar mattis. Pellentesque sit sollicitudin
-                            varius felis libero.</p>
-                        <p class="font-size--17">11 Feb 2022</p>
-                        <div class="clear"></div>
+                        <a href="news-details.html">
+                            <p class="mb-2 text-uppercase font-w--700">News Title</p>
+                            <p class="mb-2 font-size--17">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Orci, et id tristique ut sit. Egestas eu hendrerit risus quisque semper
+                                sagittis. Malesuada et massa purus, duis purus risus nisi, eu aliquet. Rhoncus
+                                erat facilisi dignissim sapien pulvinar mattis. Pellentesque sit sollicitudin
+                                varius felis libero.</p>
+                            <p class="font-size--17">11 Feb 2022</p>
+                            <div class="clear"></div>
+                        </a>
                     </div>
                 </div>
                 <div class="row pb-xl-6">
@@ -196,12 +206,13 @@
                 <div class="row justify-content-md-center pb-xl-10">
                     <div class="col-md-auto">
                         <a href="#" class="btn btn-size--md btn-gold text-uppercase">
-                            Load More</a>
+                            Load More
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- =========== End of COntent News ============ -->
+        <!-- =========== End of Content News ============ -->
 
         <!-- ===== of Footer ============ -->
         <footer class="footer section--light border--top position-relative hidden">
