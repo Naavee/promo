@@ -28,88 +28,85 @@
 
 <body class="stretched">
     <div id="wrapper" class="clearfix">
-        <!-- =========== Start of Navigation (main menu) ============ -->
-        <header id="header" class="navbar navbar-sticky sticky-bg-color--primary navbar-expand-lg p-0">
-            <div class="container position-relative">
-                <a class="navbar-brand" href="index.html">
-                    <img class="navbar-brand__regular" src="img/logo/logo.png" alt="brand-logo" style="width: 100%;height: 48px;">
-                    <img class="navbar-brand__sticky" src="img/logo/logo.png" alt="sticky brand-logo" style="width: 100%;height: 46px;">
-                </a>
-                <!--  End of brand logo -->
-                <button class="navbar-toggler d-lg-none" type="button" data-toggle="navbarToggler" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
-                </button>
-                <!-- end of Nav toggler -->
-                <div class="navbar-inner">
-                    <!--  Nav close button inside off-canvas/ mobile menu -->
-                    <button class="navbar-toggler d-lg-none" type="button" data-toggle="navbarToggler" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <!-- end of Nav Toggoler -->
-                    <!-- Primary Navigation ============================================= -->
-                    <nav class="primary-menu">
+        <!-- Header ============================================= -->
+		<header id="header" class="header-size-sm border-bottom-0 pt-2 pb-2">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row justify-content-lg-between">
 
-                        <ul class="menu-container">
-                            <li class="menu-item">
-                                 <a class="menu-link" href="who.html"><div>Who We Are <i class="icon-line-chevron-down font-w--700"></i></div></a>
-                                <ul class="sub-menu-container">
-                                    <li class="menu-item">
-                                        <a class="menu-link" href="about.html"><div>About Us</div></a>
-                                    </li>
-                                     
-                                </ul>
-                            </li>
-                            <li class="menu-item">
-                                <a class="menu-link" href="#parallax-solution"><div>Our Solution <i class="icon-line-chevron-down font-w--700"></i></div></a>
-                                <ul class="sub-menu-container">
-                                    <li class="menu-item">
-                                        <a class="menu-link" href="solution-commercial.html"><div>HAF Commercial</div></a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a class="menu-link" href="solution-operation.html"><div>HAF Operation</div></a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a class="menu-link" href="solution-purchasing.html"><div>HAF Purchasing</div></a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a class="menu-link" href="solution-fa.html"><div>HAF Finance & Accounting</div></a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a class="menu-link" href="solution-tracking.html"><div>HAF Live Tracking</div></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item mega-menu">
-                                <a class="menu-link" href="contact.html"><div>Contact Us</div></a>
-                            </li>
-                            <li class="menu-item mega-menu">
-                                <a class="menu-link" href="news.html"><div>Latest News</div></a>
-                            </li>
-                            <li class="menu-item mega-menu">
-                                <a class="menu-link" href="#"><div>Career</div></a>
-                            </li>
-                        </ul>
+						<!-- Logo ============================================= -->
+						<div id="logo" class="col-auto flex-column order-1">
+							<a href="index.html" class="standard-logo"><img src="img/logo/logo.png" alt="Haf Logo"></a>
+							<a href="index.html" class="retina-logo"><img src="img/logo/logo.png" alt="Haf Logo"></a>
+						</div><!-- #logo end -->
 
-                    </nav>
-                    <!-- #primary-menu end -->
-                </div>
-                
-                <div class="d-flex align-items-center ml-lg-1 ml-xl-2 mr-5 mr-sm-6 m-lg-0">
-                    <a href="img/magazine/haf-magazine.pdf" download="haf-magazine" class="btn btn-size--md btn-primary">
-                        <span class="btn__text font-w--500">HAF Magazine</span>
-                    </a>
-                </div>
-                <!-- end of nav CTA button -->
-            </div>
-        </header>
-        <!-- =========== End of Navigation (main menu)  ============ -->
+						<div class="header-misc col-auto col-lg-2 order-3 justify-content-lg-end ms-0 ms-sm-3 px-0">
+                            <a href="img/magazine/haf-magazine.pdf" download="haf-magazine" class="btn btn-size--sm btn-primary">
+                                <span class="btn__text font-w--500">HAF Magazine</span>
+                            </a>
+						</div>
+
+						<!-- Mobile Menu Icon ============================================= -->
+						<div id="primary-menu-trigger"><i class="fa fa-bars font-size--30" aria-hidden="true"></i></div>
+
+						<!-- Primary Navigation ============================================= -->
+						<nav class="primary-menu with-arrows order-lg-2 order-last px-0 mx-auto">
+
+							<ul class="menu-container">
+								<li class="menu-item current">
+									<a class="menu-link" href="who.html">
+										<div>Who We Are</div>
+									</a>
+									<ul class="sub-menu-container">
+										<li class="menu-item">
+											<a class="menu-link" href="about.html"><div>About Us</div></a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item">
+									<a href="#parallax-solution" class="menu-link"><div>Our Solutions</div></a>
+									<ul class="sub-menu-container">
+                                        <li class="menu-item">
+                                            <a class="menu-link" href="solution-commercial.html"><div>HAF Commercial</div></a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a class="menu-link" href="solution-operation.html"><div>HAF Operation</div></a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a class="menu-link" href="solution-purchasing.html"><div>HAF Purchasing</div></a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a class="menu-link" href="solution-fa.html"><div>HAF Finance & Accounting</div></a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a class="menu-link" href="solution-tracking.html"><div>HAF Live Tracking</div></a>
+                                        </li>
+									</ul>
+								</li>
+                                <li class="menu-item">
+                                    <a class="menu-link" href="contact.html"><div>Contact Us</div></a>
+                                </li>
+                                <li class="menu-item">
+                                    <a class="menu-link" href="news.html"><div>Latest News</div></a>
+                                </li>
+                                <li class="menu-item">
+                                    <a class="menu-link" href="career.html"><div>Career</div></a>
+                                </li>
+							</ul>
+
+						</nav><!-- #primary-menu end -->
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</header><!-- #header end -->
 
         <!-- =========== Start of Careers Details ============ -->
-        <section class="space--top z-index1" id="careers">
+        <section class="mt-5 z-index1" id="careers">
             <div class="container">
                 <div class="row">
                     <div class="col-12 reveal">
-                        <p class="mb-4 text-uppercase font-w--700">HAF - Careers</p>
+                        <p class="mb-4 text-uppercase font-w--700 font-size--20-career">HAF - Careers</p>
                     </div>
                 </div>
                 <div class="row mt-3">
@@ -123,17 +120,17 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-md-8">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, et id tristique ut sit. Egestas eu hendrerit risus quisque semper sagittis. Malesuada et massa purus, duis purus risus nisi, eu aliquet. Rhoncus erat facilisi dignissim sapien pulvinar mattis. Pellentesque sit sollicitudin varius felis libero.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, et id tristique ut sit. Egestas eu hendrerit risus quisque semper sagittis. Malesuada et massa purus, duis purus risus nisi, eu aliquet. Rhoncus erat facilisi dignissim sapien pulvinar mattis. Pellentesque sit sollicitudin varius felis libero.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, et id tristique ut sit. Egestas eu hendrerit risus quisque semper sagittis. Malesuada et massa purus, duis purus risus nisi, eu aliquet. Rhoncus erat facilisi dignissim sapien pulvinar mattis. Pellentesque sit sollicitudin varius felis libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, et id tristique ut sit. Egestas eu hendrerit risus quisque semper sagittis. Malesuada et massa purus, duis purus risus nisi, eu aliquet. Rhoncus erat facilisi dignissim sapien pulvinar mattis. Pellentesque sit sollicitudin varius felis libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, et id tristique ut sit. Egestas eu hendrerit risus quisque semper sagittis. Malesuada et massa purus, duis purus risus nisi, eu aliquet. Rhoncus erat facilisi dignissim sapien pulvinar mattis. Pellentesque sit sollicitudin varius felis libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, et id tristique ut sit. Egestas eu hendrerit risus quisque semper sagittis. Malesuada et massa purus, duis purus risus nisi, eu aliquet. Rhoncus erat facilisi dignissim sapien pulvinar mattis. Pellentesque sit sollicitudin varius felis libero.</p>
+                            <p class="font-size--24-career">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, et id tristique ut sit. Egestas eu hendrerit risus quisque semper sagittis. Malesuada et massa purus, duis purus risus nisi, eu aliquet. Rhoncus erat facilisi dignissim sapien pulvinar mattis. Pellentesque sit sollicitudin varius felis libero.</p>
+                            <p class="font-size--24-career">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, et id tristique ut sit. Egestas eu hendrerit risus quisque semper sagittis. Malesuada et massa purus, duis purus risus nisi, eu aliquet. Rhoncus erat facilisi dignissim sapien pulvinar mattis. Pellentesque sit sollicitudin varius felis libero.</p>
+                            <p class="font-size--24-career">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, et id tristique ut sit. Egestas eu hendrerit risus quisque semper sagittis. Malesuada et massa purus, duis purus risus nisi, eu aliquet. Rhoncus erat facilisi dignissim sapien pulvinar mattis. Pellentesque sit sollicitudin varius felis libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, et id tristique ut sit. Egestas eu hendrerit risus quisque semper sagittis. Malesuada et massa purus, duis purus risus nisi, eu aliquet. Rhoncus erat facilisi dignissim sapien pulvinar mattis. Pellentesque sit sollicitudin varius felis libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, et id tristique ut sit. Egestas eu hendrerit risus quisque semper sagittis. Malesuada et massa purus, duis purus risus nisi, eu aliquet. Rhoncus erat facilisi dignissim sapien pulvinar mattis. Pellentesque sit sollicitudin varius felis libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, et id tristique ut sit. Egestas eu hendrerit risus quisque semper sagittis. Malesuada et massa purus, duis purus risus nisi, eu aliquet. Rhoncus erat facilisi dignissim sapien pulvinar mattis. Pellentesque sit sollicitudin varius felis libero.</p>
                         </div>
                         <div class="col-12 col-md-4">
                             <div class="p-4 apply-card mb-3">
-                                <p class="text-uppercase font-w--700">APPLICATION DEADLINE</p>
+                                <p class="text-uppercase font-w--700 font-size--24-career">APPLICATION DEADLINE</p>
                                 <p class="mb-2 font-size--17">Ongoing</p>
-                                <p class="text-uppercase font-w--700">EXPECTED START DATE</p>
+                                <p class="text-uppercase font-w--700 font-size--24-career">EXPECTED START DATE</p>
                                 <p class="mb-2 font-size--17">After agreement</p>
-                                <p class="text-uppercase font-w--700">CONTACT PERSON</p>
+                                <p class="text-uppercase font-w--700 font-size--24-career">CONTACT PERSON</p>
                                 <p class="font-size--17">PIC NAME</p>
                                 <p class="font-size--17">PIC NUMBER</p>
                             </div>
