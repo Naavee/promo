@@ -26532,7 +26532,8 @@ body:not(.device-touch) .social-icon {
 
 .si-light {
 	background-color: rgba(0,0,0,0.05);
-	color: #666 !important;
+	/* color: #666 !important; */
+	color: #FFF !important;
 	border-color: transparent;
 }
 
@@ -27821,7 +27822,10 @@ body:not(.device-touch) .clients-grid .grid-item a {
 	width: 100%;
 }
 
-.team-desc { text-align: center; }
+.team-desc { 
+    text-align: center;
+    background: #183663; 
+}
 
 .team-desc.team-desc-bg {
 	background-color: #FFF;
@@ -27845,6 +27849,7 @@ body:not(.device-touch) .clients-grid .grid-item a {
 
 .team-title h4 {
 	display: block;
+	color: #FFFFFF;
 	margin-bottom: 0;
 	font-size: 1.25rem;
 	text-transform: uppercase;
@@ -27854,10 +27859,9 @@ body:not(.device-touch) .clients-grid .grid-item a {
 
 .team-title span {
 	display: block;
-	color: #183663;
+	color: #FFFFFF;
+	/* color: #183663; */
 	font-weight: 400;
-	font-family: 'PT Serif', serif;
-	font-style: italic;
 	font-size: 1rem;
 	margin-top: 5px;
 }
