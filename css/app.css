@@ -435,6 +435,10 @@ p {
   font-size: 1.25rem;
 }
 
+.font-size--20-career {
+  font-size: 20px;
+}
+
 .font-size--22 {
   font-size: 1.375rem;
 }
@@ -443,12 +447,20 @@ p {
   font-size: 1.5rem;
 }
 
+.font-size--24-career {
+  font-size: 24px;
+}
+
 .font-size--26 {
   font-size: 1.625rem;
 }
 
 .font-size--30 {
   font-size: 1.875rem;
+}
+
+.font-size--30-career {
+  font-size: 30px;
 }
 
 .font-size--40 {
