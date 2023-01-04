@@ -41,14 +41,14 @@
 							<a href="index.html" class="retina-logo"><img src="img/logo/logo.png" alt="Haf Logo"></a>
 						</div><!-- #logo end -->
 
-						<div class="header-misc col-auto col-lg-2 order-3 justify-content-lg-end ms-0 ms-sm-3 px-0">
+						<div class="header-misc col-auto col-lg-2 order-3 justify-content-lg-end ms-0 ms-sm-3 px-0 d-none d-sm-block">
                             <a href="img/magazine/haf-magazine.pdf" download="haf-magazine" class="btn btn-size--sm btn-primary">
                                 <span class="btn__text font-w--500">HAF Magazine</span>
                             </a>
 						</div>
 
 						<!-- Mobile Menu Icon ============================================= -->
-						<div id="primary-menu-trigger"><i class="fa fa-bars font-size--30" aria-hidden="true"></i></div>
+						<div id="primary-menu-trigger" class="header-misc col-auto col-lg-2 order-3 justify-content-lg-end ms-0 ms-sm-3 px-0"><i class="fa fa-bars font-size--30" aria-hidden="true"></i></div>
 
 						<!-- Primary Navigation ============================================= -->
 						<nav class="primary-menu with-arrows order-lg-2 order-last px-0 mx-auto">
@@ -96,6 +96,11 @@
                                 <li class="menu-item">
                                     <a class="menu-link" href="career.html"><div>Career</div></a>
                                 </li>
+                                <li class="menu-item d-block d-sm-none">
+                                    <a href="img/magazine/haf-magazine.pdf" download="haf-magazine" class="btn btn-size--sm btn-primary">
+                                        <span class="btn__text font-w--500">HAF Magazine</span>
+                                    </a>
+                                </li>
 							</ul>
 
 						</nav><!-- #primary-menu end -->
@@ -106,16 +111,12 @@
 		</header><!-- #header end -->
 
         <!-- =========== Start of Hero ============ -->
-        <section class="hero hero--full hero--v12 d-flex align-items-center">
+        <section class="hero hero--full hero--v12 d-flex align-items-center" style="min-height: 40rem;">
             <div class="background-holder background--cover z-index1">
                 <img src="img/hero/bg.png" alt="image" class="background-image-holder">
             </div>
-            <!-- end of backgound image -->
-            <div class="background-holder bg-color--primary"></div>
-            <!-- end of overlay backgound color-->
-
             <!-- start hero title -->
-            <div class="container-fluid" style="backdrop-filter: blur(5px);z-index:20;position: absolute;bottom: 20%;">
+            <div class="container-fluid" style="backdrop-filter: blur(5px);z-index:20;bottom: 20%;">
                 <div class="container pt-3">
                     <div class="row flex-column-reverse flex-lg-row align-items-center mb-3">
                         <div class="col-12 col-md-10 mx-auto mx-lg-0 text-center text-lg-left z-index3">
@@ -166,7 +167,7 @@
         <!-- Parallax Soultion -->
 
         <!-- =========== Start of Our Solutions ============ -->
-        <section class="pt-5 pt-xl-0 z-index3 jsElement" id="solutions">
+        <section class="pt-5 pt-xl-0 z-index3 jsElement d-none d-sm-block" id="solutions">
             <div class="container">
                 <div class="text-center pt-6 pb-2 px-3 px-sm-5 px-md-8 pt-lg-8 pb-lg-3 px-lg-2">
                     <div class="row justify-content-between pb-lg-1 text-lg-left">
@@ -226,14 +227,75 @@
                         </div>
                         <!-- end of single item col -->
                     </div>
-                    <!-- end of features row -->
+                </div>
+            </div>
+        </section>
+        <!-- mobile -->
+        <section class="z-index3 jsElement d-block d-sm-none" id="solutions">
+            <div class="container">
+                <div class="text-center pb-2 px-3 px-sm-5 px-md-8 pb-lg-3 px-lg-2">
+                    <div class="row justify-content-between pb-lg-1 text-lg-left">
+                        <div class="col-12">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <span class="mb-2">
+                                        <img class="w-6" src="img/module/icon-commercial.svg" alt="exchange-icon">
+                                    </span>
+                                    <h3 class="h6-font font-w--700 mb-1 text-uppercase">HAF Commercial</h3>
+                                    <p class="font-size--18">A module that has an important role in analyzing performance in order to achieve profit targets from each of your ship's trips.</p>
+                                    <p><a href="solution-commercial.html" class="text-muted font-size--18">Explore HAF Commercial &nbsp;<b class="ml-2"><i class="fa fa-angle-right" aria-hidden="true"></i></b></a></p>
+                                </div>
+                                <div class="item">
+                                    <span class="mb-2">
+                                        <img class="w-6" src="img/module/icon-operation.svg" alt="exchange-icon">
+                                    </span>
+                                    <h3 class="h6-font font-w--700 mb-1 text-uppercase">HAF Operation</h3>
+                                    <p class="font-size--18">A module that helps in reporting activities on a regular basis to improve the KPI (Key Performance Indicator) of each of your ships.</p>
+                                    <p><a href="solution-operation.html" class="text-muted font-size--18">Explore HAF Operation &nbsp;<b class="ml-2"><i class="fa fa-angle-right" aria-hidden="true"></i></b></a></p>
+                                </div>
+                                <div class="item">
+                                    <span class="mb-2">
+                                        <img class="w-6" src="img/module/icon-purchasing.svg" alt="exchange-icon">
+                                    </span>
+                                    <h3 class="h6-font font-w--700 mb-1 text-uppercase">HAF Purchasing</h3>
+                                    <p class="font-size--18">A module that helps material management for each of your ship's needs. Modules that involve the purchase of supplies, equipment and other necessities.</p>
+                                    <p><a href="solution-purchasing.html" class="text-muted font-size--18">Explore HAF Purchasing &nbsp;<b class="ml-2"><i class="fa fa-angle-right" aria-hidden="true"></i></b></a></p>
+                                </div>
+                                <div class="item">
+                                    <span class="mb-2">
+                                        <img class="w-6" src="img/module/icon-finance.svg" alt="exchange-icon">
+                                    </span>
+                                    <h3 class="h6-font font-w--700 mb-1 text-uppercase">HAF Finance</h3>
+                                    <p class="font-size--18">A module that has a role in the process of receiving and disbursing money at your shipping company.
+                                    </p>
+                                    <p><a href="solution-fa.html" class="text-muted font-size--18">Explore HAF Finance &nbsp;<b class="ml-2"><i class="fa fa-angle-right" aria-hidden="true"></i></b></a></p>
+                                </div>
+                                <div class="item">
+                                    <span class="mb-2">
+                                        <img class="w-6" src="img/module/icon-accounting.svg" alt="exchange-icon">
+                                    </span>
+                                    <h3 class="h6-font font-w--700 mb-1 text-uppercase">HAF Accounting</h3>
+                                    <p class="font-size--18">Double-entry Accounting which is integrated and features Automatic Journal for Finance and Purchasing.</p>
+                                    <p><a href="solution-fa.html" class="text-muted font-size--18">Explore HAF Accounting &nbsp;<b class="ml-2"><i class="fa fa-angle-right" aria-hidden="true"></i></b></a></p>
+                                </div>
+                                <div class="item">
+                                    <span class="mb-2">
+                                        <img class="w-6" src="img/module/icon-tracking.svg" alt="exchange-icon">
+                                    </span>
+                                    <h3 class="h6-font font-w--700 mb-1 text-uppercase">Live Tracking</h3>
+                                    <p class="font-size--18">Monitor your ships in real time with our Live Tracking which is connected directly to the satellite network.</p>
+                                    <p><a href="solution-tracking.html" class="text-muted font-size--18">Explore Live Tracking &nbsp;<b class="ml-2"><i class="fa fa-angle-right" aria-hidden="true"></i></b></a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- =========== End of Our Solutions ============ -->
 
         <!-- =========== Start of Our Value ============ -->
-        <section class="space--top pb-lg-10 " id="layanan">
+        <section class="space--top pb-lg-10 d-none d-sm-block" id="layanan">
             <div class="container">
                 <div class="row">
                     <div class="col-12 mb-5 mb-sm-7 mb-xl-5 text-center text-xl-left mx-auto reveal">
@@ -277,31 +339,91 @@
                 </div>
             </div>
         </section>
+        <!-- mobile -->
+        <section class="space--top pb-lg-10 d-block d-sm-none" id="layanan">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-5 mb-sm-7 mb-xl-5 text-center text-xl-left mx-auto reveal">
+                        <h2 class="mb-1 h3-font font-w--700 text-uppercase">Our Value</h2>
+                        <p class="h4-font">We are more than just analytical tools. Explore our features, and satisfy your customers.</p>
+                    </div>
+                </div>
+
+                <div class="text-center pb-2 px-3 px-sm-5 px-md-8 pb-lg-3 px-lg-2">
+                    <div class="row justify-content-between pb-lg-1 text-lg-left">
+                        <div class="col-12">
+                            <div class="owl-carousel owl-theme owl-carousel-value">
+                                <div class="item">
+                                    <span class="mb-2">
+                                        <img class="w-6" src="img/value/software.svg" alt="exchange-icon">
+                                    </span>
+                                    <h3 class="h6-font font-w--700 mb-1 text-uppercase">SOFTWARE AS A SERVICE(SAAS)</h3>
+                                    <p class="font-size--18">Fully managed by HAF in the cloud, it gives you the flexibility to adapt to your dynamic business environment.</p>
+                                </div>
+                                <div class="item">
+                                    <span class="mb-2">
+                                        <img class="w-6" src="img/value/powerful.svg" alt="exchange-icon">
+                                    </span>
+                                    <h3 class="h6-font font-w--700 mb-1 text-uppercase">POWERFUL DASHBOARD</h3>
+                                    <p class="font-size--18">The HAF dashboard display makes it easy for users to see a summary according to needs starts from admins, managers to executives.</p>
+                                </div>
+                                <div class="item">
+                                    <span class="mb-2">
+                                        <img class="w-6" src="img/value/secure.svg" alt="exchange-icon">
+                                    </span>
+                                    <h3 class="h6-font font-w--700 mb-1 text-uppercase">SECURE AND FAST</h3>
+                                    <p class="font-size--18">HAF Implements the best security system & provides guaranteed server uptime of 99.99.</p>
+                                </div>
+                                <div class="item">
+                                    <span class="mb-2">
+                                        <img class="w-6" src="img/value/api.svg" alt="exchange-icon">
+                                    </span>
+                                    <h3 class="h6-font font-w--700 mb-1 text-uppercase">API INTEGRATION</h3>
+                                    <p class="font-size--18">HAF is committed to an open, accessible platform using standard and publicly available APIs specifically designed for easy integration.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- =========== End of Our Value ============ -->
 
         <!-- =========== Start of Partners ============ -->
         <section class="space--top pb-lg-10" id="partner">
             <div class="container">
                 <div class="row justify-content-between">
-                    <div class="col-4 mb-5 mb-sm-7 mb-xl-5 text-xl-left reveal">
+                    <div class="col-6 mb-5 mb-sm-7 mb-xl-5 text-xl-left reveal">
                         <h2 class="mb-1 h3-font font-w--700">Our Partners</h2>
                     </div>
-                    <div class="col-4 mb-5 mb-sm-7 mb-xl-5 text-xl-right reveal float-start">
+                    <div class="col-6 mb-5 mb-sm-7 mb-xl-5 text-xl-right reveal float-start">
                         <h2 class="mb-1 h3-font font-w--700">Media Coverage</h2>
                     </div>
                 </div>
                 <div class="row justify-content-between">
-                    <div class="col-4 mb-2">
-                        <img alt="100%x180" src="img/partner/1.png" class="img-thumbnail d-block" style="border: none; max-width:220px;">
-                        <img alt="100%x180" src="img/partner/3.png" class="img-thumbnail d-block" style="border: none; max-width:220px;">
-                        <img alt="100%x180" src="img/partner/5.png" class="img-thumbnail d-block" style="border: none; max-width:220px;">
-                        <img alt="100%x180" src="img/partner/7.png" class="img-thumbnail d-block" style="border: none; max-width:220px;">
+                    <div class="col-sm-4 d-none d-sm-block mb-2">
+                        <img alt="100%x180" src="img/partner/1.png" class="img-thumbnail d-block" style="border: none; width:auto; max-width:150px;">
+                        <img alt="100%x180" src="img/partner/3.png" class="img-thumbnail d-block" style="border: none; width:auto; max-width:150px;">
+                        <img alt="100%x180" src="img/partner/5.png" class="img-thumbnail d-block" style="border: none; width:auto; max-width:150px;">
+                        <img alt="100%x180" src="img/partner/7.png" class="img-thumbnail d-block" style="border: none; width:auto; max-width:150px;">
                     </div>
-                    <div class="col-4 mb-2">
-                        <img alt="100%x180" src="img/partner/2.png" class="img-thumbnail d-block" style="border: none; max-width:220px;float: right;">
-                        <img alt="100%x180" src="img/partner/4.png" class="img-thumbnail d-block" style="border: none; max-width:220px;float: right;">
-                        <img alt="100%x180" src="img/partner/6.png" class="img-thumbnail d-block" style="border: none; max-width:220px;float: right;">
-                        <img alt="100%x180" src="img/partner/8.png" class="img-thumbnail d-block" style="border: none; max-width:220px;float: right;">
+                    <div class="col-sm-2 d-none d-sm-block mb-2">
+                        <img alt="100%x180" src="img/partner/2.png" class="img-thumbnail d-block" style="border: none; width:auto; max-width:150px;">
+                        <img alt="100%x180" src="img/partner/4.png" class="img-thumbnail d-block" style="border: none; width:auto; max-width:150px;">
+                        <img alt="100%x180" src="img/partner/6.png" class="img-thumbnail d-block" style="border: none; width:auto; max-width:150px;">
+                        <img alt="100%x180" src="img/partner/8.png" class="img-thumbnail d-block" style="border: none; width:auto; max-width:150px;">
+                    </div>
+                    <div class="col-6 d-block d-sm-none mb-2">
+                        <img alt="100%x180" src="img/partner/1.png" class="img-thumbnail d-block" style="border: none; width:auto;">
+                        <img alt="100%x180" src="img/partner/3.png" class="img-thumbnail d-block" style="border: none; width:auto;">
+                        <img alt="100%x180" src="img/partner/5.png" class="img-thumbnail d-block" style="border: none; width:auto;">
+                        <img alt="100%x180" src="img/partner/7.png" class="img-thumbnail d-block" style="border: none; width:auto;">
+                    </div>
+                    <div class="col-6 d-block d-sm-none mb-2">
+                        <img alt="100%x180" src="img/partner/2.png" class="img-thumbnail d-block" style="border: none; width:auto;">
+                        <img alt="100%x180" src="img/partner/4.png" class="img-thumbnail d-block" style="border: none; width:auto;">
+                        <img alt="100%x180" src="img/partner/6.png" class="img-thumbnail d-block" style="border: none; width:auto;">
+                        <img alt="100%x180" src="img/partner/8.png" class="img-thumbnail d-block" style="border: none; width:auto;">
                     </div>
                 </div>
             </div>
@@ -345,5 +467,29 @@
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="js/functions.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        });
+        $('.owl-carousel-value').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            items: 1,
+        })
+    </script>
 </body>
 </html>

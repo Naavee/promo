@@ -19278,7 +19278,8 @@ html[xmlns] .slider-wrap {
 }
 
 .header-size-sm #header-wrap #logo img {
-	height: 60px;
+	/* height: 60px; */
+	height: 48px;
 }
 
 .header-size-md #header-wrap #logo img {
