@@ -396,7 +396,7 @@
                     <div class="col-sm-4 d-none d-sm-block mb-2">
                         <h2 class="mb-1 h3-font font-w--700">Our Partners</h2>
                     </div>
-                    <div class="col-sm-5 col-md-3 d-none d-sm-block mb-2">
+                    <div class="col-sm-5 col-md-5 col-lg-3 d-none d-sm-block mb-2">
                         <h2 class="mb-1 h3-font font-w--700">Media Coverage</h2>
                     </div>
                 </div>
@@ -407,7 +407,7 @@
                         <img alt="100%x180" src="img/partner/5.png" class="img-thumbnail d-block" style="border: none; width:auto; max-width:150px;">
                         <img alt="100%x180" src="img/partner/7.png" class="img-thumbnail d-block" style="border: none; width:auto; max-width:150px;">
                     </div>
-                    <div class="col-sm-4 col-md-2 d-none d-sm-block mb-2">
+                    <div class="col-sm-4 col-md-4 col-lg-2 d-none d-sm-block mb-2">
                         <img alt="100%x180" src="img/partner/2.png" class="img-thumbnail d-block" style="border: none; width:auto; max-width:150px;">
                         <img alt="100%x180" src="img/partner/4.png" class="img-thumbnail d-block" style="border: none; width:auto; max-width:150px;">
                         <img alt="100%x180" src="img/partner/6.png" class="img-thumbnail d-block" style="border: none; width:auto; max-width:150px;">
@@ -467,11 +467,16 @@
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="js/functions.js"></script>
+	<script src="owl-carousel/owl.carousel.js"></script>
+	<script src="owl-carousel/owl.carousel.min.js"></script>
     <script>
         $('.owl-carousel').owlCarousel({
             loop:true,
             margin:10,
             nav:true,
+            autoplay:true,
+            autoplayTimeout:2500,
+            autoplayHoverPause:true,
             responsive:{
                 0:{
                     items:1
@@ -489,6 +494,9 @@
             margin:10,
             nav:true,
             items: 1,
+            autoplay:true,
+            autoplayTimeout:2500,
+            autoplayHoverPause:true,
         })
     </script>
 </body>
