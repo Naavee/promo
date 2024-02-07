@@ -4,8 +4,8 @@
 
 :root,
 .not-dark {
-	--cnvs-themecolor: #0b44a7;
-	--cnvs-themecolor-rgb: 0, 70, 192;
+	--cnvs-themecolor: #183663;
+	--cnvs-themecolor-rgb: 24, 54, 99;
 	--cnvs-secondary-color: #ffbd00;
 	--cnvs-body-font: 'hoss-round', sans-serif;
 }
