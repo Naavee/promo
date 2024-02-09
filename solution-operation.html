@@ -3,208 +3,212 @@
 
 <head>
 
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
-    <title>.: HAF :.</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="x-ua-compatible" content="IE=edge">
+	<meta name="author" content="">
+	<!-- Font Imports -->
+
+	<link rel="stylesheet" href="https://use.typekit.net/vgf0rfn.css">
+
+	<!-- Core Style -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Font Icons -->
+	<link rel="stylesheet" href="css/font-icons.css">
+
+	<!-- Niche Demos -->
+	<link rel="stylesheet" href="saas/saas.css">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/custom.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- favicon CSS -->
     <link rel="icon" type="image/png" sizes="32x32" href="img/logo/favicon.png">
-    <!-- fonts -->
-    <link href="https://fonts.cdnfonts.com/css/lora" rel="stylesheet">
-    <!-- Icon fonts -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <!-- Plugins CSS -->
-    <link rel="stylesheet" href="css/plugins.css">
-    <!-- Style CSS -->
-    <!-- Your CSS -->
-    <link rel="stylesheet" href="css/app.css" type="text/css" />
-    <link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!-- Document Title
+	============================================= -->
+	<title>HAF</title>
+
 </head>
 
 <body class="stretched">
-    <div id="wrapper" class="clearfix">
-        
-        <!-- Header ============================================= -->
-		<header id="header" class="header-size-sm border-bottom-0 pt-2 pb-2">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="transparent-header dark no-sticky" data-responsive-class="not-dark">
 			<div id="header-wrap">
 				<div class="container">
 					<div class="header-row justify-content-lg-between">
 
-						<!-- Logo ============================================= -->
-						<div id="logo" class="col-auto flex-column order-1">
-							<a href="index.html" class="standard-logo"><img src="img/logo/logo.png" alt="Haf Logo"></a>
-							<a href="index.html" class="retina-logo"><img src="img/logo/logo.png" alt="Haf Logo"></a>
+						<!-- Logo
+						============================================= -->
+						<div id="logo" class="col-lg-2 order-lg-2 mx-lg-auto justify-content-lg-center">
+							<a href="index.html">
+								<img class="logo-default" style="height: 4rem !important;" srcset="img/logo/logo-white.png" src="img/logo/logo-white.png" alt="HAF Logo">
+								<img class="logo-dark" style="height: 4rem !important;" srcset="img/logo/logo-white.png" src="img/logo/logo-white.png" alt="HAF Logo">
+							</a>
 						</div><!-- #logo end -->
 
-						<div class="header-misc col-auto col-lg-2 order-3 justify-content-lg-end ms-0 ms-sm-3 px-0 d-none d-sm-block">
-                            <a href="img/magazine/haf-magazine.pdf" download="haf-magazine" class="btn btn-size--sm btn-primary">
-                                <span class="btn__text font-w--500">HAF Magazine</span>
-                            </a>
+						<div class="primary-menu-trigger" data-target=".primary-menu">
+							<button class="cnvs-hamburger" type="button" title="Open Mobile Menu">
+								<span class="cnvs-hamburger-box"><span class="cnvs-hamburger-inner"></span></span>
+							</button>
 						</div>
 
-						<!-- Mobile Menu Icon ============================================= -->
-						<div id="primary-menu-trigger" class="header-misc col-auto col-lg-2 order-3 justify-content-lg-end ms-0 ms-sm-3 px-0"><i class="fa fa-bars font-size--30" aria-hidden="true"></i></div>
+						<div class="col-lg-5 d-lg-flex justify-content-end order-lg-last">
+							<div class="header-misc">
+								<a href="img/magazine/haf-magazine.pdf" download="haf-magazine" class="button text-dark bg-secondary-color h-bg-light rounded m-0" data-class="down-lg:button-small"><span>HAF Magazine</span> <i class="bi-arrow-down ms-2 me-0 d-none d-lg-inline"></i></a>
+							</div>
+						</div>
 
-						<!-- Primary Navigation ============================================= -->
-						<nav class="primary-menu with-arrows order-lg-2 order-last px-0 mx-auto">
+						<nav class="primary-menu col-lg-5 order-lg-1 on-click">
 
 							<ul class="menu-container">
-								<li class="menu-item current">
-									<a class="menu-link" href="who.html">
-										<div>Who We Are</div>
-									</a>
-									<ul class="sub-menu-container">
-										<li class="menu-item">
-											<a class="menu-link" href="about.html"><div>About Us</div></a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="team.html"><div>Meet Our Team</div></a>
-										</li>
+								<li class="menu-item menu-item-more current"><a class="menu-link" href="#">Our Solutions</a>
+									<ul class="sub-menu-container" data-class="up-lg:not-dark">
+										<li class="menu-item"><a class="menu-link" href="solution-commercial.html"><div>Commercial</div></a></li>
+										<li class="menu-item current"><a class="menu-link" href="solution-operation.html"><div>Operation</div></a></li>
+										<li class="menu-item"><a class="menu-link" href="solution-purchasing.html"><div>Purchasing</div></a></li>
+										<li class="menu-item"><a class="menu-link" href="solution-fa.html"><div>Finance & Accounting</div></a></li>
+										<li class="menu-item"><a class="menu-link" href="solution-tracking.html"><div>Live Tracking</div></a></li>
 									</ul>
 								</li>
-								<li class="menu-item">
-									<a href="#parallax-solution" class="menu-link"><div>Our Solutions</div></a>
-									<ul class="sub-menu-container">
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="solution-commercial.html"><div>HAF Commercial</div></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="solution-operation.html"><div>HAF Operation</div></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="solution-purchasing.html"><div>HAF Purchasing</div></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="solution-fa.html"><div>HAF Finance & Accounting</div></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="solution-tracking.html"><div>HAF Live Tracking</div></a>
-                                        </li>
-									</ul>
-								</li>
-                                <li class="menu-item">
-                                    <a class="menu-link" href="contact.html"><div>Contact Us</div></a>
-                                </li>
-                                <!-- <li class="menu-item">
-                                    <a class="menu-link" href="news.html"><div>Latest News</div></a>
-                                </li>
-                                <li class="menu-item">
-                                    <a class="menu-link" href="career.html"><div>Career</div></a>
-                                </li> -->
-                                <li class="menu-item d-block d-sm-none">
-                                    <a href="img/magazine/haf-magazine.pdf" download="haf-magazine" class="btn btn-size--sm btn-primary">
-                                        <span class="btn__text font-w--500">HAF Magazine</span>
-                                    </a>
-                                </li>
+								<li class="menu-item"><a class="menu-link" href="about.html"><div>About</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="contact.html"><div>Contact</div></a></li>
 							</ul>
 
 						</nav><!-- #primary-menu end -->
+
 					</div>
 				</div>
 			</div>
 			<div class="header-wrap-clone"></div>
 		</header><!-- #header end -->
 
-        <!-- =========== Start of Hero Solution ============ -->
-        <section class="hero hero--full hero--v12 d-flex align-items-center">
-            <div class="background-holder background--cover z-index1">
-                <img src="img/hero/hero-solution-operaion.png" alt="image" class="background-image-holder">
-            </div>
-            <!-- end of backgound image -->
-            <div class="background-holder bg-color--white"></div>
-            <!-- end of bottom svg shape -->
-            <!-- start hero height -->
-            <div class="container-fluid d-none d-md-block d-lg-none">
-                <div class="container pt-3" style="min-height: 17rem;">
-                </div>
-            </div>
-            <div class="container-fluid d-block d-sm-block">
-                <div class="container pt-3" style="min-height: 9rem;">
-                </div>
-            </div>
-            <!-- end hero height -->
-        </section>
-        <!-- =========== End of Hero Solution ============ -->
+        <!-- Hero
+		============================================= -->
+		<section id="slider" class="slider-element include-header dark py-lg-6 min-vh-100" style="background-image: linear-gradient(to bottom, var(--cnvs-themecolor) 85%, #FFF 85%);">
+			<div class="position-absolute start-0 bottom-0 z-auto w-100 h-100 op-01" style="background: url('saas/images/hero-bg.svg') no-repeat top left / contain;"></div>
+			<div class="position-relative mt-lg-5 clear"></div>
+			<div class="container mt-5 position-relative">
+				<img src="img/hero/hero-solution-commercial-no-bg.png" alt="..." class="z-1 position-relative">
+				<img src="img/macbook/ipad-commercial.png" alt="..." class="position-absolute start-0 z-2" style="width: 23%; top: 45%;" data-animate="zoomIn fast">
+				<img src="img/macbook/ipad-commercial-double.png" alt="..." class="position-absolute end-0 z-3" style="width: 40%; bottom: 8%;" data-animate="zoomIn" data-delay="600">
+				<div class="square square-xl bg-secondary-color position-absolute rounded-circle z-auto" style="top: -7%; right: 4%; --cnvs-square-size: 12rem;"></div>
+			</div>
+		</section><!-- #hero end -->
 
-        <!-- =========== Start of HAF Operation, Why, Time, Record, API ============ -->
-        <section class="space--top z-index1" id="hafoperation">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12  mb-4 mb-lg-6 reveal">
-                        <h2 class="mb-2 h3-font font-w--700 text-uppercase">HAF Operation</h2>
-                        <p class="mb-4">HAF Operations provides quick and easy access to top level management, technical, commercial and procurement managers for every activity and requirement of your cruise journey.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12  mb-4 mb-lg-6 reveal">
-                        <h2 class="mb-2 h3-font font-w--700 text-uppercase">Why Voyage Report?</h2>
-                        <p class="mb-4">Voyage Reports are used to manage shipping operations and calculate and maintain financial information during voyages. This feature helps the operations department to get daily reports for specific trips and keep track of the expenses involved. This feature calculates all costs real-time.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12  mb-4 mb-lg-6 reveal">
-                        <h5 class="mb-2 h5-font font-w--700 text-uppercase">TIME EFFICIENCY</h5>
-                        <p class="mb-4">The biggest responsibility of any shipping trip is the operational cover. Voyage report helps in the role of efficient use of time in real-time reporting that is obtained directly from the operating fleet.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12  mb-4 mb-lg-6 reveal">
-                        <h5 class="mb-2 h5-font font-w--700 text-uppercase">RECORD EVERYTHING</h5>
-                        <p class="mb-4">Voyage report records all activities that occur in a journey based on real time reports on electronic notebooks.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 reveal">
-                        <h5 class="mb-2 h5-font font-w--700 text-uppercase">API INTEGRATION</h5>
-                        <p class="mb-4">These supporting features shape operational analysis data from multiple perspectives and sources. HAF Operation provides a path for shipping companies to connect data recorded on each tracking device such as location tracking, fuel control, RPM monitoring and other tracking support tools owned by your ship in shipping operations.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- =========== End of HAF Operation, Why, Time, Record, API ============ -->
+        <!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap py-0 py-lg-3">
 
-        <!-- =========== Start of Ipad Operation ============ -->
-        <section class="space--top z-index1 pb-xl-10" id="optimaltrip">
-            <div class="container">
-                <div class="row justify-content-md-center">
-                    <div class="col-12 col-md-9">
-                        <img src="img/macbook/ipad-ops.png" class="img-responsive w-100" alt="" srcset="">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- =========== End of Ipad Operation ============ -->
+				<div class="container">
+					<div class="row justify-content-center g-5">
+						<div class="col-10 col-md-8 col-lg-3 text-center rotated-text">
+							<p class="fs-5 pt-4 color mb-0 px-3 fw-medium"><i class="me-2 color"></i> HAF OPERATION</p>
+							<img src="saas/images/arrow.svg" alt=".." class="w-25 p-2 d-none d-lg-inline-block">
+						</div>
 
-        <!-- ===== of Footer ============ -->
-        <footer class="footer section--light border--top position-relative hidden">
-            <div class="pt-3 pt-lg-4 pb-6 pb-lg-2 border--bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-sm-3 col-lg-6 mb-4">
-                            <div class="pr-xl-3">
-                                <span class="mb-3">
-                                    <img src="img/logo/logo-footer.png" alt="brand-logo" style="width: 100%; max-height: 70px;">
-                                </span>
-                            </div>
-                        </div>
-                        <!-- end of col -->
-                        <div class="col-12 col-sm-9 col-lg-6">
-                            <p class="font-size--20 mb-1">© 2020 HAF, its subsidiaries and affiliates as ‘Naavee’. <br>All rights reserved.</p>
-                            <p class="font-size--20 mb-1">Jl. H. R. Rasuna Said Kav C11-14, RT.2/RW.5, Karet Kuningan, Jakarta, South Jakarta City, Jakarta 12940</p>
-                            <p class="font-size--20 mb-1">Terms & Conditions | Privacy Policy</p>
-                        </div>
-                        <!-- end of widget col-->
-                    </div>
-                </div>
-                <!-- end of main footer container-->
+						<div class="col-sm-6 col-lg-4">
+							<h2><i class="me-2 color"></i></h2>
+							<p class="lead">HAF Operations provides quick and easy access to top level management, technical, commercial and procurement managers for every activity and requirement of your cruise journey.</p>
+						</div>
+
+						<div class="col-sm-6 col-lg-4"></div>
+
+					</div>
+
+					<div class="clear mt-4"></div>
+
+					<div class="row flex-row-reverse align-items-md-center mt-5">
+						<!-- Image -->
+							<img src="img/macbook/ipad-commercial-double.png" alt="Commercial" class="col-md-6">
+
+						<!-- Content -->
+						<div class="col-md-6 px-lg-5">
+							<p class="mt-3 mb-1 fs-5 text-muted">Operation</p>
+							<h3 class="h2 mb-4 fw-semibold">Voyage Report</h3>
+							<p class="lead fw-normal mb-5">Voyage Reports are used to manage shipping operations and calculate and maintain financial information during voyages. This feature helps the operations department to get daily reports for specific trips and keep track of the expenses involved. This feature calculates all costs real-time.</p>
+
+							<h3 class="h2 mb-4 fw-semibold">Time Efficiency</h3>
+							<p class="lead fw-normal  mb-5">The biggest responsibility of any shipping trip is the operational cover. Voyage report helps in the role of efficient use of time in real-time reporting that is obtained directly from the operating fleet.</p>
+
+							<h3 class="h2 mb-4 fw-semibold">Record Everything</h3>
+							<p class="lead fw-normal  mb-5">Voyage report records all activities that occur in a journey based on real time reports on electronic notebooks.</p>
+						</div>
+					</div>
+
+					<div class="clear mt-lg-6"></div>
+					
+					<div class="row align-items-md-center mt-5">
+						<!-- Image -->
+							<img src="img/macbook/ipad-ops.png" alt="Commercial Double" class="col-md-6">
+
+						<!-- Content -->
+						<div class="col-md-6 px-lg-5">
+							<p class="mt-3 mb-1 fs-5 text-muted"></p>
+							<h3 class="h2 mb-4 fw-semibold">API Integration</h3>
+							<p class="lead fw-normal mb-5">These supporting features shape operational analysis data from multiple perspectives and sources. HAF Operation provides a path for shipping companies to connect data recorded on each tracking device such as location tracking, fuel control, RPM monitoring and other tracking support tools owned by your ship in shipping operations.</p>
+						</div>
+					</div>
+
+					<div class="clear mt-lg-6"></div>
+				</div>
+
             </div>
-        </footer>
-        <!-- =========== End of Footer ============ -->
+		</section><!-- #content end -->
+
+        <!-- Footer
+		============================================= -->
+		<footer id="footer" class="bg-transparent border-0 ">
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap py-3 py-lg-4">
+
+					<div class="row align-items-center">
+
+						<!-- Logo
+						============================================= -->
+						<div class="col-auto">
+							<a href="index.html"><img src="img/logo/logo-footer.png" alt="HAF Logo" height="80"></a>
+						</div><!-- #logo end -->
+
+						<div class="col d-flex justify-content-end order-lg-last">
+							<p class="mb-0">© 2020 HAF, its subsidiaries and affiliates as ‘Naavee’.<br> All rights reserved.</p>
+						</div>
+
+					</div>
+
+					<div class="line mt-3 mt-lg-0 border-width-2 border-color"></div>
+
+					<div class="row">
+
+						<div class="col-md-3">
+
+							<div class="widget widget_links">
+
+								<h4 class="mb-3 fw-bold">Address</h4>
+								<a href="https://maps.app.goo.gl/icSthTx72v6abMrx6" class="text-dark">Jl. H. R. Rasuna Said Kav C11-14, RT.2/RW.5, Karet Kuningan, Jakarta, South Jakarta City, Jakarta 12940</a>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+
+			</div>
+
+		</footer><!-- #footer end -->
     </div>
 
     <!-- JavaScripts
