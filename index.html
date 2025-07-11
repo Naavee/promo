@@ -4,8 +4,12 @@
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta http-equiv="x-ua-compatible" content="IE=edge">
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://*; script-src 'self' https://*; style-src 'self' 'unsafe-inline';">
 	<meta name="author" content="">
 	<!-- Font Imports -->
+
+	<meta http-equiv="Cache-Control" content="public, max-age=31536000">
+	<meta http-equiv="Expires" content="Thu, 31 Dec 2037 23:55:55 GMT">
 
 	<link rel="stylesheet" href="https://use.typekit.net/vgf0rfn.css">
 
@@ -29,6 +33,11 @@
 	============================================= -->
 	<title>HAF</title>
 
+	<style>
+	#slider {
+    	background-image: linear-gradient(to bottom, var(--cnvs-themecolor) 85%, #FFF 85%) !important;
+	}
+	</style>
 </head>
 
 <body class="stretched">
@@ -48,8 +57,8 @@
 						============================================= -->
 						<div id="logo" class="col-lg-2 order-lg-2 mx-lg-auto justify-content-lg-center">
 							<a href="index.html">
-								<img class="logo-default" style="height: 4rem !important;" srcset="img/logo/logo-white.png" src="img/logo/logo-white.png" alt="HAF Logo">
-								<img class="logo-dark" style="height: 4rem !important;" srcset="img/logo/logo-white.png" src="img/logo/logo-white.png" alt="HAF Logo">
+								<img class="logo-default" style="height: 4rem !important;" srcset="img/logo/logo-white.webp" src="img/logo/logo-white.webp" alt="HAF Logo">
+								<img class="logo-dark" style="height: 4rem !important;" srcset="img/logo/logo-white.webp" src="img/logo/logo-white.webp" alt="HAF Logo">
 							</a>
 						</div><!-- #logo end -->
 
@@ -69,7 +78,7 @@
 						<nav class="primary-menu col-lg-5 order-lg-1 on-click">
 
 							<ul class="menu-container">
-								<li class="menu-item menu-item-more"><a class="menu-link" href="#">Our Solutions</a>
+								<li class="menu-item menu-item-more"><a class="menu-link" href="#" aria-label="Our Solutions">Our Solutions</a>
 									<ul class="sub-menu-container" data-class="up-lg:not-dark">
 										<li class="menu-item"><a class="menu-link" href="solution-commercial.html"><div>Commercial</div></a></li>
 										<li class="menu-item"><a class="menu-link" href="solution-operation.html"><div>Operation</div></a></li>
@@ -92,17 +101,17 @@
 
 		<!-- Hero
 		============================================= -->
-		<section id="slider" class="slider-element include-header dark py-lg-6 min-vh-100" style="background-image: linear-gradient(to bottom, var(--cnvs-themecolor) 85%, #FFF 85%);">
-			<div class="position-absolute start-0 bottom-0 z-auto w-100 h-100 op-01" style="background: url('saas/images/hero-bg.svg') no-repeat top left / contain;"></div>
+		<section id="slider" class="slider-element include-header dark py-lg-6 min-vh-100">
+			<div class="position-absolute start-0 bottom-0 z-auto w-100 h-100 op-01" style="background: url('saas/images/hero-bg.webp') no-repeat top left / contain;"></div>
 			<div class="container text-center mw-md z-2 mt-lg-6 pt-2">
 				<h4 class="fw-medium mt-5 mb-3 op-05">HAF comes with a new breakthrough system <br>that can help manage your company's operations.</h4>
 				<h1 class="display-5 lh-base fw-normal text-white mb-5">DIGITAL SOLUTIONS FOR SHIPPING COMPANIES AND LOGISTICS</h1>
 			</div>
 			<div class="position-relative mt-lg-5 clear"></div>
 			<div class="container mt-5 position-relative">
-				<img src="img/hero/hero-solution-commercial-no-bg.png" alt="..." class="z-1 position-relative">
-				<img src="img/macbook/ipad-commercial.png" alt="..." class="position-absolute start-0 z-2" style="width: 23%; top: 45%;" data-animate="zoomIn fast">
-				<img src="img/macbook/ipad-commercial-double.png" alt="..." class="position-absolute end-0 z-3" style="width: 40%; bottom: 8%;" data-animate="zoomIn" data-delay="600">
+				<img src="img/hero/hero-solution-commercial-no-bg.webp" alt="..." class="z-1 position-relative">
+				<img src="img/macbook/ipad-commercial.webp" alt="..." class="position-absolute start-0 z-2" style="width: 23%; top: 45%;" data-animate="zoomIn fast">
+				<img src="img/macbook/ipad-commercial-double.webp" alt="..." class="position-absolute end-0 z-3" style="width: 40%; bottom: 8%;" data-animate="zoomIn" data-delay="600">
 				<div class="square square-xl bg-secondary-color position-absolute rounded-circle z-auto" style="top: -7%; right: 4%; --cnvs-square-size: 12rem;"></div>
 			</div>
 		</section>
@@ -227,16 +236,16 @@
 							<div class="col-md-8">
 								<div class="tab-content" id="canvas-tabs-tabContent">
 									<div class="tab-pane fade show active text-center" id="canvas-tabs-profile" role="tabpanel" aria-labelledby="canvas-tabs-profile-tab">
-										<img src="saas/images/section/4.jpg" alt="Niche">
+										<img loading="lazy" src="saas/images/section/4.webp" alt="Niche">
 									</div>
 									<div class="tab-pane fade text-center" id="canvas-tabs-messages" role="tabpanel" aria-labelledby="canvas-tabs-messages-tab">
-										<img src="img/hero/hero-solution-commercial-no-bg.png" alt="Niche">
+										<img loading="lazy" src="img/hero/hero-solution-commercial-no-bg.webp" alt="Niche">
 									</div>
 									<div class="tab-pane fade text-center" id="canvas-tabs-settings" role="tabpanel" aria-labelledby="canvas-tabs-settings-tab">
-										<img src="saas/images/tabs/1.png" alt="Niche">
+										<img loading="lazy" src="saas/images/tabs/1.webp" alt="Niche">
 									</div>
 									<div class="tab-pane fade text-center" id="canvas-tabs-integration" role="tabpanel" aria-labelledby="canvas-tabs-integration-tab">
-										<img src="img/macbook/macbook-solution-tracking.png" alt="API Integration">
+										<img loading="lazy" src="img/macbook/macbook-solution-tracking.webp" alt="API Integration">
 									</div>
 								</div>
 							</div>
@@ -255,57 +264,57 @@
 									<div class="row justify-content-center">
 										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
 											<div class="card border-0">
-												<img class="card-img-top w-100 h-auto" data-src="holder.js/300x200" alt="300x200" src="img/clients/bsml.png" data-holder-rendered="true" style="width: 300px; height: 200px;">
+												<img class="card-img-top w-100 h-auto" data-src="holder.js/300x200" alt="300x200" loading="lazy" src="img/clients/bsml.webp" data-holder-rendered="true" style="width: 300px; height: 200px;">
 												<div class="card-body">
 													<p class="card-text text-smaller op-07">Bintang Samudera Mandiri Lines</p>
 												</div>
 											</div>
-											<!-- <img alt="" src="img/clients/bsml.png" class="img-thumbnail d-block border-0"> -->
+											<!-- <img alt="" loading="lazy" src="img/clients/bsml.webp" class="img-thumbnail d-block border-0"> -->
 										</div>
 										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
 											<div class="card border-0">
-												<img class="card-img-top w-100 h-auto" data-src="holder.js/300x200" alt="300x200" src="img/clients/ahe-logo.png" data-holder-rendered="true" style="width: 300px; height: 200px;">
+												<img class="card-img-top w-100 h-auto" data-src="holder.js/300x200" alt="300x200" loading="lazy" src="img/clients/ahe-logo.webp" data-holder-rendered="true" style="width: 300px; height: 200px;">
 												<div class="card-body">
 													<p class="card-text text-smaller op-07">Arnawa Hijau Energi</p>
 												</div>
 											</div>
-											<!-- <img alt="" src="img/clients/ahe-logo.png" class="img-thumbnail d-block border-0"> -->
+											<!-- <img alt="" loading="lazy" src="img/clients/ahe-logo.webp" class="img-thumbnail d-block border-0"> -->
 										</div>
 										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
 											<div class="card border-0">
-												<img class="card-img-top h-auto m-auto" data-src="holder.js/150x200" alt="200x200" src="img/clients/pni-logo.png" data-holder-rendered="true" style="width: 150px; height: 200px;">
+												<img class="card-img-top h-auto m-auto" data-src="holder.js/150x200" alt="200x200" loading="lazy" src="img/clients/pni-logo.webp" data-holder-rendered="true" style="width: 150px; height: 200px;">
 												<div class="card-body">
 													<p class="card-text text-smaller op-07">Pelaut Naavee Indonesia</p>
 												</div>
 											</div>
-											<!-- <img alt="" src="img/clients/pni-logo.png" class="img-thumbnail d-block border-0"> -->
+											<!-- <img alt="" loading="lazy" src="img/clients/pni-logo.webp" class="img-thumbnail d-block border-0"> -->
 										</div>
 										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
 											<div class="card border-0">
-												<img class="card-img-top h-auto m-auto" data-src="holder.js/150x200" alt="200x200" src="img/clients/bjb-logo.png?ver=<?php echo time(); ?>" data-holder-rendered="true" style="width: 150px; height: 200px;">
+												<img class="card-img-top h-auto m-auto" data-src="holder.js/150x200" alt="200x200" loading="lazy" src="img/clients/bjb-logo.webp" data-holder-rendered="true" style="width: 150px; height: 200px;">
 												<div class="card-body">
 													<p class="card-text text-smaller op-07">Biru Jaya Bahari</p>
 												</div>
 											</div>
-											<!-- <img alt="" src="img/clients/pni-logo.png" class="img-thumbnail d-block border-0"> -->
+											<!-- <img alt="" loading="lazy" src="img/clients/pni-logo.webp" class="img-thumbnail d-block border-0"> -->
 										</div>
 										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
 											<div class="card border-0">
-												<img class="card-img-top w-100 h-auto m-auto" data-src="holder.js/150x200" alt="200x200" src="img/clients/chs-logo.png" data-holder-rendered="true" style="width: 150px; height: 200px;">
+												<img class="card-img-top w-100 h-auto m-auto" data-src="holder.js/150x200" alt="200x200" loading="lazy" src="img/clients/chs-logo.webp" data-holder-rendered="true" style="width: 150px; height: 200px;">
 												<div class="card-body">
 													<p class="card-text text-smaller op-07">Cakrawala Hijau Samudera</p>
 												</div>
 											</div>
-											<!-- <img alt="" src="img/clients/chs-logo.png" class="img-thumbnail d-block border-0"> -->
+											<!-- <img alt="" loading="lazy" src="img/clients/chs-logo.webp" class="img-thumbnail d-block border-0"> -->
 										</div>
 										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
 											<div class="card border-0">
-												<img class="card-img-top w-60 h-auto m-auto" data-src="holder.js/150x200" alt="200x200" src="img/clients/gandasari.jpg" data-holder-rendered="true" style="width: 150px; height: 200px;">
+												<img class="card-img-top w-60 h-auto m-auto" data-src="holder.js/150x200" alt="200x200" loading="lazy" src="img/clients/gandasari.webp" data-holder-rendered="true" style="width: 150px; height: 200px;">
 												<div class="card-body">
 													<p class="card-text text-smaller op-07">Pelayaran Nasional Gandasari Shipping Line</p>
 												</div>
 											</div>
-											<!-- <img alt="" src="img/clients/gandasari.jpg" class="img-thumbnail w-60 m-auto d-block border-0"> -->
+											<!-- <img alt="" loading="lazy" src="img/clients/gandasari.webp" class="img-thumbnail w-60 m-auto d-block border-0"> -->
 										</div>
 									</div>
 								</div>
@@ -316,16 +325,16 @@
 									<h3 class="pricing-title ls-0 bg-white h1">Partners</h3>
 									<div class="row justify-content-center">
 										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
-											<img alt="100%x180" src="img/partner/1.png" class="img-thumbnail d-block border-0">
+											<img alt="100%x180" src="img/partner/1.webp" class="img-thumbnail d-block border-0">
 										</div>
 										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
-											<img alt="100%x180" src="img/partner/3.png" class="img-thumbnail d-block border-0">
+											<img alt="100%x180" src="img/partner/3.webp" class="img-thumbnail d-block border-0">
 										</div>
 										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
-											<img alt="100%x180" src="img/partner/5.png" class="img-thumbnail d-block border-0">
+											<img alt="100%x180" src="img/partner/5.webp" class="img-thumbnail d-block border-0">
 										</div>
 										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
-											<img alt="100%x180" src="img/partner/7.png" class="img-thumbnail d-block border-0">
+											<img alt="100%x180" src="img/partner/7.webp" class="img-thumbnail d-block border-0">
 										</div>
 									</div>
 								</div>
@@ -336,16 +345,16 @@
 									<h3 class="pricing-title ls-0 bg-white h1">Media Coverage</h3>
 									<div class="row justify-content-center">
 										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
-											<img alt="100%x180" src="img/partner/2.png" class="img-thumbnail d-block border-0">
+											<img alt="100%x180" loading="lazy" src="img/partner/2.webp" class="img-thumbnail d-block border-0">
 										</div>
 										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
-											<img alt="100%x180" src="img/partner/4.png" class="img-thumbnail d-block border-0">
+											<img alt="100%x180" loading="lazy" src="img/partner/4.webp" class="img-thumbnail d-block border-0">
 										</div>
 										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
-											<img alt="100%x180" src="img/partner/6.png" class="img-thumbnail d-block border-0">
+											<img alt="100%x180" loading="lazy" src="img/partner/6.webp" class="img-thumbnail d-block border-0">
 										</div>
 										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
-											<img alt="100%x180" src="img/partner/8.png" class="img-thumbnail d-block border-0">
+											<img alt="100%x180" loading="lazy" src="img/partner/8.webp" class="img-thumbnail d-block border-0">
 										</div>
 									</div>
 								</div>
@@ -425,7 +434,7 @@
 					<div class="col-md-9">
 						<h3 class="mb-2 fs-4">Offer! Start our now without pay anything.</h3>
 						<p class="mb-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni officia velit recusandae deserunt et adipisci nemo.</p>
-						<a href="#" class="btn-link fw-medium">Learn More <i class="bi-arrow-right ms-1"></i></a>
+						<a href="#" class="btn-link fw-medium" aria-label="Learn More">Learn More <i class="bi-arrow-right ms-1"></i></a>
 					</div>
 				</div>
 				<button	n type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
