@@ -29,12 +29,10 @@
 	<link rel="stylesheet" href="https://use.typekit.net/vgf0rfn.css">
 
 	<!-- Core Style -->
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="style.css"></noscript>
 
 	<link rel="canonical" href="https://www.haf.co.id/" />
-
-	<!-- css-font-icons, css-saas -->
-	<link rel="stylesheet" href="css/combined.css">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -210,7 +208,7 @@
 			</div>
 			<div class="position-relative mt-lg-5 clear"></div>
 			<div class="container mt-5 position-relative">
-				<img src="img/hero/hero-solution-commercial-no-bg.webp" alt="..." class="z-1 position-relative">
+				<img src="img/hero/hero-solution-commercial-no-bg.webp" fetchpriority="high" alt="..." class="z-1 position-relative">
 				<img src="img/macbook/ipad-commercial.webp" alt="..." class="position-absolute start-0 z-2" style="width: 23%; top: 45%;" data-animate="zoomIn fast">
 				<img src="img/macbook/ipad-commercial-double.webp" alt="..." class="position-absolute end-0 z-3" style="width: 40%; bottom: 8%;" data-animate="zoomIn" data-delay="600">
 				<div class="square square-xl bg-secondary-color position-absolute rounded-circle z-auto" style="top: -7%; right: 4%; --cnvs-square-size: 12rem;"></div>
@@ -494,7 +492,7 @@
 						<!-- Logo
 						============================================= -->
 						<div class="col-auto">
-							<a href="index.html"><img src="img/logo/logo-footer.png" alt="HAF Logo" height="80"></a>
+							<a href="index.html"><img src="img/logo/logo-footer.png" loading="lazy" alt="HAF Logo" height="80"></a>
 						</div><!-- #logo end -->
 
 						<div class="col d-flex justify-content-end order-lg-last">
