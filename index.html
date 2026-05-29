@@ -1,554 +1,821 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
 <head>
-	<title>HAF - Shipping Software Indonesia</title>
-	<meta name="description" content="HAF is a cloud-based shipping software that offers digital solutions for shipping and logistics companies in Indonesia.">
-	<link rel="canonical" href="https://www.haf.co.id/">
-
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="HAF - Shipping Software Indonesia">
-	<meta property="og:description" content="HAF is a cloud-based shipping software that offers digital solutions for shipping and logistics companies in Indonesia.">
-	<meta property="og:url" content="https://www.haf.co.id/">
-	<meta property="og:site_name" content="HAF">
-	<meta property="og:image" content="https://www.haf.co.id/img/og-image.webp">
-
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="HAF - Shipping Software Indonesia">
-	<meta name="twitter:description" content="HAF is a cloud-based shipping software that offers digital solutions for shipping and logistics companies in Indonesia.">
-	<meta name="twitter:image" content="https://www.haf.co.id/img/og-image.webp">
-
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<meta http-equiv="x-ua-compatible" content="IE=edge">
-	<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://*; script-src 'self' https://*; style-src 'self' 'unsafe-inline';">
-	<meta name="author" content="">
-	<!-- Font Imports -->
-
-	<meta http-equiv="Cache-Control" content="public, max-age=31536000">
-	<meta http-equiv="Expires" content="Thu, 31 Dec 2037 23:55:55 GMT">
-
-	<link rel="stylesheet" href="https://use.typekit.net/vgf0rfn.css">
-
-	<!-- Core Style -->
-	<link rel="stylesheet" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-	<noscript><link rel="stylesheet" href="style.css"></noscript>
-
-	<link rel="canonical" href="https://www.haf.co.id/" />
-
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <!-- favicon CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title id="pageTitle">HAF - ERP Shipping, ERP Tug Boat, Shipping ERP Indonesia</title>
+    <meta name="description" id="metaDescription" content="HAF delivers ERP Shipping and ERP Tug Boat solutions for Indonesia shipping companies, fleets, and vessel management. Integrated commercial, operation, finance, purchasing, and live tracking modules.">
+    <meta name="keywords" content="ERP Shipping, ERP Tug Boat, Shipping ERP, Tug Boat ERP, ERP Kapal Tug Boat, Marine ERP, Fleet ERP, Vessel Management, HAF ERP">
+    <meta name="author" content="HAF - PT Hijau Naavee Ideatama">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://www.haf.co.id/">
+    
+    <!-- Geo-targeting -->
+    <meta name="geo.region" content="ID-JK">
+    <meta name="geo.placename" content="Jakarta">
+    <meta name="language" content="en">
+    
+    <!-- Open Graph -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" id="ogTitle" content="HAF - ERP Shipping, ERP Tug Boat & Shipping ERP Indonesia">
+    <meta property="og:description" id="ogDesc" content="HAF delivers ERP Shipping and ERP Tug Boat solutions for shipping companies, fleets, and vessel management in Indonesia.">
+    <meta property="og:url" content="https://www.haf.co.id/">
+    <meta property="og:site_name" content="HAF">
+    <meta property="og:image" content="https://www.haf.co.id/img/og-image.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" id="twitterTitle" content="HAF - ERP Shipping, ERP Tug Boat & Shipping ERP Indonesia">
+    <meta name="twitter:description" id="twitterDesc" content="HAF offers ERP Shipping and ERP Tug Boat systems for Indonesian maritime fleets, tug boats, and vessel operations.">
+    <meta name="twitter:image" content="https://www.haf.co.id/img/og-image.webp">
+    
+    <!-- Security -->
+    <meta http-equiv="Cache-Control" content="public, max-age=31536000">
+    <meta http-equiv="Expires" content="Thu, 31 Dec 2037 23:55:55 GMT">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" type="image/png" sizes="32x32" href="img/logo/favicon.png">
 
-	<!-- Document Title
-	============================================= -->
-	<style>
-	#slider {
-    	background-image: linear-gradient(to bottom, var(--cnvs-themecolor) 85%, #FFF 85%) !important;
-	}
-	</style>
-	<!-- Organization Schema -->
-	<script type="application/ld+json">
-	{
-	  "@context": "https://schema.org",
-	  "@type": "Organization",
-	  "name": "HAF",
-	  "legalName": "Naavee",
-	  "url": "https://www.haf.co.id",
-	  "logo": "https://www.haf.co.id/img/logo/logo-white.webp",
-	  "contactPoint": {
-	    "@type": "ContactPoint",
-	    "email": "support@haf.co.id",
-	    "contactType": "customer support",
-	    "areaServed": "ID",
-	    "availableLanguage": ["English", "Indonesian"]
-	  },
-	  "address": {
-	    "@type": "PostalAddress",
-	    "streetAddress": "Jl. H. R. Rasuna Said Kav C11-14, RT.2/RW.5, Karet Kuningan",
-	    "addressLocality": "South Jakarta",
-	    "addressRegion": "DKI Jakarta",
-	    "postalCode": "12940",
-	    "addressCountry": "ID"
-	  },
-	  "sameAs": [
-	    "https://www.youtube.com/@HAFIndonesia",
-	    "https://www.linkedin.com/company/pt-hijau-naavee-ideatama/"
-	  ]
-	}
-	</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-	<!-- SoftwareApplication Schema -->
-	<script type="application/ld+json">
-	{
-	  "@context": "https://schema.org",
-	  "@type": "SoftwareApplication",
-	  "name": "HAF - Shipping Software Indonesia",
-	  "url": "https://www.haf.co.id",
-	  "image": "https://www.haf.co.id/img/logo/logo-white.webp",
-	  "applicationCategory": "BusinessApplication",
-	  "operatingSystem": "Web",
-	  "description": "HAF is a cloud-based shipping software in Indonesia, offering digital solutions for shipping companies and logistics. Streamline operations, tracking, and finance in one platform.",
-	  "publisher": {
-	    "@type": "Organization",
-	    "name": "HAF",
-	    "url": "https://www.haf.co.id",
-	    "logo": {
-	      "@type": "ImageObject",
-	      "url": "https://www.haf.co.id/img/logo/logo-white.webp"
-	    }
-	  }
-	}
-	</script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#0A2647',
+                        'primary-light': '#1B3B5C',
+                        secondary: '#10B981',
+                        accent: '#F59E0B',
+                        dark: '#0F172A',
+                    },
+                    animation: {
+                        'fade-up': 'fadeUp 0.7s ease-out',
+                        'fade-in': 'fadeIn 0.5s ease-out',
+                        'float-slow': 'floatSlow 6s ease-in-out infinite',
+                        'float-fast': 'floatFast 4s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        fadeUp: { '0%': { opacity: '0', transform: 'translateY(20px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
+                        fadeIn: { '0%': { opacity: '0' }, '100%': { opacity: '1' } },
+                        floatSlow: { '0%, 100%': { transform: 'translateY(0px)' }, '50%': { transform: 'translateY(-15px)' } },
+                        floatFast: { '0%, 100%': { transform: 'translateY(0px) rotate(0deg)' }, '50%': { transform: 'translateY(-10px) rotate(2deg)' } },
+                    }
+                }
+            }
+        }
+    </script>
 
-	<script type="application/ld+json">
-	{
-	  "@context": "https://schema.org",
-	  "@type": "BreadcrumbList",
-	  "itemListElement": [{
-	    "@type": "ListItem",
-	    "position": 1,
-	    "name": "Home",
-	    "item": "https://www.haf.co.id/"
-	  }]
-	}
-	</script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
 
+        .navbar-transparent {
+            background: rgba(10, 38, 71, 0.85);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+            transition: all 0.3s ease;
+        }
+        
+        .navbar-scrolled {
+            background: rgba(255, 255, 255, 0.96);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+        
+        .navbar-scrolled .nav-link,
+        .navbar-scrolled .nav-link-custom,
+        .navbar-scrolled .nav-text {
+            color: #1f2937 !important;
+        }
+        .navbar-scrolled #menuBtn {
+            color: #1f2937 !important;
+        }
+        
+        .navbar-transparent .nav-link,
+        .navbar-transparent .nav-link-custom,
+        .navbar-transparent .nav-text {
+            color: white !important;
+        }
+        
+        .navbar-transparent .magazine-btn {
+            border-color: rgba(255, 255, 255, 0.4) !important;
+            color: white !important;
+        }
+        
+        .navbar-scrolled .magazine-btn {
+            border-color: rgba(0, 0, 0, 0.2) !important;
+            color: #1f2937 !important;
+        }
+        
+        .navbar-transparent .lang-btn {
+            color: white !important;
+            border-color: rgba(255, 255, 255, 0.3) !important;
+        }
+        
+        .navbar-scrolled .lang-btn {
+            color: #1f2937 !important;
+            border-color: rgba(0, 0, 0, 0.2) !important;
+        }
+        
+        #langToggleMobile {
+            color: #1f2937 !important;
+            border-color: rgba(0, 0, 0, 0.2) !important;
+            background: transparent !important;
+        }
+        
+        .hero-bg {
+            background: linear-gradient(135deg, #0A2647 0%, #124072 100%);
+        }
 
-	<script type="application/ld+json">
-	{
-	  "@context": "https://schema.org",
-	  "@type": "FAQPage",
-	  "mainEntity": [{
-	    "@type": "Question",
-	    "name": "What is HAF?",
-	    "acceptedAnswer": {
-	      "@type": "Answer",
-	      "text": "HAF is a cloud-based shipping software for Indonesian shipping companies and logistics."
-	    }
-	  },{
-	    "@type": "Question",
-	    "name": "Is HAF suitable for logistics businesses?",
-	    "acceptedAnswer": {
-	      "@type": "Answer",
-	      "text": "Yes, HAF supports logistics operations including tracking, financials, and operations."
-	    }
-	  }]
-	}
-	</script>
+        .card-hover {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card-hover:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 35px 60px -15px rgba(0, 0, 0, 0.18);
+        }
+        
+        .hover-scale {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .hover-scale:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 40px -12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .value-tab-active {
+            border-left: 4px solid #10B981;
+            background: linear-gradient(90deg, rgba(16,185,129,0.08) 0%, transparent 100%);
+            border-radius: 12px;
+        }
+        
+        .value-tab-item {
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-left: 4px solid transparent;
+            padding: 16px 20px;
+            border-radius: 12px;
+        }
+        
+        .value-tab-item:hover {
+            background: rgba(16,185,129,0.05);
+            border-left-color: #10B98180;
+        }
+        
+        .fade-transition {
+            transition: opacity 0.4s ease;
+        }
 
+        .client-item, .partner-item {
+            transition: all 0.3s ease;
+        }
+        .client-item:hover, .partner-item:hover {
+            transform: translateY(-5px);
+        }
+        
+        .lang-active {
+            background: #10B981 !important;
+            color: white !important;
+        }
+    </style>
+
+    <!-- Schema.org untuk SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "HAF",
+      "legalName": "PT Hijau Naavee Ideatama",
+      "url": "https://www.haf.co.id",
+      "logo": "https://www.haf.co.id/img/logo/logo-white.webp",
+      "description": "Cloud-based ERP Shipping software for Indonesian shipping companies and logistics.",
+      "email": "support@haf.co.id",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jl. H. R. Rasuna Said Kav C11-14",
+        "addressLocality": "Karet Kuningan, Jakarta Selatan",
+        "addressRegion": "DKI Jakarta",
+        "postalCode": "12940",
+        "addressCountry": "ID"
+      },
+      "sameAs": [
+        "https://www.youtube.com/@HAFIndonesia",
+        "https://www.linkedin.com/company/pt-hijau-naavee-ideatama/"
+      ]
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "HAF Shipping ERP",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web, Cloud, SaaS",
+      "description": "Complete ERP Shipping and ERP Pelayaran software with Commercial, Operation, Finance, Purchasing, Live Tracking, and tug boat fleet management.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "IDR"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "156"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Apa itu ERP Pelayaran HAF?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ERP Pelayaran HAF adalah sistem ERP kapal dan shipping berbasis cloud untuk perusahaan pelayaran Indonesia, termasuk armada tug boat dan vessel pendukung."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Apakah ERP Kapal Tug Boat didukung oleh HAF?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ya. HAF menyediakan modul khusus untuk manajemen armada tug boat dan kapal pendukung, termasuk penjadwalan, bahan bakar, dan pelacakan real-time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bagaimana HAF ERP Shipping membantu operasi pelayaran?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "HAF mengintegrasikan Commercial, Operation, Finance, Purchasing, dan Live Tracking sehingga perusahaan pelayaran dapat memantau kinerja armada dan proses bisnis secara real-time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bisakah HAF ERP digunakan untuk manajemen kapal dan tug boat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bisa. HAF ERP dirancang untuk mendukung semua jenis kapal, termasuk tug boat, dengan fungsi fleet management, compliance, dan pelaporan operasional."
+          }
+        }
+      ]
+    }
+    </script>
 </head>
+<body class="antialiased bg-white">
 
-<body class="stretched">
+    <!-- NAVIGATION -->
+    <nav id="mainNavbar" class="fixed top-0 w-full z-50 transition-all duration-300 navbar-transparent">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="index.html" class="flex items-center gap-3">
+                    <img id="navLogo" src="img/logo/logo-white.webp" alt="HAF Logo" class="h-11 transition-all duration-300">
+                </a>
 
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper">
+                <div class="hidden lg:flex items-center gap-10 text-sm font-medium">
+                    <div class="relative group">
+                        <button class="flex items-center gap-1 transition nav-link-custom nav-text" id="solutionsMenuBtn">Solutions <i class="bi bi-chevron-down text-xs"></i></button>
+                        <div class="absolute top-full left-0 mt-4 w-64 bg-white rounded-3xl shadow-2xl p-3 border border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+                            <a href="solution-commercial.html" class="block px-5 py-4 hover:bg-gray-50 rounded-2xl text-gray-700" id="menuCommercial">Commercial</a>
+                            <a href="solution-operation.html" class="block px-5 py-4 hover:bg-gray-50 rounded-2xl text-gray-700" id="menuOperation">Operation</a>
+                            <a href="solution-purchasing.html" class="block px-5 py-4 hover:bg-gray-50 rounded-2xl text-gray-700" id="menuPurchasing">Purchasing</a>
+                            <a href="solution-fa.html" class="block px-5 py-4 hover:bg-gray-50 rounded-2xl text-gray-700" id="menuFinance">Finance & Accounting</a>
+                            <a href="solution-tracking.html" class="block px-5 py-4 hover:bg-gray-50 rounded-2xl text-gray-700" id="menuTracking">Live Tracking</a>
+                        </div>
+                    </div>
+                    <a href="about.html" class="nav-link nav-text" id="navAbout">About</a>
+                    <a href="contact.html" class="nav-link nav-text" id="navContact">Contact</a>
+                </div>
 
-		<!-- Header
-		============================================= -->
-		<header id="header" class="transparent-header dark no-sticky" data-responsive-class="not-dark">
-			<div id="header-wrap">
-				<div class="container">
-					<div class="header-row justify-content-lg-between">
+                <div class="hidden lg:flex items-center gap-4">
+                    <!-- Language Toggle Button -->
+                    <button id="langToggle" class="lang-btn px-4 py-2 text-sm font-medium border rounded-xl transition flex items-center gap-2">
+                        <i class="bi bi-globe2"></i>
+                        <span id="langText">ID</span>
+                    </button>
+                    <a href="img/magazine/haf-magazine.pdf?v=2025" download class="magazine-btn px-6 py-3 text-sm font-medium border rounded-2xl transition" id="magazineBtn">Magazine</a>
+                    <a href="https://www.youtube.com/watch?v=-3RLJrS4VWU" target="_blank" class="storyboard-btn px-7 py-3 bg-secondary hover:bg-emerald-600 text-white font-semibold rounded-2xl transition shadow-lg" id="storyboardBtn">Story Board</a>
+                </div>
 
-						<!-- Logo
-						============================================= -->
-						<div id="logo" class="col-lg-2 order-lg-2 mx-lg-auto justify-content-lg-center">
-							<a href="index.html">
-								<img class="logo-default" style="height: 4rem !important;" srcset="img/logo/logo-white.webp" src="img/logo/logo-white.webp" alt="HAF Logo">
-								<img class="logo-dark" style="height: 4rem !important;" srcset="img/logo/logo-white.webp" src="img/logo/logo-white.webp" alt="HAF Logo">
-							</a>
-						</div><!-- #logo end -->
+                <button id="menuBtn" class="lg:hidden text-3xl text-white"><i class="bi bi-list"></i></button>
+            </div>
+        </div>
+        <div id="mobileMenu" class="lg:hidden hidden bg-white border-t px-6 py-4 shadow-lg">
+            <div class="flex flex-col space-y-3">
+                <a href="solution-commercial.html" class="py-2 font-medium text-gray-700" id="mobileCommercial">Commercial</a>
+                <a href="solution-operation.html" class="py-2 font-medium text-gray-700" id="mobileOperation">Operation</a>
+                <a href="solution-purchasing.html" class="py-2 font-medium text-gray-700" id="mobilePurchasing">Purchasing</a>
+                <a href="solution-fa.html" class="py-2 font-medium text-gray-700" id="mobileFinance">Finance & Accounting</a>
+                <a href="solution-tracking.html" class="py-2 font-medium text-gray-700" id="mobileTracking">Live Tracking</a>
+                <a href="about.html" class="py-2 font-medium text-gray-700" id="mobileAbout">About</a>
+                <a href="contact.html" class="py-2 font-medium text-gray-700" id="mobileContact">Contact</a>
+                <div class="flex gap-3 pt-2"><a href="#" class="flex-1 text-center py-2 bg-secondary text-white rounded-xl" id="mobileStoryboard">Story Board</a><a href="#" class="flex-1 text-center py-2 border border-primary rounded-xl text-primary" id="mobileMagazine">Magazine</a></div>
+                <button id="langToggleMobile" class="lang-btn w-full px-4 py-2 text-sm font-medium border rounded-xl transition flex items-center justify-center gap-2 mt-3">
+                    <i class="bi bi-globe2"></i>
+                    <span id="langTextMobile">ID</span>
+                </button>
+            </div>
+        </div>
+    </nav>
 
-						<div class="primary-menu-trigger" data-target=".primary-menu">
-							<button class="cnvs-hamburger" type="button" title="Open Mobile Menu">
-								<span class="cnvs-hamburger-box"><span class="cnvs-hamburger-inner"></span></span>
-							</button>
-						</div>
+    <!-- HERO SECTION -->
+    <section class="hero-bg min-h-screen pt-20 pb-16 relative overflow-hidden flex items-center">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_30%_40%,rgba(16,185,129,0.18),transparent_70%)]"></div>
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="space-y-8 pt-10 lg:pt-0">
+                    <div class="mt-2 inline-flex items-center gap-3 bg-white/10 backdrop-blur-md border border-white/30 text-white px-6 py-3 rounded-full text-sm font-medium">
+                        <span class="w-3 h-3 bg-emerald-400 rounded-full animate-pulse"></span>
+                        <span id="heroBadge">NEW GENERATION 2026</span>
+                    </div>
+                    <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-white tracking-tighter">
+                        <span id="heroTitle1">ERP Pelayaran</span> <span class="text-emerald-400" id="heroTitle2">ERP Shipping</span> <span id="heroTitle3">& ERP Kapal Tug Boat</span>
+                    </h1>
+                    <p class="text-white/90 text-lg lg:text-xl max-w-lg" id="heroDesc">Leading ERP solutions for Indonesia shipping companies, tug boat fleets, and vessel management. Integrated modules for Commercial, Operation, Finance, Purchasing, and Live Tracking.</p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#solutions" class="px-8 py-4 bg-emerald-500 hover:bg-emerald-600 text-white font-semibold rounded-2xl flex items-center gap-3 transition text-lg" id="heroBtnExplore">Explore Solutions <i class="bi bi-arrow-right"></i></a>
+                        <a href="contact.html" class="px-8 py-4 border border-white/40 text-white font-semibold rounded-2xl hover:bg-white/10 transition" id="heroBtnContact">Contact Us</a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img src="img/hero/hero-solution-commercial-no-bg.webp" alt="HAF ERP Dashboard" class="rounded-3xl shadow-2xl border border-white/20">
+                    <img src="img/macbook/ipad-commercial.webp" alt="Mobile View" class="absolute -left-8 bottom-12 w-52 rounded-2xl shadow-2xl border border-white/30 rotate-[-8deg] animate-float-slow">
+                    <img src="img/macbook/ipad-commercial-double.webp" alt="Tracking View" class="absolute -right-6 top-20 w-60 rounded-2xl shadow-2xl border border-white/30 rotate-[6deg] animate-float-fast">
+                </div>
+            </div>
+        </div>
+    </section>
 
-						<div class="col-lg-5 d-lg-flex justify-content-end order-lg-last">
-							<div class="header-misc">
-								<a href="https://www.youtube.com/watch?v=-3RLJrS4VWU&ab_channel=HAFIndonesia" target="_blank" class="button text-dark bg-secondary-color h-bg-light rounded mr-2" data-class="down-lg:button-small"><span>Story Board</span></a>
-								<a href="img/magazine/haf-magazine.pdf?v=2025" download="haf-magazine" class="button text-dark bg-secondary-color h-bg-light rounded m-0" data-class="down-lg:button-small"><span>HAF Magazine</span> <i class="bi-arrow-down ms-2 me-0 d-none d-lg-inline"></i></a>
-							</div>
-						</div>
+    <!-- DIGITAL SOLUTIONS SECTION -->
+    <section class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span id="digitalSolutionsBadge" class="text-secondary font-semibold tracking-widest text-sm uppercase">DIGITAL SOLUTIONS</span>
+                <h2 id="digitalSolutionsTitle" class="text-4xl lg:text-5xl font-bold mt-4 text-dark">Digital Solutions for Shipping Companies and Logistics</h2>
+                <p id="digitalSolutionsDesc" class="text-gray-600 mt-4 max-w-3xl mx-auto">HAF delivers modern cloud ERP for shipping companies, tug boat fleets, and maritime logistics. Our platform combines commercial, operational, finance, procurement, and live tracking into one connected solution.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-3xl p-8 shadow-lg hover-scale transition">
+                    <h3 id="digitalSolCard1Title" class="text-2xl font-bold mb-4">Fleet Operations</h3>
+                    <p id="digitalSolCard1Desc" class="text-gray-600">Streamline vessel scheduling, task coordination, and tug boat dispatch with real-time visibility across your fleet.</p>
+                </div>
+                <div class="bg-white rounded-3xl p-8 shadow-lg hover-scale transition">
+                    <h3 id="digitalSolCard2Title" class="text-2xl font-bold mb-4">Finance & Procurement</h3>
+                    <p id="digitalSolCard2Desc" class="text-gray-600">Integrate accounting, purchasing, and expense control to keep maritime costs optimized and compliant.</p>
+                </div>
+                <div class="bg-white rounded-3xl p-8 shadow-lg hover-scale transition">
+                    <h3 id="digitalSolCard3Title" class="text-2xl font-bold mb-4">Live Tracking</h3>
+                    <p id="digitalSolCard3Desc" class="text-gray-600">Monitor vessel position, fuel usage, and ETA in real time to improve operational response and customer service.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-						<nav class="primary-menu col-lg-5 order-lg-1 on-click">
+    <!-- WHO WE ARE -->
+    <div class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="lg:w-1/3 text-center lg:text-left">
+                    <span class="text-secondary font-semibold tracking-wide uppercase text-sm" id="whoWeAreBadge">WHO WE ARE</span>
+                    <h2 class="text-3xl md:text-4xl font-bold mt-3 text-gray-900" id="whoWeAreTitle">Digital Solutions for Shipping Companies and Logistics</h2>
+                </div>
+                <div class="lg:w-2/3">
+                    <p class="text-gray-700 text-lg leading-relaxed" id="whoWeAreDesc">HAF is an advanced system solution designed to maintain and manage your shipping company's operations. To optimize the system user experience, the HAF core module is equipped with features that are suitable for the domestic shipping business sector, easy to use and understanding in the analysis results provided on each dashboard.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-							<ul class="menu-container">
-								<li class="menu-item menu-item-more"><a class="menu-link" href="#" aria-label="Our Solutions">Our Solutions</a>
-									<ul class="sub-menu-container" data-class="up-lg:not-dark">
-										<li class="menu-item"><a class="menu-link" aria-label="Solution Commercial" href="solution-commercial.html"><div>Commercial</div></a></li>
-										<li class="menu-item"><a class="menu-link" aria-label="Solution Operation" href="solution-operation.html"><div>Operation</div></a></li>
-										<li class="menu-item"><a class="menu-link" aria-label="Solution Purchasing" href="solution-purchasing.html"><div>Purchasing</div></a></li>
-										<li class="menu-item"><a class="menu-link" aria-label="Solution FA" href="solution-fa.html"><div>Finance & Accounting</div></a></li>
-										<li class="menu-item"><a class="menu-link" aria-label="Solution Tracking" href="solution-tracking.html"><div>Live Tracking</div></a></li>
-									</ul>
-								</li>
-								<li class="menu-item"><a class="menu-link" aria-label="About" href="about.html"><div>About</div></a></li>
-								<li class="menu-item"><a class="menu-link" aria-label="contact" href="contact.html"><div>Contact</div></a></li>
-							</ul>
+    <!-- SOLUTIONS -->
+    <section id="solutions" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-secondary font-semibold tracking-widest text-sm" id="solutionsBadge">COMPLETE MODULES</span>
+                <h2 class="text-4xl lg:text-5xl font-bold mt-4 text-dark" id="solutionsTitle">One Platform for All Shipping Needs</h2>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-3xl p-8 card-hover"><div class="w-14 h-14 bg-blue-100 rounded-2xl flex items-center justify-center text-3xl mb-6">📊</div><h3 class="text-2xl font-bold mb-3">HAF Commercial</h3><p class="text-gray-600" id="solCommercialDesc">Voyage analysis, pricing, and profitability with AI to achieve profit targets for each vessel trip.</p><a href="solution-commercial.html" class="mt-8 text-secondary font-medium inline-flex items-center gap-2" id="solCommercialLink">Learn More →</a></div>
+                <div class="bg-white rounded-3xl p-8 card-hover"><div class="w-14 h-14 bg-teal-100 rounded-2xl flex items-center justify-center text-3xl mb-6">⚓</div><h3 class="text-2xl font-bold mb-3">HAF Operation</h3><p class="text-gray-600" id="solOperationDesc">Real-time vessel operational management, KPI monitoring, and regular activity reporting.</p><a href="solution-operation.html" class="mt-8 text-secondary font-medium inline-flex items-center gap-2" id="solOperationLink">Learn More →</a></div>
+                <div class="bg-white rounded-3xl p-8 card-hover"><div class="w-14 h-14 bg-amber-100 rounded-2xl flex items-center justify-center text-3xl mb-6">💰</div><h3 class="text-2xl font-bold mb-3">HAF Finance</h3><p class="text-gray-600" id="solFinanceDesc">Integrated finance and accounting with automatic journals for fund receipts and disbursements.</p><a href="solution-fa.html" class="mt-8 text-secondary font-medium inline-flex items-center gap-2" id="solFinanceLink">Learn More →</a></div>
+                <div class="bg-white rounded-3xl p-8 card-hover"><div class="w-14 h-14 bg-purple-100 rounded-2xl flex items-center justify-center text-3xl mb-6">📦</div><h3 class="text-2xl font-bold mb-3">HAF Purchasing</h3><p class="text-gray-600" id="solPurchasingDesc">Fuel, spare parts, vessel inventory management, and other equipment procurement.</p><a href="solution-purchasing.html" class="mt-8 text-secondary font-medium inline-flex items-center gap-2" id="solPurchasingLink">Learn More →</a></div>
+                <div class="bg-white rounded-3xl p-8 card-hover"><div class="w-14 h-14 bg-rose-100 rounded-2xl flex items-center justify-center text-3xl mb-6">📋</div><h3 class="text-2xl font-bold mb-3">HAF Accounting</h3><p class="text-gray-600" id="solAccountingDesc">Double-entry accounting integrated with Automatic Journal for Finance and Purchasing.</p><a href="solution-fa.html" class="mt-8 text-secondary font-medium inline-flex items-center gap-2" id="solAccountingLink">Learn More →</a></div>
+                <div class="bg-white rounded-3xl p-8 card-hover"><div class="w-14 h-14 bg-cyan-100 rounded-2xl flex items-center justify-center text-3xl mb-6">📡</div><h3 class="text-2xl font-bold mb-3">Live Tracking</h3><p class="text-gray-600" id="solTrackingDesc">Monitor vessel positions in real-time via satellite, fuel consumption, and ETA.</p><a href="solution-tracking.html" class="mt-8 text-secondary font-medium inline-flex items-center gap-2" id="solTrackingLink">Learn More →</a></div>
+            </div>
+        </div>
+    </section>
 
-						</nav><!-- #primary-menu end -->
+    <!-- OUR VALUE - INTERAKTIF DENGAN TAB -->
+    <div class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-16 items-start">
+                <div>
+                    <span class="text-secondary font-semibold text-sm uppercase tracking-wider" id="valueBadge">Our Value</span>
+                    <h2 class="text-3xl lg:text-4xl font-bold text-dark mt-3 mb-6" id="valueTitle">We are more than just analytical tools</h2>
+                    <p class="text-gray-500 text-lg mb-8" id="valueSubtitle">Explore our features, and satisfy your customers.</p>
+                    
+                    <div class="space-y-3">
+                        <div data-tab="0" class="value-tab-item value-tab-active" onclick="switchValueTab(0)">
+                            <div class="flex gap-4">
+                                <div class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0 text-xl">☁️</div>
+                                <div><h4 class="font-bold text-dark" id="value1Title">Software As a Service (SAAS)</h4><p class="text-gray-500 text-sm" id="value1Desc">Fully managed by HAF in the cloud, gives you flexibility to adapt to your dynamic business environment.</p></div>
+                            </div>
+                        </div>
+                        <div data-tab="1" class="value-tab-item" onclick="switchValueTab(1)">
+                            <div class="flex gap-4">
+                                <div class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0 text-xl">📊</div>
+                                <div><h4 class="font-bold text-dark" id="value2Title">Powerful Dashboard</h4><p class="text-gray-500 text-sm" id="value2Desc">Easy summary for admins, managers to executives with customizable widgets and real-time reporting.</p></div>
+                            </div>
+                        </div>
+                        <div data-tab="2" class="value-tab-item" onclick="switchValueTab(2)">
+                            <div class="flex gap-4">
+                                <div class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0 text-xl">🔒</div>
+                                <div><h4 class="font-bold text-dark" id="value3Title">Secure and Fast</h4><p class="text-gray-500 text-sm" id="value3Desc">Best security system & guaranteed server uptime of 99.99% with end-to-end encryption.</p></div>
+                            </div>
+                        </div>
+                        <div data-tab="3" class="value-tab-item" onclick="switchValueTab(3)">
+                            <div class="flex gap-4">
+                                <div class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0 text-xl">🔌</div>
+                                <div><h4 class="font-bold text-dark" id="value4Title">API Integration</h4><p class="text-gray-500 text-sm" id="value4Desc">Seamless integration with banking systems, customs clearance, and logistics partners.</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <div class="absolute -inset-4 bg-gradient-to-r from-primary/5 to-secondary/5 rounded-3xl blur-2xl"></div>
+                    <img id="valueTabImage" src="saas/images/section/4.webp" alt="Modern Dashboard" class="relative rounded-2xl shadow-2xl w-full fade-transition" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </div>
 
-					</div>
-				</div>
-			</div>
-			<div class="header-wrap-clone"></div>
-		</header><!-- #header end -->
+    <!-- CLIENTS SECTION -->
+    <div class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-secondary font-semibold tracking-widest text-sm" id="clientsBadge">PARTNERS & CLIENTS</span>
+                <h2 class="text-3xl lg:text-4xl font-bold mt-3 text-dark" id="clientsTitle">Trusted by Leading Companies</h2>
+                <p class="text-gray-500 mt-3 max-w-2xl mx-auto" id="clientsSubtitle">Join dozens of shipping companies that have experienced the benefits of HAF</p>
+            </div>
+            <div class="bg-white rounded-3xl p-10 shadow-lg hover-scale transition max-w-4xl mx-auto">
+                <h3 class="text-2xl font-bold text-primary mb-8 text-center" id="clientsHeading">Our Clients</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="client-item text-center p-4 rounded-2xl hover:bg-gray-50 transition"><img src="img/clients/bsml.webp" alt="BSML" class="h-16 mx-auto object-contain mb-3" loading="lazy"><p class="text-sm text-gray-600 font-medium">Bintang Samudera Mandiri Lines</p></div>
+                    <div class="client-item text-center p-4 rounded-2xl hover:bg-gray-50 transition"><img src="img/clients/ahe-logo.webp" alt="AHE" class="h-16 mx-auto object-contain mb-3" loading="lazy"><p class="text-sm text-gray-600 font-medium">Arnawa Hijau Energi</p></div>
+                    <div class="client-item text-center p-4 rounded-2xl hover:bg-gray-50 transition"><img src="img/clients/pni-logo.webp" alt="PNI" class="h-16 mx-auto object-contain mb-3" loading="lazy"><p class="text-sm text-gray-600 font-medium">Pelaut Naavee Indonesia</p></div>
+                    <div class="client-item text-center p-4 rounded-2xl hover:bg-gray-50 transition"><img src="img/clients/bjb-logo.webp" alt="BJB" class="h-16 mx-auto object-contain mb-3" loading="lazy"><p class="text-sm text-gray-600 font-medium">Biru Jaya Bahari</p></div>
+                    <div class="client-item text-center p-4 rounded-2xl hover:bg-gray-50 transition"><img src="img/clients/chs-logo.webp" alt="CHS" class="h-16 mx-auto object-contain mb-3" loading="lazy"><p class="text-sm text-gray-600 font-medium">Cakrawala Hijau Samudera</p></div>
+                    <div class="client-item text-center p-4 rounded-2xl hover:bg-gray-50 transition"><img src="img/clients/gandasari.webp" alt="Gandasari" class="h-16 mx-auto object-contain mb-3" loading="lazy"><p class="text-sm text-gray-600 font-medium">Pelayaran Nasional Gandasari</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-		<!-- Hero
-		============================================= -->
-		<section id="slider" class="slider-element include-header dark py-lg-6 min-vh-100">
-			<div class="position-absolute start-0 bottom-0 z-auto w-100 h-100 op-01" style="background: url('saas/images/hero-bg.webp') no-repeat top left / contain;"></div>
-			<div class="container text-center mw-md z-2 mt-lg-6 pt-2">
-				<h4 class="fw-medium mt-5 mb-3 op-05">HAF comes with a new breakthrough system <br>that can help manage your company's operations.</h4>
-				<h1 class="display-5 lh-base fw-normal text-white mb-5">DIGITAL SOLUTIONS FOR SHIPPING COMPANIES AND LOGISTICS</h1>
-			</div>
-			<div class="position-relative mt-lg-5 clear"></div>
-			<div class="container mt-5 position-relative">
-				<img src="img/hero/hero-solution-commercial-no-bg.webp" fetchpriority="high" alt="..." class="z-1 position-relative">
-				<img src="img/macbook/ipad-commercial.webp" alt="..." class="position-absolute start-0 z-2" style="width: 23%; top: 45%;" data-animate="zoomIn fast">
-				<img src="img/macbook/ipad-commercial-double.webp" alt="..." class="position-absolute end-0 z-3" style="width: 40%; bottom: 8%;" data-animate="zoomIn" data-delay="600">
-				<div class="square square-xl bg-secondary-color position-absolute rounded-circle z-auto" style="top: -7%; right: 4%; --cnvs-square-size: 12rem;"></div>
-			</div>
-		</section>
+    <!-- PARTNERS SECTION -->
+    <div class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="bg-gradient-to-br from-gray-50 to-white rounded-3xl p-10 shadow-lg hover-scale transition max-w-4xl mx-auto border border-gray-100">
+                <h3 class="text-2xl font-bold text-primary mb-8 text-center" id="partnersHeading">Strategic Partners</h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
+                    <div class="partner-item text-center p-4"><img src="img/partner/1.webp" alt="Partner" class="h-16 mx-auto object-contain grayscale hover:grayscale-0 transition" loading="lazy"></div>
+                    <div class="partner-item text-center p-4"><img src="img/partner/3.webp" alt="Partner" class="h-16 mx-auto object-contain grayscale hover:grayscale-0 transition" loading="lazy"></div>
+                    <div class="partner-item text-center p-4"><img src="img/partner/5.webp" alt="Partner" class="h-16 mx-auto object-contain grayscale hover:grayscale-0 transition" loading="lazy"></div>
+                    <div class="partner-item text-center p-4"><img src="img/partner/7.webp" alt="Partner" class="h-16 mx-auto object-contain grayscale hover:grayscale-0 transition" loading="lazy"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-		<!-- Content
-		============================================= -->
-		<section id="content">
-			<div class="content-wrap py-0 py-lg-3">
+    <!-- MEDIA COVERAGE SECTION -->
+    <div class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="bg-white rounded-3xl p-10 shadow-lg hover-scale transition max-w-4xl mx-auto">
+                <h3 class="text-2xl font-bold text-primary mb-8 text-center" id="mediaHeading">Media Coverage</h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
+                    <div class="partner-item text-center p-4"><img src="img/partner/2.webp" alt="Media" class="h-16 mx-auto object-contain grayscale hover:grayscale-0 transition" loading="lazy"></div>
+                    <div class="partner-item text-center p-4"><img src="img/partner/4.webp" alt="Media" class="h-16 mx-auto object-contain grayscale hover:grayscale-0 transition" loading="lazy"></div>
+                    <div class="partner-item text-center p-4"><img src="img/partner/6.webp" alt="Media" class="h-16 mx-auto object-contain grayscale hover:grayscale-0 transition" loading="lazy"></div>
+                    <div class="partner-item text-center p-4"><img src="img/partner/8.webp" alt="Media" class="h-16 mx-auto object-contain grayscale hover:grayscale-0 transition" loading="lazy"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-				<div class="container">
-					<div class="row justify-content-center g-5">
-						<div class="col-10 col-md-8 col-lg-3 text-center rotated-text">
-							<p class="fs-2 pt-4 color mb-0 px-3 fw-medium">Who we are</p>
-							<img src="saas/images/arrow.svg" alt=".." class="w-25 p-2 d-none d-lg-inline-block">
-						</div>
+    <!-- STATS SECTION -->
+    <div class="py-20 bg-primary text-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div><div class="text-4xl lg:text-5xl font-extrabold">100+</div><p class="text-white/80 mt-2 font-medium" id="stat1">Trusted by Companies</p></div>
+                <div><div class="text-4xl lg:text-5xl font-extrabold">99.99%</div><p class="text-white/80 mt-2 font-medium" id="stat2">Uptime Guaranteed</p></div>
+                <div><div class="text-4xl lg:text-5xl font-extrabold">24/7</div><p class="text-white/80 mt-2 font-medium" id="stat3">Priority Support</p></div>
+                <div><div class="text-4xl lg:text-5xl font-extrabold">ISO</div><p class="text-white/80 mt-2 font-medium" id="stat4">27001 Certified</p></div>
+            </div>
+        </div>
+    </div>
 
-						<div class="col-sm-6 col-lg-5">
-							<p class="lead">HAF is an advanced system solution designed to maintain and manage your shipping company's operations. To optimize the system user experience, the HAF core module is equipped with features that are suitable for the domestic shipping business sector, easy to use and understanding in the analysis results provided on each dashboard.</p>
-						</div>
+    <!-- CTA -->
+    <div class="py-24 bg-white">
+        <div class="max-w-5xl mx-auto text-center px-6">
+            <div class="bg-gradient-to-r from-primary/5 to-secondary/5 rounded-3xl p-12 shadow-xl border border-gray-100">
+                <h2 class="text-3xl lg:text-4xl font-bold text-dark mb-4" id="ctaTitle">Ready to Transform Your Shipping Operations?</h2>
+                <p class="text-gray-500 text-lg mb-8 max-w-2xl mx-auto" id="ctaDesc">Get a free demo and consultation with our expert team to see how we can improve your operational efficiency.</p>
+                <div class="flex flex-wrap gap-4 justify-center">
+                    <a href="contact.html" class="px-8 py-4 bg-primary text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition transform hover:scale-105" id="ctaBtn1">Request Demo →</a>
+                    <a href="contact.html" class="px-8 py-4 border border-primary text-primary font-semibold rounded-xl hover:bg-primary hover:text-white transition" id="ctaBtn2">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-					</div>
+    <!-- FOOTER -->
+    <footer class="bg-dark text-gray-400">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 py-16">
+            <div class="grid md:grid-cols-4 gap-10">
+                <div>
+                    <img src="img/logo/logo-footer.png" alt="HAF" class="h-12 mb-6 brightness-0 invert">
+                    <p class="text-sm leading-relaxed" id="footerDesc">Advanced cloud ERP solution for modern shipping companies in Indonesia. Fully integrated for commercial, operation, finance, and tracking.</p>
+                    <div class="flex gap-4 mt-6">
+                        <a href="https://www.youtube.com/@HAFIndonesia" target="_blank" class="text-gray-400 hover:text-white transition text-xl"><i class="bi bi-youtube"></i></a>
+                        <a href="https://www.linkedin.com/company/pt-hijau-naavee-ideatama/" target="_blank" class="text-gray-400 hover:text-white transition text-xl"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <div><h4 class="text-white font-semibold mb-5" id="footerSolutions">Solutions</h4><ul class="space-y-3 text-sm"><li><a href="solution-commercial.html" class="hover:text-white transition">Commercial</a></li><li><a href="solution-operation.html" class="hover:text-white transition">Operation</a></li><li><a href="solution-purchasing.html" class="hover:text-white transition">Purchasing</a></li><li><a href="solution-fa.html" class="hover:text-white transition">Finance & Accounting</a></li><li><a href="solution-tracking.html" class="hover:text-white transition">Live Tracking</a></li></ul></div>
+                <div><h4 class="text-white font-semibold mb-5" id="footerCompany">Company</h4><ul class="space-y-3 text-sm"><li><a href="about.html" class="hover:text-white transition" id="footerAbout">About Us</a></li><li><a href="contact.html" class="hover:text-white transition" id="footerContact">Contact</a></li><li><a href="privacy-policy.html" class="hover:text-white transition" id="footerPrivacy">Privacy Policy</a></li></ul></div>
+                <div><h4 class="text-white font-semibold mb-5" id="footerOffice">Office</h4><address class="text-sm not-italic leading-relaxed">Jl. H. R. Rasuna Said Kav C11-14,<br>RT.2/RW.5, Karet Kuningan,<br>Jakarta Selatan 12940, Indonesia</address><p class="text-sm mt-3"><i class="bi bi-envelope mr-2"></i> support@haf.co.id</p><p class="text-sm mt-1"><i class="bi bi-phone mr-2"></i> +62 858-1585-5585</p><p class="text-sm mt-1"><i class="bi bi-whatsapp mr-2"></i><a href="https://wa.me/6285815855585" target="_blank" class="hover:text-white transition">Chat WhatsApp</a></p></div>
+            </div>
+            <div class="text-center text-xs mt-16 pt-8 border-t border-gray-800">© 2026 HAF • PT Hijau Naavee Ideatama. All Rights Reserved.</div>
+        </div>
+    </footer>
 
-					<div class="clear mt-4"></div>
+    <script>
+        // Translation data
+        const translations = {
+            en: {
+                solutionsMenu: "Solutions", navAbout: "About", navContact: "Contact",
+                menuCommercial: "Commercial", menuOperation: "Operation", menuPurchasing: "Purchasing",
+                menuFinance: "Finance & Accounting", menuTracking: "Live Tracking",
+                magazineBtn: "Magazine", storyboardBtn: "Story Board",
+                heroBadge: "NEW GENERATION 2026",
+                heroTitle1: "Shipping ERP & Tug Boat",
+                heroTitle2: "Operations",
+                heroTitle3: "for Fleet Shipping",
+                heroDesc: "Leading shipping ERP solutions for Indonesia maritime fleets, tug boats, and vessel management. Integrated modules for Commercial, Operation, Finance, Purchasing, and Live Tracking.",
+                heroBtnExplore: "Explore Solutions", heroBtnContact: "Contact Us",
+                digitalSolutionsBadge: "DIGITAL SOLUTIONS",
+                digitalSolutionsTitle: "Digital Solutions for Shipping Companies and Logistics",
+                digitalSolutionsDesc: "HAF delivers modern cloud ERP for shipping companies, tug boat fleets, and maritime logistics. Our platform combines commercial, operational, finance, procurement, and live tracking into one connected solution.",
+                digitalSolCard1Title: "Fleet Operations",
+                digitalSolCard1Desc: "Streamline vessel scheduling, task coordination, and tug boat dispatch with real-time visibility across your fleet.",
+                digitalSolCard2Title: "Finance & Procurement",
+                digitalSolCard2Desc: "Integrate accounting, purchasing, and expense control to keep maritime costs optimized and compliant.",
+                digitalSolCard3Title: "Live Tracking",
+                digitalSolCard3Desc: "Monitor vessel position, fuel usage, and ETA in real time to improve operational response and customer service.",
+                whoWeAreBadge: "WHO WE ARE",
+                whoWeAreTitle: "Shipping ERP and Tug Boat Management",
+                whoWeAreDesc: "HAF is a cloud ERP built for shipping companies, fleet operators, and tug boat management. Our modules support vessel operations, finance, procurement, and real-time tracking for Indonesian maritime businesses.",
+                solutionsBadge: "COMPLETE MODULES",
+                solutionsTitle: "One Platform for All Shipping Needs",
+                solCommercialDesc: "Voyage analysis, pricing, and profitability with AI to achieve profit targets for each vessel trip.",
+                solOperationDesc: "Real-time vessel operational management, KPI monitoring, and regular activity reporting.",
+                solShippingTitle: "ERP Shipping & Tug Boat",
+                solShippingDesc: "Integrated ERP Shipping and ERP Kapal Tug Boat for fleet operations, vessel management, and real-time tracking.",
+                solShippingLink: "Learn More →",
+                solFinanceDesc: "Integrated finance and accounting with automatic journals for fund receipts and disbursements.",
+                solPurchasingDesc: "Fuel, spare parts, vessel inventory management, and other equipment procurement.",
+                solAccountingDesc: "Double-entry accounting integrated with Automatic Journal for Finance and Purchasing.",
+                solTrackingDesc: "Monitor vessel positions in real-time via satellite, fuel consumption, and ETA.",
+                solCommercialLink: "Learn More →", solOperationLink: "Learn More →", solFinanceLink: "Learn More →",
+                solPurchasingLink: "Learn More →", solAccountingLink: "Learn More →", solTrackingLink: "Learn More →",
+                valueBadge: "Our Value",
+                valueTitle: "We are more than just analytical tools",
+                valueSubtitle: "Explore our features, and satisfy your customers.",
+                value1Title: "Software As a Service (SAAS)", value1Desc: "Fully managed by HAF in the cloud, gives you flexibility to adapt to your dynamic business environment.",
+                value2Title: "Powerful Dashboard", value2Desc: "Easy summary for admins, managers to executives with customizable widgets and real-time reporting.",
+                value3Title: "Secure and Fast", value3Desc: "Best security system & guaranteed server uptime of 99.99% with end-to-end encryption.",
+                value4Title: "API Integration", value4Desc: "Seamless integration with banking systems, customs clearance, and logistics partners.",
+                clientsBadge: "PARTNERS & CLIENTS", clientsTitle: "Trusted by Leading Companies",
+                clientsSubtitle: "Join dozens of shipping companies that have experienced the benefits of HAF",
+                clientsHeading: "Our Clients",
+                partnersHeading: "Strategic Partners",
+                mediaHeading: "Media Coverage",
+                stat1: "Trusted by Companies", stat2: "Uptime Guaranteed", stat3: "Priority Support", stat4: "ISO Certified",
+                ctaTitle: "Ready to Transform Your Shipping Operations?",
+                ctaDesc: "Get a free demo and consultation with our expert team to see how we can improve your operational efficiency.",
+                ctaBtn1: "Request Demo →", ctaBtn2: "Contact Us",
+                footerDesc: "Advanced cloud ERP solution for modern shipping companies in Indonesia. Fully integrated for commercial, operation, finance, and tracking.",
+                footerSolutions: "Solutions", footerCompany: "Company", footerOffice: "Office",
+                footerAbout: "About Us", footerContact: "Contact", footerPrivacy: "Privacy Policy"
+            },
+            id: {
+                solutionsMenu: "Solusi", navAbout: "Tentang", navContact: "Kontak",
+                menuCommercial: "Commercial", menuOperation: "Operasi", menuPurchasing: "Pembelian",
+                menuFinance: "Keuangan & Akuntansi", menuTracking: "Live Tracking",
+                magazineBtn: "Majalah", storyboardBtn: "Story Board",
+                heroBadge: "GENERASI BARU 2026",
+                heroTitle1: "ERP Pelayaran & ERP Kapal",
+                heroTitle2: "Tug Boat",
+                heroTitle3: "& Armada Shipping Indonesia",
+                heroDesc: "Solusi ERP Pelayaran dan ERP Shipping untuk perusahaan pelayaran Indonesia, termasuk manajemen tug boat dan pelacakan real-time.",
+                heroBtnExplore: "Jelajahi Solusi", heroBtnContact: "Hubungi Kami",
+                digitalSolutionsBadge: "SOLUSI DIGITAL",
+                digitalSolutionsTitle: "Solusi Digital untuk Perusahaan Pelayaran dan Logistik",
+                digitalSolutionsDesc: "HAF menyediakan ERP cloud modern untuk perusahaan pelayaran, armada tug boat, dan logistik maritim. Platform kami menggabungkan komersial, operasional, keuangan, pengadaan, dan pelacakan langsung dalam satu solusi terhubung.",
+                digitalSolCard1Title: "Operasional Armada",
+                digitalSolCard1Desc: "Mempercepat penjadwalan kapal, koordinasi tugas, dan dispatch tug boat dengan visibilitas real-time di seluruh armada Anda.",
+                digitalSolCard2Title: "Keuangan & Pengadaan",
+                digitalSolCard2Desc: "Mengintegrasikan akuntansi, pembelian, dan kendali biaya agar biaya maritim tetap optimal dan patuh.",
+                digitalSolCard3Title: "Pelacakan Langsung",
+                digitalSolCard3Desc: "Memantau posisi kapal, penggunaan bahan bakar, dan ETA secara real time untuk meningkatkan respons operasional dan layanan pelanggan.",
+                whoWeAreBadge: "TENTANG KAMI",
+                whoWeAreTitle: "Solusi ERP Pelayaran, ERP Shipping, dan ERP Kapal Tug Boat",
+                whoWeAreDesc: "HAF adalah solusi sistem ERP yang dirancang untuk mengelola operasional perusahaan pelayaran, armada shipping, dan tug boat. Modul inti HAF cocok untuk bisnis pelayaran Indonesia dan menyediakan dashboard analitik yang mudah dipahami.",
+                solutionsBadge: "MODUL LENGKAP",
+                solutionsTitle: "Satu Platform ERP untuk Semua Kebutuhan Pelayaran",
+                solCommercialDesc: "Analisis voyage, pricing, dan profitabilitas dengan AI untuk mencapai target keuntungan setiap perjalanan kapal.",
+                solOperationDesc: "Manajemen operasional kapal real-time, monitoring KPI, dan pelaporan aktivitas secara reguler.",
+                solShippingTitle: "ERP Shipping & Tug Boat",
+                solShippingDesc: "ERP Shipping dan ERP Kapal Tug Boat terintegrasi untuk operasi armada, manajemen kapal, dan pelacakan real-time.",
+                solShippingLink: "Pelajari →",
+                solFinanceDesc: "Keuangan dan akuntansi terintegrasi dengan journal otomatis untuk penerimaan & pengeluaran dana.",
+                solPurchasingDesc: "Pengelolaan bahan bakar, sparepart, inventory kapal, dan pembelian peralatan lainnya.",
+                solAccountingDesc: "Double-entry accounting terintegrasi dengan fitur Automatic Journal untuk Finance dan Purchasing.",
+                solTrackingDesc: "Pantau posisi kapal secara real-time via satelit, konsumsi BBM, dan estimasi kedatangan.",
+                solCommercialLink: "Pelajari →", solOperationLink: "Pelajari →", solFinanceLink: "Pelajari →",
+                solPurchasingLink: "Pelajari →", solAccountingLink: "Pelajari →", solTrackingLink: "Pelajari →",
+                valueBadge: "Nilai Kami",
+                valueTitle: "Kami Lebih dari Sekadar Alat Analitik",
+                valueSubtitle: "Jelajahi fitur kami, dan puaskan pelanggan Anda.",
+                value1Title: "Software As a Service (SAAS)", value1Desc: "Sepenuhnya dikelola oleh HAF di cloud, memberi Anda fleksibilitas untuk beradaptasi dengan lingkungan bisnis yang dinamis.",
+                value2Title: "Dashboard yang Kuat", value2Desc: "Ringkasan mudah untuk admin, manajer hingga eksekutif dengan widget yang dapat disesuaikan dan pelaporan real-time.",
+                value3Title: "Aman dan Cepat", value3Desc: "Sistem keamanan terbaik & jaminan uptime server 99.99% dengan enkripsi end-to-end.",
+                value4Title: "Integrasi API", value4Desc: "Integrasi seamless dengan sistem perbankan, bea cukai, dan mitra logistik.",
+                clientsBadge: "MITRA DAN KLIEN", clientsTitle: "Dipercaya oleh Perusahaan Terkemuka",
+                clientsSubtitle: "Bergabung dengan puluhan perusahaan pelayaran yang telah merasakan manfaat HAF",
+                clientsHeading: "Klien Kami",
+                partnersHeading: "Mitra Strategis",
+                mediaHeading: "Liputan Media",
+                stat1: "Dipercaya Banyak Perusahaan", stat2: "Uptime Terjamin", stat3: "Dukungan Prioritas", stat4: "Bersertifikat ISO",
+                ctaTitle: "Siap Transformasi Digital Perusahaan Anda?",
+                ctaDesc: "Dapatkan demo gratis dan konsultasi langsung dengan tim ahli HAF untuk melihat bagaimana kami dapat meningkatkan efisiensi operasional Anda.",
+                ctaBtn1: "Request Demo →", ctaBtn2: "Hubungi Kami",
+                footerDesc: "Solusi ERP cloud canggih untuk perusahaan pelayaran modern di Indonesia. Terintegrasi penuh untuk komersial, operasi, keuangan, dan tracking.",
+                footerSolutions: "Solusi", footerCompany: "Perusahaan", footerOffice: "Kantor",
+                footerAbout: "Tentang Kami", footerContact: "Kontak", footerPrivacy: "Kebijakan Privasi"
+            }
+        };
+        
+        let currentLang = 'en';
+        
+        function updateLanguage(lang) {
+            const t = translations[lang];
+            if (!t) return;
+            
+            // Update all elements
+            const elements = ['solutionsMenuBtn', 'navAbout', 'navContact', 'menuCommercial', 'menuOperation', 
+                'menuPurchasing', 'menuFinance', 'menuTracking', 'magazineBtn', 'storyboardBtn', 'heroBadge',
+                'heroTitle1', 'heroTitle2', 'heroTitle3', 'heroDesc', 'heroBtnExplore', 'heroBtnContact',
+                'digitalSolutionsBadge', 'digitalSolutionsTitle', 'digitalSolutionsDesc', 'digitalSolCard1Title', 'digitalSolCard1Desc', 'digitalSolCard2Title', 'digitalSolCard2Desc', 'digitalSolCard3Title', 'digitalSolCard3Desc',
+                'whoWeAreBadge', 'whoWeAreTitle', 'whoWeAreDesc', 'solutionsBadge', 'solutionsTitle',
+                'solCommercialDesc', 'solOperationDesc', 'solShippingTitle', 'solShippingDesc', 'solFinanceDesc', 'solPurchasingDesc', 'solAccountingDesc', 'solTrackingDesc',
+                'solCommercialLink', 'solOperationLink', 'solShippingLink', 'solFinanceLink', 'solPurchasingLink', 'solAccountingLink', 'solTrackingLink',
+                'valueBadge', 'valueTitle', 'valueSubtitle', 'value1Title', 'value1Desc', 'value2Title', 'value2Desc',
+                'value3Title', 'value3Desc', 'value4Title', 'value4Desc', 'clientsBadge', 'clientsTitle', 'clientsSubtitle',
+                'clientsHeading', 'partnersHeading', 'mediaHeading', 'stat1', 'stat2', 'stat3', 'stat4',
+                'ctaTitle', 'ctaDesc', 'ctaBtn1', 'ctaBtn2', 'footerDesc', 'footerSolutions', 'footerCompany',
+                'footerOffice', 'footerAbout', 'footerContact', 'footerPrivacy'];
+            
+            elements.forEach(id => {
+                const el = document.getElementById(id);
+                if (el && t[id]) {
+                    if (id.includes('Link') && !id.includes('Desc')) {
+                        el.innerHTML = t[id];
+                    } else {
+                        el.innerText = t[id];
+                    }
+                }
+            });
+            
+            // Update hero button specifically
+            const heroBtnExplore = document.getElementById('heroBtnExplore');
+            if (heroBtnExplore) heroBtnExplore.innerHTML = t.heroBtnExplore + ' <i class="bi bi-arrow-right"></i>';
+            
+            // Update mobile menu
+            const mobileIds = ['mobileCommercial', 'mobileOperation', 'mobilePurchasing', 'mobileFinance', 'mobileTracking', 'mobileAbout', 'mobileContact', 'mobileStoryboard', 'mobileMagazine'];
+            mobileIds.forEach(id => {
+                const el = document.getElementById(id);
+                if (el && t[id.replace('mobile', '').toLowerCase()]) {
+                    let key = id.replace('mobile', '').toLowerCase();
+                    const mapping = {commercial:'menuCommercial', operation:'menuOperation', purchasing:'menuPurchasing', finance:'menuFinance', tracking:'menuTracking', about:'navAbout', contact:'navContact', storyboard:'storyboardBtn', magazine:'magazineBtn'};
+                    if (mapping[key]) el.innerText = t[mapping[key]];
+                }
+            });
+            
+            // Update SEO
+            document.getElementById('pageTitle').innerText = t.heroTitle1 + ' ' + t.heroTitle2 + ' ' + t.heroTitle3 + ' - HAF';
+            document.getElementById('metaDescription').setAttribute('content', t.heroDesc);
+            document.getElementById('ogTitle').setAttribute('content', t.heroTitle1 + ' ' + t.heroTitle2 + ' ' + t.heroTitle3);
+            document.getElementById('ogDesc').setAttribute('content', t.heroDesc);
+            document.getElementById('twitterTitle').setAttribute('content', t.heroTitle1 + ' ' + t.heroTitle2 + ' ' + t.heroTitle3);
+            document.getElementById('twitterDesc').setAttribute('content', t.heroDesc);
+            
+            // Update toggle button text - Desktop & Mobile
+            document.getElementById('langText').innerText = lang === 'en' ? 'ID' : 'EN';
+            const langTextMobileEl = document.getElementById('langTextMobile');
+            if(langTextMobileEl) langTextMobileEl.innerText = lang === 'en' ? 'ID' : 'EN';
+            
+            currentLang = lang;
+            document.documentElement.lang = lang === 'en' ? 'en-US' : 'id-ID';
+        }
+        
+        // Toggle language - Desktop
+        document.getElementById('langToggle').addEventListener('click', () => {
+            const newLang = currentLang === 'en' ? 'id' : 'en';
+            updateLanguage(newLang);
+        });
+        
+        // Toggle language - Mobile
+        const langToggleMobile = document.getElementById('langToggleMobile');
+        if(langToggleMobile) {
+            langToggleMobile.addEventListener('click', () => {
+                const newLang = currentLang === 'en' ? 'id' : 'en';
+                updateLanguage(newLang);
+            });
+        }
+        
+        // Initialize with English (default)
+        updateLanguage('en');
+        
+        // Navbar scroll effect
+        const navbar = document.getElementById('mainNavbar');
+        const navLogo = document.getElementById('navLogo');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.remove('navbar-transparent');
+                navbar.classList.add('navbar-scrolled');
+                if(navLogo) navLogo.src = 'img/logo/logo.png';
+            } else {
+                navbar.classList.remove('navbar-scrolled');
+                navbar.classList.add('navbar-transparent');
+                if(navLogo) navLogo.src = 'img/logo/logo-white.webp';
+            }
+        });
+        
+        navbar.classList.add('navbar-transparent');
 
-					<div class="promo-card position-relative mt-lg-6">
-						<div class="bg-color text-center dark rounded">
-							<h3 class="fs-3 fw-normal text-white">Digital Solutions for Shipping Companies and Logistics</h3>
-							<span class="op-07">— <strong>HAF</strong> —</span>
-						</div>
-						<div class="rounded"></div>
-						<div class="rounded"></div>
-					</div>
-				</div>
-
-				<div class="section bg-transparent my-0 my-lg-5">
-					<div class="container">
-						<div class="row align-items-md-center">
-
-							<!-- Content -->
-							<div class="col-md-4 px-lg-4">
-								<h3 class="h2 mb-4 fw-semibold">HAF Commercial</h3>
-								<p class="lead fw-normal">A module that has an important role in analyzing performance in order to achieve profit targets from each of your ship's trips.</p>
-
-								<a href="solution-commercial.html" class="btn-link fw-medium">Learn More <i class="bi-arrow-right ms-1"></i></a>
-							</div>
-
-							<!-- Content -->
-							<div class="col-md-4 px-lg-4">
-								<h3 class="h2 mb-4 fw-semibold">HAF Operation</h3>
-								<p class="lead fw-normal">A module that helps in reporting activities on a regular basis to improve the KPI (Key Performance Indicator) of each of your ships.</p>
-
-								<a href="solution-operation.html" class="btn-link fw-medium">Learn More <i class="bi-arrow-right ms-1"></i></a>
-							</div>
-
-							<!-- Content -->
-							<div class="col-md-4 px-lg-4">
-								<h3 class="h2 mb-4 fw-semibold">HAF Finance</h3>
-								<p class="lead fw-normal">A module that has a role in the process of receiving and disbursing money at your shipping company.</p>
-
-								<a href="solution-fa.html" class="btn-link fw-medium">Learn More <i class="bi-arrow-right ms-1"></i></a>
-							</div>
-						</div>
-
-						<div class="clear mt-lg-6"></div>
-
-						<div class="row align-items-md-center mt-5">
-							<!-- Content -->
-							<div class="col-md-4 px-lg-4">
-								<h3 class="h2 mb-4 fw-semibold">HAF Purchasing</h3>
-								<p class="lead fw-normal">A module that helps material management for each of your ship's needs. Modules that involve the purchase of supplies, equipment and other necessities.</p>
-
-								<a href="solution-purchasing.html" class="btn-link fw-medium">Learn More <i class="bi-arrow-right ms-1"></i></a>
-							</div>
-
-							<!-- Content -->
-							<div class="col-md-4 px-lg-4">
-								<h3 class="h2 mb-4 fw-semibold">HAF Accounting</h3>
-								<p class="lead fw-normal">Double-entry Accounting which is integrated and features Automatic Journal for Finance and Purchasing.</p>
-
-								<a href="solution-fa.html" class="btn-link fw-medium">Learn More <i class="bi-arrow-right ms-1"></i></a>
-							</div>
-
-							<!-- Content -->
-							<div class="col-md-4 px-lg-4">
-								<h3 class="h2 mb-4 fw-semibold">Live Tracking</h3>
-								<p class="lead fw-normal">Monitor your ships in real time with our Live Tracking which is connected directly to the satellite network.</p>
-
-								<a href="solution-tracking.html" class="btn-link fw-medium">Learn More <i class="bi-arrow-right ms-1"></i></a>
-							</div>
-						</div>
-
-						<div class="clear mt-lg-6"></div>
-					</div>
-				</div>
-
-				<div class="section my-0 my-lg-5">
-					<div class="container">
-						<div class="row align-items-center">
-							<div class="col-md-4">
-								<div class="nav flex-column saas-tab nav-pills" id="canvas-tabs-tab" role="tablist" aria-orientation="vertical">
-									<h2 class="mb-1">Our Value</h2>
-									<p class="mb-5">We are more than just analytical tools. Explore our features, and satisfy your customers.</p>
-
-									<a class="nav-link active" id="canvas-tabs-profile-tab" data-bs-toggle="pill" href="#canvas-tabs-profile" role="tab" aria-controls="canvas-tabs-profile" aria-selected="false">
-										<h3 class="mb-2">Software As a Service(SAAS)</h3>
-										<p>Fully managed by HAF in the cloud, it gives you the flexibility to adapt to your dynamic business environment.</p>
-									</a>
-									<a class="nav-link" id="canvas-tabs-messages-tab" data-bs-toggle="pill" href="#canvas-tabs-messages" role="tab" aria-controls="canvas-tabs-messages" aria-selected="false">
-										<h3 class="mb-2">Powerful Dashboard</h3>
-										<p>The HAF dashboard display makes it easy for users to see a summary according to needs starts from admins, managers to executives.</p>
-									</a>
-									<a class="nav-link" id="canvas-tabs-settings-tab" data-bs-toggle="pill" href="#canvas-tabs-settings" role="tab" aria-controls="canvas-tabs-settings" aria-selected="false">
-										<h3 class="mb-2">Secure and Fast</h3>
-										<p>HAF Implements the best security system & provides guaranteed server uptime of 99.99.</p>
-									</a>
-									<a class="nav-link" id="canvas-tabs-integration-tab" data-bs-toggle="pill" href="#canvas-tabs-integration" role="tab" aria-controls="canvas-tabs-integration" aria-selected="false">
-										<h3 class="mb-2">API Integration</h3>
-										<p>HAF Implements the best security system & provides guaranteed server uptime of 99.99.</p>
-									</a>
-								</div>
-							</div>
-							<div class="col-md-8">
-								<div class="tab-content" id="canvas-tabs-tabContent">
-									<div class="tab-pane fade show active text-center" id="canvas-tabs-profile" role="tabpanel" aria-labelledby="canvas-tabs-profile-tab">
-										<img src="saas/images/section/4.webp" alt="Niche" loading="lazy">
-									</div>
-									<div class="tab-pane fade text-center" id="canvas-tabs-messages" role="tabpanel" aria-labelledby="canvas-tabs-messages-tab">
-										<img src="img/hero/hero-solution-commercial-no-bg.webp" alt="Niche" loading="lazy">
-									</div>
-									<div class="tab-pane fade text-center" id="canvas-tabs-settings" role="tabpanel" aria-labelledby="canvas-tabs-settings-tab">
-										<img src="saas/images/tabs/1.webp" alt="Niche" loading="lazy">
-									</div>
-									<div class="tab-pane fade text-center" id="canvas-tabs-integration" role="tabpanel" aria-labelledby="canvas-tabs-integration-tab">
-										<img src="img/macbook/macbook-solution-tracking.webp" alt="API Integration" loading="lazy">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="section bg-transparent my-0 my-lg-5 pb-0 pb-lg-5">
-					<div class="container ">
-
-						<div class="row pricing block-pricing-10 justify-content-center align-items-stretch">
-
-							<div class="col-lg-9 col-md-6 mb-5 mb-lg-5">
-								<div class="pricing-box d-flex flex-column justify-content-between align-items-center rounded-5 pricing-simple px-5 py-0 border-top text-center bg-white overflow-visible">
-									<h3 class="pricing-title ls-0 bg-white h1">Clients</h3>
-									<div class="row justify-content-center">
-										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
-											<div class="card border-0">
-												<img class="card-img-top w-100 h-auto" data-src="holder.js/300x200" alt="300x200" src="img/clients/bsml.webp" data-holder-rendered="true" style="width: 300px; height: 200px;" loading="lazy">
-												<div class="card-body">
-													<p class="card-text text-smaller op-07">Bintang Samudera Mandiri Lines</p>
-												</div>
-											</div>
-											<!-- <img alt="" src="img/clients/bsml.webp" class="img-thumbnail d-block border-0"> -->
-										</div>
-										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
-											<div class="card border-0">
-												<img class="card-img-top w-100 h-auto" data-src="holder.js/300x200" alt="300x200" src="img/clients/ahe-logo.webp" data-holder-rendered="true" style="width: 300px; height: 200px;" loading="lazy">
-												<div class="card-body">
-													<p class="card-text text-smaller op-07">Arnawa Hijau Energi</p>
-												</div>
-											</div>
-											<!-- <img alt="" src="img/clients/ahe-logo.webp" class="img-thumbnail d-block border-0"> -->
-										</div>
-										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
-											<div class="card border-0">
-												<img class="card-img-top h-auto m-auto" data-src="holder.js/150x200" alt="200x200" src="img/clients/pni-logo.webp" data-holder-rendered="true" style="width: 150px; height: 200px;" loading="lazy">
-												<div class="card-body">
-													<p class="card-text text-smaller op-07">Pelaut Naavee Indonesia</p>
-												</div>
-											</div>
-											<!-- <img alt="" src="img/clients/pni-logo.webp" class="img-thumbnail d-block border-0"> -->
-										</div>
-										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
-											<div class="card border-0">
-												<img class="card-img-top h-auto m-auto" data-src="holder.js/150x200" alt="200x200" src="img/clients/bjb-logo.webp" data-holder-rendered="true" style="width: 150px; height: 200px;" loading="lazy">
-												<div class="card-body">
-													<p class="card-text text-smaller op-07">Biru Jaya Bahari</p>
-												</div>
-											</div>
-											<!-- <img alt="" src="img/clients/pni-logo.webp" class="img-thumbnail d-block border-0"> -->
-										</div>
-										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
-											<div class="card border-0">
-												<img class="card-img-top w-100 h-auto m-auto" data-src="holder.js/150x200" alt="200x200" src="img/clients/chs-logo.webp" data-holder-rendered="true" style="width: 150px; height: 200px;" loading="lazy">
-												<div class="card-body">
-													<p class="card-text text-smaller op-07">Cakrawala Hijau Samudera</p>
-												</div>
-											</div>
-											<!-- <img alt="" src="img/clients/chs-logo.webp" class="img-thumbnail d-block border-0"> -->
-										</div>
-										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
-											<div class="card border-0">
-												<img class="card-img-top w-60 h-auto m-auto" data-src="holder.js/150x200" alt="200x200" src="img/clients/gandasari.webp" data-holder-rendered="true" style="width: 150px; height: 200px;" loading="lazy">
-												<div class="card-body">
-													<p class="card-text text-smaller op-07">Pelayaran Nasional Gandasari Shipping Line</p>
-												</div>
-											</div>
-											<!-- <img alt="" src="img/clients/gandasari.webp" class="img-thumbnail w-60 m-auto d-block border-0"> -->
-										</div>
-									</div>
-								</div>
-							</div>
-							
-							<div class="col-lg-9 col-md-6 mb-5 mb-lg-5">
-								<div class="pricing-box d-flex flex-column justify-content-between align-items-center rounded-5 pricing-simple px-5 py-0 border-top text-center bg-white overflow-visible">
-									<h3 class="pricing-title ls-0 bg-white h1">Partners</h3>
-									<div class="row justify-content-center">
-										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
-											<img alt="100%x180" src="img/partner/1.webp" class="img-thumbnail d-block border-0" loading="lazy">
-										</div>
-										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
-											<img alt="100%x180" src="img/partner/3.webp" class="img-thumbnail d-block border-0" loading="lazy">
-										</div>
-										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
-											<img alt="100%x180" src="img/partner/5.webp" class="img-thumbnail d-block border-0" loading="lazy">
-										</div>
-										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
-											<img alt="100%x180" src="img/partner/7.webp" class="img-thumbnail d-block border-0" loading="lazy">
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-9 col-md-6 mb-5 mb-lg-5">
-								<div class="pricing-box d-flex flex-column justify-content-between align-items-center rounded-5 pricing-simple px-5 py-0 border-top text-center bg-white overflow-visible">
-									<h3 class="pricing-title ls-0 bg-white h1">Media Coverage</h3>
-									<div class="row justify-content-center">
-										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
-											<img alt="100%x180" src="img/partner/2.webp" class="img-thumbnail d-block border-0" loading="lazy">
-										</div>
-										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
-											<img alt="100%x180" src="img/partner/4.webp" class="img-thumbnail d-block border-0" loading="lazy">
-										</div>
-										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
-											<img alt="100%x180" src="img/partner/6.webp" class="img-thumbnail d-block border-0" loading="lazy">
-										</div>
-										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
-											<img alt="100%x180" src="img/partner/8.webp" class="img-thumbnail d-block border-0" loading="lazy">
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- <div class="col-lg-9 col-md-6 mb-5 mb-lg-5">
-								<div class="pricing-box d-flex flex-column justify-content-between align-items-center rounded-5 pricing-simple px-5 py-0 border-top text-center bg-white overflow-visible">
-									<h3 class="pricing-title ls-0 bg-white h1">Corporate Social Responsibility</h3>
-									<div class="row justify-content-center">
-										<div class="col-12 col-sm-3 mb-3 mb-lg-2">
-											<img alt="100%x180" src="img/csr/yayasan-amal-logo.png" class="img-thumbnail d-block border-0" loading="lazy">
-										</div>
-									</div>
-								</div>
-							</div> -->
-
-						</div>
-
-					</div>
-				</div>
-				
-			</div>
-		</section><!-- #content end -->
-
-		<!-- Footer
-		============================================= -->
-		<footer id="footer" class="bg-transparent border-0 ">
-			<div class="container">
-
-				<!-- Footer Widgets
-				============================================= -->
-				<div class="footer-widgets-wrap py-3 py-lg-4">
-
-					<div class="row align-items-center">
-
-						<!-- Logo
-						============================================= -->
-						<div class="col-auto">
-							<a href="index.html"><img src="img/logo/logo-footer.png" loading="lazy" alt="HAF Logo" height="80"></a>
-						</div><!-- #logo end -->
-
-						<div class="col d-flex justify-content-end order-lg-last">
-							<p class="mb-0">© 2025 HAF, its subsidiaries and affiliates as 'Naavee'.</p>
-						</div>
-
-					</div>
-
-					<div class="line mt-3 mt-lg-0 border-width-2 border-color"></div>
-
-					<div class="row">
-						<div class="col-md-3">
-							<div class="widget widget_links">
-								<h4 class="mb-3 fw-bold">Address</h4>
-								<a href="https://maps.app.goo.gl/icSthTx72v6abMrx6" class="text-dark">Jl. H. R. Rasuna Said Kav C11-14, RT.2/RW.5, Karet Kuningan, Jakarta, South Jakarta City, Jakarta 12940</a>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="widget widget_links">
-								<h4 class="mb-3 fw-bold">Links</h4>
-								<a href="privacy-policy.html" aria-label="Privacy Policy" class="text-dark">Privacy Policy</a>
-							</div>
-						</div>
-					</div>
-
-				</div><!-- .footer-widgets-wrap end -->
-
-			</div>
-
-		</footer><!-- #footer end -->
-
-	</div><!-- #wrapper end -->
-
-	<div class="promo-card-fixed d-none">
-		<div class="container mw-md">
-			<div class="alert bg-white alert-dismissible border-0 fade show" role="alert">
-				<div class="row justify-content-end">
-					<div class="col-md-9">
-						<h3 class="mb-2 fs-4">Offer! Start our now without pay anything.</h3>
-						<p class="mb-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni officia velit recusandae deserunt et adipisci nemo.</p>
-						<a href="#" class="btn-link fw-medium" aria-label="Learn More">Learn More <i class="bi-arrow-right ms-1"></i></a>
-					</div>
-				</div>
-				<button	n type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-			</div>
-		</div>
-	</div>
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="uil uil-angle-up"></div>
-
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/plugins.min.js"></script>
-	<script src="js/functions.bundle.js"></script>
-
+        // Interactive Value Tab
+        const tabImages = [
+            "saas/images/section/4.webp",
+            "img/hero/hero-solution-commercial-no-bg.webp", 
+            "saas/images/tabs/1.webp",
+            "img/macbook/macbook-solution-tracking.webp"
+        ];
+        
+        function switchValueTab(index) {
+            const imgElement = document.getElementById('valueTabImage');
+            if(imgElement && tabImages[index]) {
+                imgElement.style.opacity = '0';
+                setTimeout(() => {
+                    imgElement.src = tabImages[index];
+                    imgElement.style.opacity = '1';
+                }, 200);
+            }
+            
+            const tabs = document.querySelectorAll('.value-tab-item');
+            tabs.forEach((tab, i) => {
+                if(i === index) {
+                    tab.classList.add('value-tab-active');
+                } else {
+                    tab.classList.remove('value-tab-active');
+                }
+            });
+        }
+        
+        // Mobile Menu Toggle
+        const menuBtn = document.getElementById('menuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        if(menuBtn) {
+            menuBtn.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+    </script>
 </body>
 </html>

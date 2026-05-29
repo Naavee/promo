@@ -1,244 +1,516 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en-US" dir="ltr">
 <head>
-	<title>Contact | HAF</title>
-	<meta name="description" content="Need help? Contact HAF's support team for assistance or business inquiries.">
-	<link rel="canonical" href="https://www.haf.co.id/contact.html">
-
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="Contact | HAF">
-	<meta property="og:description" content="Need help? Contact HAF's support team for assistance or business inquiries.">
-	<meta property="og:url" content="https://www.haf.co.id/contact.html">
-	<meta property="og:site_name" content="HAF">
-	<meta property="og:image" content="https://www.haf.co.id/img/og-image.webp">
-
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="Contact | HAF">
-	<meta name="twitter:description" content="Need help? Contact HAF's support team for assistance or business inquiries.">
-	<meta name="twitter:image" content="https://www.haf.co.id/img/og-image.webp">
-
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<meta http-equiv="x-ua-compatible" content="IE=edge">
-	<meta name="author" content="">
-	<!-- Font Imports -->
-
-	<link rel="stylesheet" href="https://use.typekit.net/vgf0rfn.css">
-
-	<!-- Core Style -->
-	<link rel="stylesheet" href="style.css">
-
-	<!-- css-font-icons, css-saas -->
-	<link rel="stylesheet" href="css/combined.css">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- favicon CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Contact HAF | Get Support & Inquiries for Shipping ERP Solutions</title>
+    <meta name="description" content="Need help? Contact HAF's support team for assistance or business inquiries. Get in touch for demo requests, sales, and technical support for shipping ERP solutions.">
+    <meta name="keywords" content="Contact HAF, Shipping ERP Support, HAF Customer Service, ERP Demo Request, Maritime Software Support">
+    <meta name="author" content="HAF - PT Hijau Naavee Ideatama">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://www.haf.co.id/contact.html">
+    
+    <!-- Open Graph -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Contact HAF | Support & Inquiries">
+    <meta property="og:description" content="Need help? Contact HAF's support team for assistance or business inquiries.">
+    <meta property="og:url" content="https://www.haf.co.id/contact.html">
+    <meta property="og:site_name" content="HAF">
+    <meta property="og:image" content="https://www.haf.co.id/img/og-image.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Contact HAF | Support & Inquiries">
+    <meta name="twitter:description" content="Need help? Contact HAF's support team for assistance or business inquiries.">
+    <meta name="twitter:image" content="https://www.haf.co.id/img/og-image.webp">
+    
+    <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="img/logo/favicon.png">
 
-	<script type="application/ld+json">
-	{
-	  "@context": "https://schema.org",
-	  "@type": "ContactPage",
-	  "name": "Contact HAF",
-	  "url": "https://www.haf.co.id/contact.html",
-	  "mainEntity": {
-	    "@type": "ContactPoint",
-	    "contactType": "Customer Support",
-	    "email": "support@haf.co.id",
-	    "telephone": "+62-123-4567",
-	    "availableLanguage": ["English", "Indonesian"],
-	    "areaServed": "ID"
-	  }
-	}
-	</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-	<script type="application/ld+json">
-	{
-	  "@context": "https://schema.org",
-	  "@type": "BreadcrumbList",
-	  "itemListElement": [{
-	    "@type": "ListItem",
-	    "position": 1,
-	    "name": "Home",
-	    "item": "https://www.haf.co.id/"
-	  }, {
-	    "@type": "ListItem",
-	    "position": 2,
-	    "name": "Contact",
-	    "item": "https://www.haf.co.id/contact.html"
-	  }]
-	}
-	</script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#0A2647',
+                        'primary-light': '#1B3B5C',
+                        secondary: '#10B981',
+                        accent: '#F59E0B',
+                        dark: '#0F172A',
+                    },
+                    animation: {
+                        'fade-up': 'fadeUp 0.7s ease-out',
+                        'fade-in': 'fadeIn 0.5s ease-out',
+                        'float-slow': 'floatSlow 6s ease-in-out infinite',
+                        'float-fast': 'floatFast 4s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        fadeUp: { '0%': { opacity: '0', transform: 'translateY(20px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
+                        fadeIn: { '0%': { opacity: '0' }, '100%': { opacity: '1' } },
+                        floatSlow: { '0%, 100%': { transform: 'translateY(0px)' }, '50%': { transform: 'translateY(-15px)' } },
+                        floatFast: { '0%, 100%': { transform: 'translateY(0px) rotate(0deg)' }, '50%': { transform: 'translateY(-10px) rotate(2deg)' } },
+                    }
+                }
+            }
+        }
+    </script>
 
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
 
+        .navbar-transparent {
+            background: rgba(10, 38, 71, 0.85);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+            transition: all 0.3s ease;
+        }
+        
+        .navbar-scrolled {
+            background: rgba(255, 255, 255, 0.96);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+        
+        .navbar-scrolled .nav-link,
+        .navbar-scrolled .nav-link-custom,
+        .navbar-scrolled .nav-text {
+            color: #1f2937 !important;
+        }
+        
+        .navbar-scrolled #menuBtn {
+            color: #1f2937 !important;
+        }
+        
+        .navbar-transparent .nav-link,
+        .navbar-transparent .nav-link-custom,
+        .navbar-transparent .nav-text {
+            color: white !important;
+        }
+        
+        .navbar-transparent .magazine-btn {
+            border-color: rgba(255, 255, 255, 0.4) !important;
+            color: white !important;
+        }
+        
+        .navbar-scrolled .magazine-btn {
+            border-color: rgba(0, 0, 0, 0.2) !important;
+            color: #1f2937 !important;
+        }
+        
+        .navbar-transparent .lang-btn {
+            color: white !important;
+            border-color: rgba(255, 255, 255, 0.3) !important;
+        }
+        
+        .navbar-scrolled .lang-btn {
+            color: #1f2937 !important;
+            border-color: rgba(0, 0, 0, 0.2) !important;
+        }
+        
+        #langToggleMobile {
+            color: #1f2937 !important;
+            border-color: rgba(0, 0, 0, 0.2) !important;
+            background: transparent !important;
+        }
+        
+        .hero-bg {
+            background: linear-gradient(135deg, #0A2647 0%, #124072 100%);
+            position: relative;
+        }
+        .hero-bg::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 20% 30%, rgba(16,185,129,0.15) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .card-hover {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 40px -12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        .contact-icon {
+            transition: all 0.3s ease;
+        }
+        .contact-card:hover .contact-icon {
+            transform: scale(1.1);
+        }
+    </style>
+
+    <!-- Schema.org untuk SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contact HAF",
+      "url": "https://www.haf.co.id/contact.html",
+      "mainEntity": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Support",
+        "email": "support@haf.co.id",
+        "availableLanguage": ["English", "Indonesian"],
+        "areaServed": "ID"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.haf.co.id/"
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Contact",
+        "item": "https://www.haf.co.id/contact.html"
+      }]
+    }
+    </script>
 </head>
+<body class="antialiased bg-white">
 
-<body class="stretched">
+    <!-- NAVIGATION -->
+    <nav id="mainNavbar" class="fixed top-0 w-full z-50 transition-all duration-300 navbar-transparent">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="index.html" class="flex items-center gap-3">
+                    <img id="navLogo" src="img/logo/logo-white.webp" alt="HAF Logo" class="h-11 transition-all duration-300">
+                </a>
 
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper">
-
-		<!-- Header
-		============================================= -->
-		<header id="header" class="transparent-header dark no-sticky" data-responsive-class="not-dark">
-			<div id="header-wrap">
-				<div class="container">
-					<div class="header-row justify-content-lg-between">
-
-						<!-- Logo
-						============================================= -->
-						<div id="logo" class="col-lg-2 order-lg-2 mx-lg-auto justify-content-lg-center">
-							<a href="index.html">
-								<img class="logo-default" style="height: 4rem !important;" srcset="img/logo/logo-white.png" src="img/logo/logo-white.png" alt="HAF Logo">
-								<img class="logo-dark" style="height: 4rem !important;" srcset="img/logo/logo-white.png" src="img/logo/logo-white.png" alt="HAF Logo">
-							</a>
-						</div><!-- #logo end -->
-
-						<div class="primary-menu-trigger" data-target=".primary-menu">
-							<button class="cnvs-hamburger" type="button" title="Open Mobile Menu">
-								<span class="cnvs-hamburger-box"><span class="cnvs-hamburger-inner"></span></span>
-							</button>
-						</div>
-
-						<div class="col-lg-5 d-lg-flex justify-content-end order-lg-last">
-							<div class="header-misc">
-								<a href="https://www.youtube.com/watch?v=-3RLJrS4VWU&ab_channel=HAFIndonesia" class="button text-dark bg-secondary-color h-bg-light rounded mr-2" data-class="down-lg:button-small"><span>Story Board</span></a>
-								<a href="img/magazine/haf-magazine.pdf?v=2025" download="haf-magazine" class="button text-dark bg-secondary-color h-bg-light rounded m-0" data-class="down-lg:button-small"><span>HAF Magazine</span> <i class="bi-arrow-down ms-2 me-0 d-none d-lg-inline"></i></a>
-							</div>
-						</div>
-
-						<nav class="primary-menu col-lg-5 order-lg-1 on-click">
-
-							<ul class="menu-container">
-								<li class="menu-item menu-item-more"><a class="menu-link" href="#">Our Solutions</a>
-									<ul class="sub-menu-container" data-class="up-lg:not-dark">
-										<li class="menu-item"><a class="menu-link" href="solution-commercial.html"><div>Commercial</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="solution-operation.html"><div>Operation</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="solution-purchasing.html"><div>Purchasing</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="solution-fa.html"><div>Finance & Accounting</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="solution-tracking.html"><div>Live Tracking</div></a></li>
-									</ul>
-								</li>
-								<li class="menu-item"><a class="menu-link" href="about.html"><div>About</div></a></li>
-								<li class="menu-item current"><a class="menu-link" href="contact.html"><div>Contact</div></a></li>
-							</ul>
-
-						</nav><!-- #primary-menu end -->
-
-					</div>
-				</div>
-			</div>
-			<div class="header-wrap-clone"></div>
-		</header><!-- #header end -->
-
-        <!-- Hero
-		============================================= -->
-		<section id="slider" class="slider-element include-header dark py-lg-6 min-vh-100" style="background-image: linear-gradient(to bottom, var(--cnvs-themecolor) 85%, #FFF 85%);">
-			<div class="position-absolute start-0 bottom-0 z-auto w-100 h-100 op-01" style="background: url('saas/images/hero-bg.svg') no-repeat top left / contain;"></div>
-			<div class="position-relative mt-lg-5 clear"></div>
-			<div class="container mt-5 position-relative">
-				<img src="img/hero/hero-solution-commercial-no-bg.png" alt="..." class="z-1 position-relative">
-				<img src="img/macbook/ipad-commercial.png" alt="..." class="position-absolute start-0 z-2" style="width: 23%; top: 45%;" data-animate="zoomIn fast">
-				<img src="img/macbook/ipad-commercial-double.png" alt="..." class="position-absolute end-0 z-3" style="width: 40%; bottom: 8%;" data-animate="zoomIn" data-delay="600">
-				<div class="square square-xl bg-secondary-color position-absolute rounded-circle z-auto" style="top: -7%; right: 4%; --cnvs-square-size: 12rem;"></div>
-			</div>
-		</section><!-- #hero end -->
-
-        <div class="section bg-transparent my-0 my-lg-5 pt-0 pb-0 pb-lg-6 mb-10">
-            <div class="container ">
-
-                <div class="row pricing block-pricing-10 justify-content-center align-items-stretch">
-
-                    <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
-                        <div class="pricing-box d-flex flex-column justify-content-between align-items-center h-100 rounded-5 pricing-simple px-5 py-0 border border-width-2 border-color text-center bg-white overflow-visible">
-                            <div class="fs-2 pricing-price fw-medium">+62 812 9131 1926</div>
-                            <div class="fs-2 pricing-price fw-medium p-0">support@haf.co.id</div>
-							<div class="row">
-								<div class="col-6">
-									<a href="https://api.whatsapp.com/send?phone=6281291311926" target="_blank" class="btn btn-dark btn-action bg-color btn-lg px-4">Chat</a>
-								</div>
-								<div class="col-6">
-									<a href="mailto:admin@naavee.co.id" class="btn btn-dark btn-action bg-color btn-lg px-4">Email</a>
-								</div>
-							</div>
+                <div class="hidden lg:flex items-center gap-10 text-sm font-medium">
+                    <div class="relative group">
+                        <button class="flex items-center gap-1 transition nav-link-custom nav-text" id="solutionsMenuBtn">Our Solutions <i class="bi bi-chevron-down text-xs"></i></button>
+                        <div class="absolute top-full left-0 mt-4 w-64 bg-white rounded-3xl shadow-2xl p-3 border border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+                            <a href="solution-commercial.html" class="block px-5 py-4 hover:bg-gray-50 rounded-2xl text-gray-700" id="menuCommercial">Commercial</a>
+                            <a href="solution-operation.html" class="block px-5 py-4 hover:bg-gray-50 rounded-2xl text-gray-700" id="menuOperation">Operation</a>
+                            <a href="solution-purchasing.html" class="block px-5 py-4 hover:bg-gray-50 rounded-2xl text-gray-700" id="menuPurchasing">Purchasing</a>
+                            <a href="solution-fa.html" class="block px-5 py-4 hover:bg-gray-50 rounded-2xl text-gray-700" id="menuFinance">Finance & Accounting</a>
+                            <a href="solution-tracking.html" class="block px-5 py-4 hover:bg-gray-50 rounded-2xl text-gray-700" id="menuTracking">Live Tracking</a>
                         </div>
-                        
                     </div>
-
+                    <a href="about.html" class="nav-link nav-text" id="navAbout">About</a>
+                    <a href="contact.html" class="nav-link nav-text" id="navContact">Contact</a>
                 </div>
 
+                <div class="hidden lg:flex items-center gap-4">
+                    <button id="langToggle" class="lang-btn px-4 py-2 text-sm font-medium border rounded-xl transition flex items-center gap-2">
+                        <i class="bi bi-globe2"></i>
+                        <span id="langText">ID</span>
+                    </button>
+                    <a href="img/magazine/haf-magazine.pdf?v=2025" download class="magazine-btn px-6 py-3 text-sm font-medium border rounded-2xl transition" id="magazineBtn">Magazine</a>
+                    <a href="https://www.youtube.com/watch?v=-3RLJrS4VWU" target="_blank" class="storyboard-btn px-7 py-3 bg-secondary hover:bg-emerald-600 text-white font-semibold rounded-2xl transition shadow-lg" id="storyboardBtn">Story Board</a>
+                </div>
+
+                <button id="menuBtn" class="lg:hidden text-3xl text-white"><i class="bi bi-list"></i></button>
             </div>
         </div>
+        <div id="mobileMenu" class="lg:hidden hidden bg-white border-t px-6 py-4 shadow-lg">
+            <div class="flex flex-col space-y-3">
+                <a href="solution-commercial.html" class="py-2 font-medium text-gray-700" id="mobileCommercial">Commercial</a>
+                <a href="solution-operation.html" class="py-2 font-medium text-gray-700" id="mobileOperation">Operation</a>
+                <a href="solution-purchasing.html" class="py-2 font-medium text-gray-700" id="mobilePurchasing">Purchasing</a>
+                <a href="solution-fa.html" class="py-2 font-medium text-gray-700" id="mobileFinance">Finance & Accounting</a>
+                <a href="solution-tracking.html" class="py-2 font-medium text-gray-700" id="mobileTracking">Live Tracking</a>
+                <a href="about.html" class="py-2 font-medium text-gray-700" id="mobileAbout">About</a>
+                <a href="contact.html" class="py-2 font-medium text-gray-700" id="mobileContact">Contact</a>
+                <div class="flex gap-3 pt-2"><a href="#" class="flex-1 text-center py-2 bg-secondary text-white rounded-xl" id="mobileStoryboard">Story Board</a><a href="#" class="flex-1 text-center py-2 border border-primary rounded-xl text-primary" id="mobileMagazine">Magazine</a></div>
+                <button id="langToggleMobile" class="lang-btn w-full px-4 py-2 text-sm font-medium border rounded-xl transition flex items-center justify-center gap-2 mt-3">
+                    <i class="bi bi-globe2"></i>
+                    <span id="langTextMobile">ID</span>
+                </button>
+            </div>
+        </div>
+    </nav>
 
-        <!-- =========== Start of Space ============ -->
-        <section class="space--top z-index1">
-        </section>
-        <!-- =========== End of Space ============ -->
+    <!-- HERO SECTION - CONTACT -->
+    <section class="hero-bg min-h-[60vh] pt-32 pb-20 relative overflow-hidden flex items-center">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto">
+                <div class="inline-flex items-center gap-3 bg-white/10 backdrop-blur-md border border-white/30 text-white px-5 py-2 rounded-full text-sm font-medium mb-6">
+                    <span class="w-2.5 h-2.5 bg-emerald-400 rounded-full animate-pulse"></span>
+                    <span id="heroBadge">GET IN TOUCH</span>
+                </div>
+                <h1 class="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight text-white tracking-tighter mb-6 animate-fade-up">
+                    <span id="heroTitle1">Let's Talk About</span><br>
+                    <span class="gradient-text" id="heroTitle2">Your Shipping ERP Needs</span>
+                </h1>
+                <p class="text-white/85 text-lg max-w-2xl mx-auto animate-fade-up" id="heroDesc">
+                    Have questions about HAF ERP solutions? Our team is ready to help you transform your shipping operations.
+                </p>
+            </div>
+        </div>
+    </section>
 
-        <!-- Footer
-		============================================= -->
-		<footer id="footer" class="bg-transparent border-0 ">
-			<div class="container">
+    <!-- CONTACT INFO SECTION - 2 Card dengan Deskripsi Jelas -->
+    <div class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Phone Card -->
+                <div class="contact-card bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 shadow-xl border border-gray-100 card-hover">
+                    <div class="contact-icon w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mb-6">
+                        <i class="bi bi-telephone text-primary text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-dark mb-3" id="phoneTitle">Phone / WhatsApp</h3>
+                    <p class="text-3xl font-semibold text-primary mb-4" id="phoneNumber">+62 858-1585-5585</p>
+                    <p class="text-gray-500 mb-6 leading-relaxed" id="phoneDesc">
+                        For immediate assistance, demo requests, or sales inquiries, message us on WhatsApp. Our team is ready to help you find the right ERP solution for your shipping business.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="https://wa.me/6285815855585" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-xl transition transform hover:scale-105">
+                            <i class="bi bi-whatsapp"></i> <span id="chatBtn">Chat via WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
 
-				<!-- Footer Widgets
-				============================================= -->
-				<div class="footer-widgets-wrap py-3 py-lg-4">
-
-					<div class="row align-items-center">
-
-						<!-- Logo
-						============================================= -->
-						<div class="col-auto">
-							<a href="index.html"><img src="img/logo/logo-footer.png" alt="HAF Logo" height="80"></a>
-						</div><!-- #logo end -->
-
-						<div class="col d-flex justify-content-end order-lg-last">
-							<p class="mb-0">© 2025 HAF, its subsidiaries and affiliates as 'Naavee'.<br> All rights reserved.</p>
-						</div>
-
-					</div>
-
-					<div class="line mt-3 mt-lg-0 border-width-2 border-color"></div>
-
-					<div class="row">
-
-						<div class="col-md-3">
-
-							<div class="widget widget_links">
-
-								<h4 class="mb-3 fw-bold">Address</h4>
-								<a href="https://maps.app.goo.gl/icSthTx72v6abMrx6" class="text-dark">Jl. H. R. Rasuna Said Kav C11-14, RT.2/RW.5, Karet Kuningan, Jakarta, South Jakarta City, Jakarta 12940</a>
-
-							</div>
-
-						</div>
-
-						<div class="col-md-3">
-							<div class="widget widget_links">
-								<h4 class="mb-3 fw-bold">Links</h4>
-								<a href="privacy-policy.html" class="text-dark">Privacy Policy</a>
-							</div>
-						</div>
-
-					</div>
-
-				</div><!-- .footer-widgets-wrap end -->
-
-			</div>
-
-		</footer><!-- #footer end -->
+                <!-- Email Card -->
+                <div class="contact-card bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 shadow-xl border border-gray-100 card-hover">
+                    <div class="contact-icon w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mb-6">
+                        <i class="bi bi-envelope text-primary text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-dark mb-3" id="emailTitle">Email Us</h3>
+                    <p class="text-xl font-semibold text-primary mb-4">support@haf.co.id</p>
+                    <p class="text-gray-500 mb-6 leading-relaxed" id="emailDesc">
+                        For general inquiries, technical support, partnership opportunities, or detailed questions about our ERP modules, send us an email. We typically respond within 24 hours.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="mailto:support@haf.co.id" class="inline-flex items-center gap-2 px-6 py-3 bg-primary hover:bg-primary-light text-white font-semibold rounded-xl transition transform hover:scale-105">
+                            <i class="bi bi-envelope-paper"></i> <span id="emailBtn">Send Email</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="uil uil-angle-up"></div>
+    <!-- FAQ SECTION -->
+    <div class="py-20 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-secondary font-semibold tracking-widest text-sm uppercase" id="faqBadge">FAQ</span>
+                <h2 class="text-3xl lg:text-4xl font-bold text-dark mt-3" id="faqTitle">Frequently Asked Questions</h2>
+                <p class="text-gray-500 mt-3" id="faqDesc">Quick answers to common questions about HAF</p>
+            </div>
+            <div class="space-y-4">
+                <div class="bg-white rounded-xl p-6 card-hover">
+                    <h3 class="font-bold text-lg mb-2" id="faq1Q">How can I request a demo?</h3>
+                    <p class="text-gray-600" id="faq1A">You can request a demo by messaging our WhatsApp number or sending an email to support@haf.co.id. Our team will schedule a personalized demo for you.</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 card-hover">
+                    <h3 class="font-bold text-lg mb-2" id="faq2Q">What is the response time for support?</h3>
+                    <p class="text-gray-600" id="faq2A">We typically respond to all inquiries within 24 hours during business days. For urgent matters, please contact us via WhatsApp for faster response.</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 card-hover">
+                    <h3 class="font-bold text-lg mb-2" id="faq3Q">Do you offer custom pricing for different fleet sizes?</h3>
+                    <p class="text-gray-600" id="faq3A">Yes, we offer flexible pricing based on your fleet size and specific requirements. Contact our sales team for a customized quote.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/plugins.min.js"></script>
-	<script src="js/functions.bundle.js"></script>
+    <!-- CTA SECTION -->
+    <section class="py-20 bg-primary text-white">
+        <div class="max-w-5xl mx-auto text-center px-6">
+            <h2 class="text-3xl lg:text-4xl font-bold mb-4" id="ctaTitle">Ready to Start Your Digital Transformation?</h2>
+            <p class="text-white/80 text-lg mb-8 max-w-2xl mx-auto" id="ctaDesc">
+                Get in touch with our team today and discover how HAF ERP can revolutionize your shipping operations.
+            </p>
+            <div class="flex flex-wrap gap-4 justify-center">
+                <a href="https://wa.me/6285815855585" target="_blank" rel="noopener noreferrer" class="px-8 py-4 bg-white text-primary font-semibold rounded-xl shadow-lg hover:shadow-xl transition transform hover:scale-105" id="ctaBtn1">Chat on WhatsApp →</a>
+                <a href="mailto:support@haf.co.id" class="px-8 py-4 bg-white/20 backdrop-blur-sm border border-white/30 text-white font-semibold rounded-xl hover:bg-white/30 transition" id="ctaBtn2">Send Email</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-gray-400">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 py-16">
+            <div class="grid md:grid-cols-4 gap-10">
+                <div>
+                    <img src="img/logo/logo-footer.png" alt="HAF" class="h-12 mb-6 brightness-0 invert">
+                    <p class="text-sm leading-relaxed" id="footerDesc">Advanced cloud ERP solution for modern shipping companies in Indonesia. Fully integrated for commercial, operation, finance, and tracking.</p>
+                    <div class="flex gap-4 mt-6">
+                        <a href="https://www.youtube.com/@HAFIndonesia" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition text-xl"><i class="bi bi-youtube"></i></a>
+                        <a href="https://www.linkedin.com/company/pt-hijau-naavee-ideatama/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition text-xl"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <div><h4 class="text-white font-semibold mb-5" id="footerSolutions">Solutions</h4><ul class="space-y-3 text-sm"><li><a href="solution-commercial.html" class="hover:text-white transition">Commercial</a></li><li><a href="solution-operation.html" class="hover:text-white transition">Operation</a></li><li><a href="solution-purchasing.html" class="hover:text-white transition">Purchasing</a></li><li><a href="solution-fa.html" class="hover:text-white transition">Finance & Accounting</a></li><li><a href="solution-tracking.html" class="hover:text-white transition">Live Tracking</a></li></ul></div>
+                <div><h4 class="text-white font-semibold mb-5" id="footerCompany">Company</h4><ul class="space-y-3 text-sm"><li><a href="about.html" class="hover:text-white transition" id="footerAbout">About Us</a></li><li><a href="contact.html" class="hover:text-white transition" id="footerContact">Contact</a></li><li><a href="privacy-policy.html" class="hover:text-white transition" id="footerPrivacy">Privacy Policy</a></li></ul></div>
+                <div><h4 class="text-white font-semibold mb-5" id="footerOffice">Office</h4><address class="text-sm not-italic leading-relaxed">Jl. H. R. Rasuna Said Kav C11-14,<br>RT.2/RW.5, Karet Kuningan,<br>Jakarta Selatan 12940, Indonesia</address><p class="text-sm mt-3"><i class="bi bi-envelope mr-2"></i> support@haf.co.id</p><p class="text-sm mt-1"><i class="bi bi-whatsapp mr-2"></i><a href="https://wa.me/6285815855585" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">Chat WhatsApp</a></p></div>
+            </div>
+            <div class="text-center text-xs mt-16 pt-8 border-t border-gray-800">@ 2026 HAF, its subsidiaries and affiliates as 'Naavee'. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <script>
+        // Translation data
+        const translations = {
+            en: {
+                solutionsMenu: "Our Solutions", navAbout: "About", navContact: "Contact",
+                menuCommercial: "Commercial", menuOperation: "Operation", menuPurchasing: "Purchasing",
+                menuFinance: "Finance & Accounting", menuTracking: "Live Tracking",
+                magazineBtn: "Magazine", storyboardBtn: "Story Board",
+                heroBadge: "GET IN TOUCH",
+                heroTitle1: "Let's Talk About", heroTitle2: "Your Shipping ERP Needs",
+                heroDesc: "Have questions about HAF ERP solutions? Our team is ready to help you transform your shipping operations.",
+                phoneTitle: "Phone / WhatsApp",
+                phoneNumber: "+62 858-1585-5585",
+                phoneDesc: "For immediate assistance, demo requests, or sales inquiries, message us on WhatsApp. Our team is ready to help you find the right ERP solution for your shipping business.",
+                chatBtn: "Chat via WhatsApp",
+                emailTitle: "Email Us",
+                emailDesc: "For general inquiries, technical support, partnership opportunities, or detailed questions about our ERP modules, send us an email. We typically respond within 24 hours.",
+                emailBtn: "Send Email",
+                faqBadge: "FAQ",
+                faqTitle: "Frequently Asked Questions",
+                faqDesc: "Quick answers to common questions about HAF",
+                faq1Q: "How can I request a demo?",
+                faq1A: "You can request a demo by messaging our WhatsApp number or sending an email to support@haf.co.id. Our team will schedule a personalized demo for you.",
+                faq2Q: "What is the response time for support?",
+                faq2A: "We typically respond to all inquiries within 24 hours during business days. For urgent matters, please contact us via WhatsApp for faster response.",
+                faq3Q: "Do you offer custom pricing for different fleet sizes?",
+                faq3A: "Yes, we offer flexible pricing based on your fleet size and specific requirements. Contact our sales team for a customized quote.",
+                ctaTitle: "Ready to Start Your Digital Transformation?",
+                ctaDesc: "Get in touch with our team today and discover how HAF ERP can revolutionize your shipping operations.",
+                ctaBtn1: "Chat on WhatsApp →", ctaBtn2: "Send Email",
+                footerDesc: "Advanced cloud ERP solution for modern shipping companies in Indonesia. Fully integrated for commercial, operation, finance, and tracking.",
+                footerSolutions: "Solutions", footerCompany: "Company", footerOffice: "Office",
+                footerAbout: "About Us", footerContact: "Contact", footerPrivacy: "Privacy Policy"
+            },
+            id: {
+                solutionsMenu: "Solusi", navAbout: "Tentang", navContact: "Kontak",
+                menuCommercial: "Commercial", menuOperation: "Operasi", menuPurchasing: "Pembelian",
+                menuFinance: "Keuangan & Akuntansi", menuTracking: "Live Tracking",
+                magazineBtn: "Majalah", storyboardBtn: "Story Board",
+                heroBadge: "HUBUNGI KAMI",
+                heroTitle1: "Mari Bicarakan", heroTitle2: "Kebutuhan ERP Pelayaran Anda",
+                heroDesc: "Ada pertanyaan tentang solusi ERP HAF? Tim kami siap membantu Anda mentransformasi operasi pelayaran.",
+                phoneTitle: "Telepon / WhatsApp",
+                phoneNumber: "+62 858-1585-5585",
+                phoneDesc: "Untuk bantuan segera, permintaan demo, atau pertanyaan penjualan, kirim pesan melalui WhatsApp. Tim kami siap membantu Anda menemukan solusi ERP yang tepat untuk bisnis pelayaran Anda.",
+                chatBtn: "Chat via WhatsApp",
+                emailTitle: "Email Kami",
+                emailDesc: "Untuk pertanyaan umum, dukungan teknis, peluang kemitraan, atau pertanyaan detail tentang modul ERP kami, kirimkan email. Kami biasanya merespons dalam waktu 24 jam.",
+                emailBtn: "Kirim Email",
+                faqBadge: "FAQ",
+                faqTitle: "Pertanyaan yang Sering Diajukan",
+                faqDesc: "Jawaban cepat untuk pertanyaan umum tentang HAF",
+                faq1Q: "Bagaimana cara meminta demo?",
+                faq1A: "Anda dapat meminta demo dengan mengirim pesan ke nomor WhatsApp kami atau mengirim email ke support@haf.co.id. Tim kami akan menjadwalkan demo yang dipersonalisasi untuk Anda.",
+                faq2Q: "Berapa waktu respons untuk dukungan?",
+                faq2A: "Kami biasanya merespons semua pertanyaan dalam waktu 24 jam selama hari kerja. Untuk masalah mendesak, silakan hubungi kami melalui WhatsApp untuk respons yang lebih cepat.",
+                faq3Q: "Apakah Anda menawarkan harga khusus untuk ukuran armada yang berbeda?",
+                faq3A: "Ya, kami menawarkan harga fleksibel berdasarkan ukuran armada dan kebutuhan spesifik Anda. Hubungi tim penjualan kami untuk penawaran harga yang disesuaikan.",
+                ctaTitle: "Siap Memulai Transformasi Digital Anda?",
+                ctaDesc: "Hubungi tim kami hari ini dan temukan bagaimana HAF ERP dapat merevolusi operasi pelayaran Anda.",
+                ctaBtn1: "Chat via WhatsApp →", ctaBtn2: "Kirim Email",
+                footerDesc: "Solusi ERP cloud canggih untuk perusahaan pelayaran modern di Indonesia. Terintegrasi penuh untuk komersial, operasi, keuangan, dan tracking.",
+                footerSolutions: "Solusi", footerCompany: "Perusahaan", footerOffice: "Kantor",
+                footerAbout: "Tentang Kami", footerContact: "Kontak", footerPrivacy: "Kebijakan Privasi"
+            }
+        };
+        
+        let currentLang = 'en';
+        
+        function updateLanguage(lang) {
+            const t = translations[lang];
+            if (!t) return;
+            
+            const elements = ['solutionsMenuBtn', 'navAbout', 'navContact', 'menuCommercial', 'menuOperation', 
+                'menuPurchasing', 'menuFinance', 'menuTracking', 'magazineBtn', 'storyboardBtn', 'heroBadge',
+                'heroTitle1', 'heroTitle2', 'heroDesc', 'phoneTitle', 'phoneNumber', 'phoneDesc', 'chatBtn',
+                'emailTitle', 'emailDesc', 'emailBtn', 'faqBadge', 'faqTitle', 'faqDesc', 
+                'faq1Q', 'faq1A', 'faq2Q', 'faq2A', 'faq3Q', 'faq3A', 'ctaTitle', 'ctaDesc', 'ctaBtn1', 'ctaBtn2',
+                'footerDesc', 'footerSolutions', 'footerCompany', 'footerOffice', 'footerAbout', 'footerContact', 'footerPrivacy'];
+            
+            elements.forEach(id => {
+                const el = document.getElementById(id);
+                if (el && t[id]) {
+                    if (id.includes('Btn') && t[id].includes('→')) {
+                        el.innerHTML = t[id];
+                    } else {
+                        el.innerText = t[id];
+                    }
+                }
+            });
+            
+            // Update mobile menu
+            const mobileIds = ['mobileCommercial', 'mobileOperation', 'mobilePurchasing', 'mobileFinance', 'mobileTracking', 'mobileAbout', 'mobileContact', 'mobileStoryboard', 'mobileMagazine'];
+            mobileIds.forEach(id => {
+                const el = document.getElementById(id);
+                if (el) {
+                    const key = id.replace('mobile', '').toLowerCase();
+                    const mapping = {commercial:'menuCommercial', operation:'menuOperation', purchasing:'menuPurchasing', finance:'menuFinance', tracking:'menuTracking', about:'navAbout', contact:'navContact', storyboard:'storyboardBtn', magazine:'magazineBtn'};
+                    if (mapping[key]) el.innerText = t[mapping[key]];
+                }
+            });
+            
+            document.getElementById('langText').innerText = lang === 'en' ? 'ID' : 'EN';
+            currentLang = lang;
+            document.documentElement.lang = lang === 'en' ? 'en-US' : 'id-ID';
+        }
+        
+        document.getElementById('langToggle').addEventListener('click', () => {
+            updateLanguage(currentLang === 'en' ? 'id' : 'en');
+        });
+        
+        updateLanguage('en');
+        
+        // Navbar scroll effect
+        const navbar = document.getElementById('mainNavbar');
+        const navLogo = document.getElementById('navLogo');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.remove('navbar-transparent');
+                navbar.classList.add('navbar-scrolled');
+                if(navLogo) navLogo.src = 'img/logo/logo.png';
+            } else {
+                navbar.classList.remove('navbar-scrolled');
+                navbar.classList.add('navbar-transparent');
+                if(navLogo) navLogo.src = 'img/logo/logo-white.webp';
+            }
+        });
+        
+        navbar.classList.add('navbar-transparent');
+        
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('menuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        if(menuBtn) {
+            menuBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+        }
+    </script>
 </body>
 </html>
