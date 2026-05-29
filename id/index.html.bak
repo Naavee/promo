@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id" dir="ltr">
+<head>
+	<title>ERP Pelayaran Indonesia | Software Kapal & Tug Boat - HAF</title>
+	<meta name="description" content="HAF menyediakan ERP Pelayaran dan software kapal untuk perusahaan shipping, tug boat, fleet monitoring, operasional kapal, purchasing, dan accounting.">
+	<meta name="keywords" content="ERP Pelayaran, software kapal, software tug boat, sistem manajemen kapal, fleet monitoring kapal, ERP shipping Indonesia, shipping ERP Indonesia">
+	<link rel="canonical" href="https://www.haf.co.id/id/index.html">
+	<link rel="alternate" hreflang="id" href="https://www.haf.co.id/id/index.html">
+	<link rel="alternate" hreflang="en" href="https://www.haf.co.id/">
+	<link rel="alternate" hreflang="x-default" href="https://www.haf.co.id/">
+	<meta name="robots" content="index, follow">
+
+	<meta property="og:locale" content="id_ID">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="ERP Pelayaran Indonesia | Software Kapal & Tug Boat - HAF">
+	<meta property="og:description" content="HAF menyediakan ERP Pelayaran dan software kapal untuk perusahaan shipping, tug boat, fleet monitoring, operasional kapal, purchasing, dan accounting.">
+	<meta property="og:url" content="https://www.haf.co.id/id/index.html">
+	<meta property="og:site_name" content="HAF">
+	<meta property="og:image" content="https://www.haf.co.id/img/og-image.webp">
+	<meta property="og:image:alt" content="ERP Pelayaran Indonesia HAF">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="ERP Pelayaran Indonesia | Software Kapal & Tug Boat - HAF">
+	<meta name="twitter:description" content="HAF menyediakan ERP Pelayaran dan software kapal untuk perusahaan shipping, tug boat, fleet monitoring, operasional kapal, purchasing, dan accounting.">
+	<meta name="twitter:image" content="https://www.haf.co.id/img/og-image.webp">
+	<meta name="twitter:image:alt" content="ERP Pelayaran Indonesia HAF">
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="x-ua-compatible" content="IE=edge">
+	<meta name="author" content="HAF">
+
+	<link rel="stylesheet" href="/style.css">
+	<link rel="stylesheet" href="/css/combined.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/logo/favicon.png">
+
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "WebPage",
+	  "name": "ERP Pelayaran Indonesia | HAF",
+	  "url": "https://www.haf.co.id/id/index.html",
+	  "description": "HAF menyediakan ERP Pelayaran dan software kapal untuk perusahaan shipping, tug boat, fleet monitoring, operasional kapal, purchasing, dan accounting.",
+	  "inLanguage": "id"
+	}
+	</script>
+
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "FAQPage",
+	  "mainEntity": [
+	    {
+	      "@type": "Question",
+	      "name": "Apa itu ERP Pelayaran dari HAF?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "ERP Pelayaran HAF adalah platform manajemen kapal dan armada yang mengintegrasikan operasional, keuangan, purchasing, dan monitoring real-time untuk perusahaan shipping di Indonesia."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "Apakah HAF mendukung software tug boat?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "Ya. HAF menyediakan modul software tug boat untuk manajemen armada bantu dan operasi kapal bantuan dalam satu platform ERP."
+	      }
+	    }
+	  ]
+	}
+	</script>
+</head>
+<body class="stretched">
+	...old content...
+</body>
+</html>
