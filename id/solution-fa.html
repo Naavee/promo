@@ -82,6 +82,58 @@
 	}
 	</script>
 
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "FAQPage",
+	  "mainEntity": [{
+	    "@type": "Question",
+	    "name": "Apa itu HAF Finance?",
+	    "acceptedAnswer": { "@type": "Answer", "text": "Modul untuk mengelola transaksi finansial operasional perusahaan, mulai dari kontrak charter, invoice, sampai jurnal otomatis ke Accounting." }
+	  }, {
+	    "@type": "Question",
+	    "name": "Apakah mendukung invoice multi-tipe?",
+	    "acceptedAnswer": { "@type": "Answer", "text": "Iya. Invoice untuk shipment, time charter, dan non-shipment tersedia dalam satu modul." }
+	  }, {
+	    "@type": "Question",
+	    "name": "Apakah otomatis terhubung dengan Accounting?",
+	    "acceptedAnswer": { "@type": "Answer", "text": "Iya. Setiap transaksi finance yang disetujui akan menghasilkan jurnal otomatis di Accounting." }
+	  }, {
+	    "@type": "Question",
+	    "name": "Apakah mendukung credit note dan demurrage?",
+	    "acceptedAnswer": { "@type": "Answer", "text": "Iya. Credit note dan demurrage dapat diterbitkan langsung dari modul Finance." }
+	  }, {
+	    "@type": "Question",
+	    "name": "Cocok untuk perusahaan shipping berbasis charter?",
+	    "acceptedAnswer": { "@type": "Answer", "text": "Sangat cocok. SPAL, time charter invoicing, dan agency invoice sudah didukung sejak awal." }
+	  }, {
+	    "@type": "Question",
+	    "name": "Apa itu HAF Accounting?",
+	    "acceptedAnswer": { "@type": "Answer", "text": "Modul akuntansi terintegrasi yang menerima jurnal otomatis dari modul lain dan menyediakan laporan keuangan perusahaan." }
+	  }, {
+	    "@type": "Question",
+	    "name": "Apakah mendukung double-entry accounting?",
+	    "acceptedAnswer": { "@type": "Answer", "text": "Iya. Modul ini mengelola Chart of Account, Ledger, dan jurnal berbasis double-entry standar." }
+	  }, {
+	    "@type": "Question",
+	    "name": "Apakah jurnal dari modul lain otomatis masuk?",
+	    "acceptedAnswer": { "@type": "Answer", "text": "Iya. Jurnal otomatis tersedia dari Sales Invoice, Purchasing, TC Invoice, dan Other Transaction." }
+	  }, {
+	    "@type": "Question",
+	    "name": "Apakah laporan keuangan standar tersedia?",
+	    "acceptedAnswer": { "@type": "Answer", "text": "Iya. Termasuk Trial Balance, General Ledger, Balance Sheet, Profit and Loss, Cash Flow, beserta laporan aging AR dan AP." }
+	  }, {
+	    "@type": "Question",
+	    "name": "Apakah mendukung fixed asset?",
+	    "acceptedAnswer": { "@type": "Answer", "text": "Iya. Tersedia register Fixed Asset beserta master Fixed Asset Category." }
+	  }, {
+	    "@type": "Question",
+	    "name": "Apakah ada penguncian periode fiskal?",
+	    "acceptedAnswer": { "@type": "Answer", "text": "Iya. Date Lock Entries menjaga integritas data dengan mencegah input jurnal mundur." }
+	  }]
+	}
+	</script>
+
 </head>
 
 <body class="stretched">
@@ -213,6 +265,81 @@
 
 		<!-- Spacer -->
 		<section class="space--top" id="optimaltrip"></section>
+
+		<!-- FAQ -->
+		<div class="section bg-transparent my-0 my-lg-5" id="faq">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-9">
+						<div class="heading-block text-center mb-5">
+							<h2 class="mb-0 fw-semibold">Pertanyaan yang Sering Diajukan</h2>
+							<span class="text-muted">HAF Finance & HAF Accounting</span>
+						</div>
+						<h3 class="h5 fw-semibold mb-3">HAF Finance</h3>
+						<div class="accordion accordion-bg mb-5" data-collapsible="true">
+							<div class="accordion-header">
+								<div class="accordion-icon"><i class="accordion-open bi-dash-lg"></i><i class="accordion-closed bi-plus-lg"></i></div>
+								<div class="accordion-title">Apa itu HAF Finance?</div>
+							</div>
+							<div class="accordion-content">Modul untuk mengelola transaksi finansial operasional perusahaan, mulai dari kontrak charter, invoice, sampai jurnal otomatis ke Accounting.</div>
+							<div class="accordion-header">
+								<div class="accordion-icon"><i class="accordion-open bi-dash-lg"></i><i class="accordion-closed bi-plus-lg"></i></div>
+								<div class="accordion-title">Apakah mendukung invoice multi-tipe?</div>
+							</div>
+							<div class="accordion-content">Iya. Invoice untuk shipment, time charter, dan non-shipment tersedia dalam satu modul.</div>
+							<div class="accordion-header">
+								<div class="accordion-icon"><i class="accordion-open bi-dash-lg"></i><i class="accordion-closed bi-plus-lg"></i></div>
+								<div class="accordion-title">Apakah otomatis terhubung dengan Accounting?</div>
+							</div>
+							<div class="accordion-content">Iya. Setiap transaksi finance yang disetujui akan menghasilkan jurnal otomatis di Accounting.</div>
+							<div class="accordion-header">
+								<div class="accordion-icon"><i class="accordion-open bi-dash-lg"></i><i class="accordion-closed bi-plus-lg"></i></div>
+								<div class="accordion-title">Apakah mendukung credit note dan demurrage?</div>
+							</div>
+							<div class="accordion-content">Iya. Credit note dan demurrage dapat diterbitkan langsung dari modul Finance.</div>
+							<div class="accordion-header">
+								<div class="accordion-icon"><i class="accordion-open bi-dash-lg"></i><i class="accordion-closed bi-plus-lg"></i></div>
+								<div class="accordion-title">Cocok untuk perusahaan shipping berbasis charter?</div>
+							</div>
+							<div class="accordion-content">Sangat cocok. SPAL, time charter invoicing, dan agency invoice sudah didukung sejak awal.</div>
+						</div>
+						<h3 class="h5 fw-semibold mb-3">HAF Accounting</h3>
+						<div class="accordion accordion-bg" data-collapsible="true">
+							<div class="accordion-header">
+								<div class="accordion-icon"><i class="accordion-open bi-dash-lg"></i><i class="accordion-closed bi-plus-lg"></i></div>
+								<div class="accordion-title">Apa itu HAF Accounting?</div>
+							</div>
+							<div class="accordion-content">Modul akuntansi terintegrasi yang menerima jurnal otomatis dari modul lain dan menyediakan laporan keuangan perusahaan.</div>
+							<div class="accordion-header">
+								<div class="accordion-icon"><i class="accordion-open bi-dash-lg"></i><i class="accordion-closed bi-plus-lg"></i></div>
+								<div class="accordion-title">Apakah mendukung double-entry accounting?</div>
+							</div>
+							<div class="accordion-content">Iya. Modul ini mengelola Chart of Account, Ledger, dan jurnal berbasis double-entry standar.</div>
+							<div class="accordion-header">
+								<div class="accordion-icon"><i class="accordion-open bi-dash-lg"></i><i class="accordion-closed bi-plus-lg"></i></div>
+								<div class="accordion-title">Apakah jurnal dari modul lain otomatis masuk?</div>
+							</div>
+							<div class="accordion-content">Iya. Jurnal otomatis tersedia dari Sales Invoice, Purchasing, TC Invoice, dan Other Transaction.</div>
+							<div class="accordion-header">
+								<div class="accordion-icon"><i class="accordion-open bi-dash-lg"></i><i class="accordion-closed bi-plus-lg"></i></div>
+								<div class="accordion-title">Apakah laporan keuangan standar tersedia?</div>
+							</div>
+							<div class="accordion-content">Iya. Termasuk Trial Balance, General Ledger, Balance Sheet, Profit and Loss, Cash Flow, beserta laporan aging AR dan AP.</div>
+							<div class="accordion-header">
+								<div class="accordion-icon"><i class="accordion-open bi-dash-lg"></i><i class="accordion-closed bi-plus-lg"></i></div>
+								<div class="accordion-title">Apakah mendukung fixed asset?</div>
+							</div>
+							<div class="accordion-content">Iya. Tersedia register Fixed Asset beserta master Fixed Asset Category.</div>
+							<div class="accordion-header">
+								<div class="accordion-icon"><i class="accordion-open bi-dash-lg"></i><i class="accordion-closed bi-plus-lg"></i></div>
+								<div class="accordion-title">Apakah ada penguncian periode fiskal?</div>
+							</div>
+							<div class="accordion-content">Iya. Date Lock Entries menjaga integritas data dengan mencegah input jurnal mundur.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- FAQ end -->
 
 		<!-- Footer -->
 		<footer id="footer" class="bg-transparent border-0">
